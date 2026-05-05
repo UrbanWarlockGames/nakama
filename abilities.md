@@ -22,6 +22,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 // WIP ability rules
+
 Each character receives **10 Ability Points (AP)** at character creation. These points are spent across all of the character's starting Abilities.
 
 An Ability is built from the following parts:
