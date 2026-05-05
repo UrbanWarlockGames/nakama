@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [1. Action](#1-action)
+- [2. Targets](#2-targets)
+  - [Example Targets](#example-targets)
+- [3. Example Pairings](#3-example-pairings)
+- [4. Potency](#4-potency)
+- [5. Hit Tiers](#5-hit-tiers)
+- [6. Alterations](#6-alterations)
+- [7. Interactions](#7-interactions)
+- [8. Reliability](#8-reliability)
+- [9. Example Action: Hurl](#9-example-action-hurl)
+- [10. Hurl Interactions](#10-hurl-interactions)
+- [11. Size](#11-size)
+- [12. Collision Damage](#12-collision-damage)
+- [13. Filters](#13-filters)
+- [14. Safeguard](#14-safeguard)
+- [15. Glossary](#15-glossary)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 // WIP ability rules
 Each character receives **10 Ability Points (AP)** at character creation. These points are spent across all of the character's starting Abilities.
 
