@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Ability Creation](#ability-creation)
+- [Actions](#actions)
+- [Targets](#targets)
+  - [Example Targets](#example-targets)
+- [Potency](#potency)
+- [Hit Tiers](#hit-tiers)
+- [Alterations and Interactions](#alterations-and-interactions)
+  - [Alterations](#alterations)
+  - [Interactions](#interactions)
+- [Size](#size)
+- [Forced Movement](#forced-movement)
+- [Example Action: Hurl](#example-action-hurl)
+  - [Hurl Interactions](#hurl-interactions)
+- [Tables](#tables)
+  - [Alterations](#alterations-1)
+  - [Size](#size-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Ability Creation
 
 Each character receives **10 Ability Points (AP)** at character creation. These points are spent across all of the character's starting Abilities.
