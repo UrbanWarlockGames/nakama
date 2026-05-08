@@ -1,3 +1,34 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Attributes](#attributes)
+  - [Body](#body)
+  - [Mental](#mental)
+  - [Social](#social)
+- [Skills](#skills)
+  - [Might](#might)
+  - [Agility](#agility)
+  - [Fitness](#fitness)
+  - [Knowledge](#knowledge)
+  - [Perception](#perception)
+  - [Willpower](#willpower)
+  - [Charm](#charm)
+  - [Rhetoric](#rhetoric)
+  - [Leadership](#leadership)
+- [Derived Attributes](#derived-attributes)
+  - [Stamina](#stamina)
+  - [Health](#health)
+  - [Morale](#morale)
+    - [Morale Triggers](#morale-triggers)
+    - [Panic](#panic)
+  - [Fellowship](#fellowship)
+  - [Stress](#stress)
+  - [Strike!](#strike)
+- [Vices and Virtues](#vices-and-virtues)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Attributes
 
 ### Body
