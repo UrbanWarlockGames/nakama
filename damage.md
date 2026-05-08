@@ -1,3 +1,41 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Damage Types](#damage-types)
+  - [Physical](#physical)
+  - [Elemental](#elemental)
+  - [Demi-elemental](#demi-elemental)
+  - [Biological](#biological)
+  - [Magical](#magical)
+  - [Metaphysical](#metaphysical)
+- [Damage Conditions](#damage-conditions)
+  - [Physical](#physical-1)
+    - [Crushing](#crushing)
+    - [Slashing](#slashing)
+    - [Piercing](#piercing)
+    - [Ballistic](#ballistic)
+    - [Incapacitating](#incapacitating)
+  - [Elemental](#elemental-1)
+    - [Fire](#fire)
+    - [Frost](#frost)
+    - [Electricity](#electricity)
+    - [Acid](#acid)
+  - [Demi-elemental](#demi-elemental-1)
+    - [Wet](#wet)
+    - [Poison](#poison)
+    - [Toxic](#toxic)
+    - [Psychic](#psychic)
+  - [Metaphysical](#metaphysical-1)
+    - [Holy](#holy)
+    - [Vile](#vile)
+    - [Aberrant](#aberrant)
+    - [Death](#death)
+- [Elemental Tags](#elemental-tags)
+  - [Slime](#slime)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Damage Types
 
 ### Physical
