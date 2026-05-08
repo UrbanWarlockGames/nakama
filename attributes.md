@@ -1,50 +1,19 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Attributes](#attributes)
-  - [Body](#body)
-  - [Mental](#mental)
-  - [Social](#social)
-- [Skills](#skills)
-  - [Might](#might)
-  - [Agility](#agility)
-  - [Fitness](#fitness)
-  - [Knowledge](#knowledge)
-  - [Perception](#perception)
-  - [Willpower](#willpower)
-  - [Charm](#charm)
-  - [Rhetoric](#rhetoric)
-  - [Leadership](#leadership)
-- [Derived Attributes](#derived-attributes)
-  - [Stamina](#stamina)
-  - [Health](#health)
-  - [Morale](#morale)
-    - [Morale Triggers](#morale-triggers)
-    - [Panic](#panic)
-  - [Fellowship](#fellowship)
-  - [Stress](#stress)
-  - [Strike!](#strike)
-- [Vices and Virtues](#vices-and-virtues)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Attributes
 
 ### Body
-- Might: Flex your muscles. <Inventory>, <Health>
-- Agility: Outmanoeuvre your foes. <Dodge>, <Move>
-- Fitness: Outlast your foes with endurance. Athletics, <Health>, <Stamina>
+- Might: Flex your muscles. **Inventory**, **Health**
+- Agility: Outmanoeuvre your foes. **Dodge**, **Move**
+- Fitness: Outlast your foes with endurance. Athletics, **Health**, **Stamina**
 
 ### Mental
 - Knowledge: Become a walking encyclopaedia. Analyse the situation. Recall key details.
-- Perception: Awareness. <Imprecise Senses Range>, <Ranged Basic Attack Bonus>.
-- Willpower: The resolve to keep on going. <Morale>
+- Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**.
+- Willpower: The resolve to keep on going. **Morale**
 
 ### Social
-- Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (<Reaction Roll>). Leave a good <First Impression>.
+- Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (**Reaction Roll**). Leave a good **First Impression**.
 - Rhetoric: Be convincing. Know what others desire.
-- Leadership: Rally your Allies (<Aid>). Be a good shoulder to cry on (Heal their Stress and Morale). Know how to work-up a crowd.
+- Leadership: Rally your Allies (**Aid**). Be a good shoulder to cry on (Heal their Stress and Morale). Know how to work-up a crowd.
 
 ## Skills
 
