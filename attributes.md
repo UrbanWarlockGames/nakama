@@ -1,35 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Attributes](#attributes)
-  - [Body](#body)
-  - [Mental](#mental)
-  - [Social](#social)
-- [Skills](#skills)
-  - [Might](#might)
-  - [Agility](#agility)
-  - [Fitness](#fitness)
-  - [Knowledge](#knowledge)
-  - [Perception](#perception)
-  - [Willpower](#willpower)
-  - [Charm](#charm)
-  - [Rhetoric](#rhetoric)
-  - [Leadership](#leadership)
-- [Derived Attributes](#derived-attributes)
-  - [Stamina](#stamina)
-  - [Health](#health)
-  - [Morale](#morale)
-    - [Morale Triggers](#morale-triggers)
-    - [Panic](#panic)
-  - [Fellowship](#fellowship)
-  - [Stress](#stress)
-  - [Strike!](#strike)
-- [Vices and Virtues](#vices-and-virtues)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Attributes
+
+You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
 
 ### Body
 - Might: Flex your muscles. **Inventory**, **Health**
@@ -163,6 +134,25 @@ In character creation, you may choose any Attribute to be your Basic Attack Attr
 When you make a Basic Attack, you roll a number dice equal to your **Basic Attack Attribute** + **Strike Value**, which is equal to your Level + Item Bonus. An Item Bonus comes from magic items or a physical weapon 3 or more sizes greater than your Target. A magic item for a *Might* character, such as a magic sword or greataxe, would look different than one for a *Willpower* character, such as a magic bracelet that focuses their power. Your basic attack can look like anything you desire, from your fists to a burst of physic energy, but they do not have an Elemental tag except from a magic item.
 
 ## Vices and Virtues
+
 Choose or create three Vices and Virtues.
+
+### Compulsions
+
 Each Vice is tied to a Skill and both Vices and Virtues have an associated Compulsion. You may voluntarily act on your Compulsion at an inopportune time requested by you or the GM, or you may overindulge when given the ability to do so in Downtime. If you choose to overindulge in your Vice, you gain a -1 to your next roll ongoing. Either way, you gain one point of Luck, which acts as Fellowship but can only be used by you. You can only have one point of Luck stored at once, and it goes away at the end of the Episode.
-[wip]
+
+### Example Vices and Virtues
+
+...
+
+## Tables
+
+### Attribute and Skill Cost
+
+| Rank | Skill Cost | Attribute Cost |
+|-----:|-----------:|---------------:|
+| 1    | 1 XP       | —              |
+| 2    | 2 XP       | 6 XP           |
+| 3    | 3 XP       | 9 XP           |
+| 4    | 4 XP       | 12 XP          |
+| 5    | 5 XP       | 15 XP          |
