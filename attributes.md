@@ -1,38 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Attributes](#attributes)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Skills](#skills)
-  - [Might](#might)
-  - [Agility](#agility)
-  - [Fitness](#fitness)
-  - [Knowledge](#knowledge)
-  - [Perception](#perception)
-  - [Willpower](#willpower)
-  - [Charm](#charm)
-  - [Rhetoric](#rhetoric)
-  - [Leadership](#leadership)
-- [Derived Attributes](#derived-attributes)
-  - [Stamina](#stamina)
-  - [Health](#health)
-  - [Morale](#morale)
-    - [Morale Triggers](#morale-triggers)
-    - [Panic](#panic)
-  - [Fellowship](#fellowship)
-  - [Stress](#stress)
-  - [Strike!](#strike)
-- [Vices and Virtues](#vices-and-virtues)
-  - [Compulsions](#compulsions)
-  - [Example Vices and Virtues](#example-vices-and-virtues)
-- [Tables](#tables)
-  - [Attribute and Skill Cost](#attribute-and-skill-cost)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Attributes
 
 You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
@@ -160,7 +125,7 @@ The Party shares a pool of **Fellowship** equal to the number of permanent Party
 
 ### Stress
 
-Your Stress starts at 0. Each time your Party fails a Negotiation, all members present gain 1 point of Stress. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. Each teammate should talk about a different Party member until no one is left out. It is encouraged that the group plan an activity to **Relax** during this time if possible, such as *visiting a hot spring* or *going to the beach*. Recovering Stress rewards 1 Ability Point and restores all Fellowship.
+Your Stress starts at 0. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Morale damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. Each teammate should talk about a different Party member until no one is left out. It is encouraged that the group plan an activity to **Relax** during this time if possible, such as *visiting a hot spring* or *going to the beach*. Recovering Stress rewards 1 Ability Point and restores all Fellowship.
 
 ### Strike!
 
@@ -170,15 +135,13 @@ When you make a Basic Attack, you roll a number dice equal to your **Basic Attac
 
 ## Vices and Virtues
 
-Choose or create three Vices and Virtues.
+Choose or create three Vices and Virtues. Pair each to a Skill, and then choose a Compulsion Trigger for that Skill. This is your **Compulsion**, an otherworldly pull towards your Vice. How you interpret your Vice, and whether you choose to act on it is up to you.
 
-### Compulsions
+For example, you may make your Vice: **Drunkard (Composure)** with the Compulsion Trigger **Visit a bar** or **See an unattended alcoholic drink**. When the opportunity to indulge arises, you may declare your intended action. If your GM agrees it would hinder your party or hurt you to act on your Compulsion, you gain one point of Luck upon completing the action. Luck acts like Fellowship, but can only be used by you. You can only have one point of Luck stored at once, and it goes away at the end of the next Episode.
 
-Each Vice is tied to a Skill and both Vices and Virtues have an associated Compulsion. You may voluntarily act on your Compulsion at an inopportune time requested by you or the GM, or you may overindulge when given the ability to do so in Downtime. If you choose to overindulge in your Vice, you gain a -1 to your next roll ongoing. Either way, you gain one point of Luck, which acts as Fellowship but can only be used by you. You can only have one point of Luck stored at once, and it goes away at the end of the Episode.
+You may also Overindulge as a Downtime Action. If you choose to Overindulge in your Vice, explain what you do and what pushes your character to do it. After the Scene, you gain a -1 to your next roll using the paired Skill and gain one Stress. Regardless of whether you Request/Accept a Compulsion from the GM or Overindulge, you gain one point of Luck.
 
-### Example Vices and Virtues
-
-...
+Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may act on your Virtue's Compulsion in Narrative Mode or as a Downtime Action to recover all lost Morale. If your Morale is full, your party regains 1 Fellowship so long as you have at least one party member assisting you.
 
 ## Tables
 
