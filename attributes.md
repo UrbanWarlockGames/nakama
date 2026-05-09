@@ -42,7 +42,7 @@ You have 30 XP points to spend on your Attributes and Skills. Each of your Attri
 - Agility: Outmanoeuvre your foes. **Dodge**, **Move**
 - Fitness: Outlast your foes with endurance. Athletics, **Health**, **Stamina**
 
-### Mental
+### Mind
 - Knowledge: Become a walking encyclopaedia. Analyse the situation. Recall key details.
 - Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**.
 - Willpower: The resolve to keep on going. **Morale**
