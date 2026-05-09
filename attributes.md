@@ -4,7 +4,7 @@
 
 - [Attributes](#attributes)
   - [Body](#body)
-  - [Mental](#mental)
+  - [Mind](#mind)
   - [Social](#social)
 - [Skills](#skills)
   - [Might](#might)
