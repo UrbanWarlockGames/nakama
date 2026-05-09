@@ -1,3 +1,36 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Attributes](#attributes)
+  - [Body](#body)
+  - [Mind](#mind)
+  - [Social](#social)
+- [Skills](#skills)
+  - [Might](#might)
+  - [Agility](#agility)
+  - [Fitness](#fitness)
+  - [Knowledge](#knowledge)
+  - [Perception](#perception)
+  - [Willpower](#willpower)
+  - [Charm](#charm)
+  - [Rhetoric](#rhetoric)
+  - [Leadership](#leadership)
+- [Derived Attributes](#derived-attributes)
+  - [Stamina](#stamina)
+  - [Health](#health)
+  - [Morale](#morale)
+    - [Morale Triggers](#morale-triggers)
+    - [Panic](#panic)
+  - [Fellowship](#fellowship)
+  - [Stress](#stress)
+  - [Strike!](#strike)
+- [Vices and Virtues](#vices-and-virtues)
+- [Tables](#tables)
+  - [Attribute and Skill Cost](#attribute-and-skill-cost)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Attributes
 
 You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
