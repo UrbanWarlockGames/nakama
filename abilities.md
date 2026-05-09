@@ -81,7 +81,7 @@ When creating an Ability, you may choose which Attribute you use when you make a
 
 ### Body
 - Might: Free Alteration (Size) — +1 Size of Target.
-- Agility: Finesse — Once per Episode, you may use an Agility Ability as swift action. If that Ability or Interaction is already a swift action, it becomes a free action instead. 
+- Agility: Finesse — Once per Episode, you may use an Agility Ability as swift action. If that Ability or Interaction is already a minor action, it becomes a free action instead. 
 - Fitness: Overdrive — Once per Episode, when you roll an Ability using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Morale damage (your choice).
 
 ### Mind
