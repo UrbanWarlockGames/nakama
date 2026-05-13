@@ -1,36 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Ability Creation](#ability-creation)
-- [Actions](#actions)
-- [Targets](#targets)
-  - [Example Targets](#example-targets)
-- [Potency](#potency)
-- [Hit Tiers](#hit-tiers)
-- [Affinities](#affinities)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Action: Hurl](#action-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Action: Control](#action-control)
-  - [Control Interactions](#control-interactions)
-- [Action: Create](#action-create)
-  - [Create Interactions](#create-interactions)
-- [Know: Learn information about a Target](#know-learn-information-about-a-target)
-  - [Know Interactions](#know-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Ability Creation
 
 Each character receives **10 Ability Points (AP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -106,7 +73,7 @@ Altering the **Range** of your Action costs 1 AP per additional +1 meter to its 
 
 Altering the **Duration** of your Action costs 4 AP per turn the Effects of your Action last for.
 
-Altering the **Reliablility** of one of your Action's Interactions costs 4 AP to trigger on a Hit or better, or 8 AP for a Weak Hit or better.
+Altering the **Reliability** of one of your Action's Interactions costs 4 AP to trigger on a Hit or better, or 8 AP for a Weak Hit or better.
 
 Altering the **Distance** of your Action costs 2 AP per additional +1 meter to the maximum distance you may move the Target.
 
@@ -200,7 +167,7 @@ Masterwork Weapon [4 AP]: While wielded by you, a created Object's Item bonus is
 
 Replicate [6 AP]: You may replicate a specific Target's appearance, modify the appearance of a Created Entity, or apply one Elemental Trait to it.
 
-## Know: Learn information about a Target
+## Know
 
 The **Know** Action allows you to learn an amount of information about a Target within Range or following specific Triggers. When you use this Ability, you learn any Conditions an Entity is affected by and whether it is Bloodied.
 
@@ -216,6 +183,23 @@ Read Emotional Resonance [2 AP]: You may read Target's surface disposition and/o
 For an additional 4 AP, you may Read the thoughts or memories of a Target, even if it lacks an emotional resonance or a brain. If the Target is no longer alive, it only knows what it has perceived up until its death. The GM must answer any questions truthfully, while still limited by what the Target knows.
 
 Detect [3 AP]: You learn if there are any hidden creatures within Range. For an additional 2 AP, you learn their imprecise location until they Move.
+
+## Transform
+
+You can Transform your body in new ways. You gain a signature transformation. You may choose how it radically changes your appearance. You may gain muscles, height, change hair or eye colour, or any other changes to indicate you have gained power, and gain new changes after each consecutive transformation. You may transform into your signature transformation a number of times equal to your Potency Value each Episode. In addition, you gain one of the following transformation types equal to your PV. Choose from the following features:
+- Animal Transformation: You take the form of any mundane animal up to one Size larger or smaller than your base Size.
+- Elemental Transformation: You gain one Elemental Tag of your choice for the Duration.
+- Energising Transformation: You may add half the Potency Value of this Ability (minimum 1) to all Body, Mind, or Social Attributes for the Duration of this Ability. Each time you use this Ability in a Scene, the bonus increases by +1.
+- Monstrous Transformation: You take the form of a monster, either of your own creation or from folklore or literature up to one Size larger or smaller than your base Size.
+- Persistent Transformation: You may take Strain equal to your Level to use this Ability one time past its usual limit. This does not count towards your number of usages.
+- Powerful Transformation: Strikes using Might gain Pushing and Launching for the Duration of your Transformation.
+- Quick Transformation: Your first Transformation in a Scene is only a minor action.
+- Terrifying Transformation: Your transformation radically changes your form that others may find disturbing or outright frightening. You gain +1 to all Frighten checks against Targets equal to or less than your Level.
+- Weaponised Transformation: You may add the Potency Value of this Ability to your Strikes for the Duration.
+
+### Transform Interactions
+- Transmogrify [4]: You may target an Object with this ability. Choose one of your Transformation Types to give them and describe their new appearance. You may choose to give them a humanised appearance if you wish.
+- Polymorph [8]: You may target a Creature with this ability. Choose one of your Transformation Types to give them and describe their new appearance.
 
 ## Tables
 
