@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Exploit Weakness](#exploit-weakness)
+- [Heal](#heal)
+- [Aid](#aid)
+- [Take a Breather](#take-a-breather)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Exploit Weakness
 
 You may roll a relevant skill, such as [Perception] + [Awareness] (general) or [Knowledge] + [Dungeoneering] (for a monster) to see if you can figure out a Target's weak point. You may downgrade the Hit Tier of this roll if it is beneficial to you.
