@@ -11,28 +11,6 @@
 - [Affinities](#affinities)
   - [Body](#body)
   - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Ability: Hurl](#ability-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Ability: Control](#ability-control)
-  - [Control Interactions](#control-interactions)
-- [Ability: Create](#ability-create)
-  - [Create Interactions](#create-interactions)
-- [Know](#know)
-  - [Know Interactions](#know-interactions)
-- [Transform](#transform)
-  - [Transform Interactions](#transform-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Power Creation
 
 Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -79,15 +57,15 @@ A roll is a **Strong Hit** when *two or more* 6s are rolled from your dice pool.
 
 ## Affinities
 
-When creating an Power, you may choose which Attribute you use when you make an Power roll. Each Attribute has an Affinity, a special upgrade that applies to all Abilities that use that Attribute. The usage of any associated Affinity actions is shared across all Abilities using that Attribute. Any Free Alterations with cumulative costs give you the first Rank of that Alteration for free, meaning you must use the Rank II Alteration if you purchase the upgrade.
+When creating a Power, you may choose which Attribute you use when you make a Power roll. Each Attribute has an Affinity, a special upgrade that applies to all Abilities that use that Attribute. The usage of any associated Affinity actions is shared across all Abilities using that Attribute. Any Free Alterations with cumulative costs give you the first Rank of that Alteration for free, meaning you must use the Rank II Alteration if you purchase the upgrade.
 
 ### Body
 - Might: Free Alteration (Size) — +1 Size of Target.
 - Agility: Finesse — Once per Episode, you may use an Agility Power as swift action. If that Power or Interaction is already a minor action, it becomes a free action instead. 
-- Fitness: Overdrive — Once per Episode, when you roll an Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Morale damage (your choice).
+- Fitness: Overdrive — Once per Episode, when you roll a Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Morale damage (your choice).
 
 ### Mind
-- Knowledge: Elemental Affinity — When you create an Power using Knowledge, you may add one Elemental Trait for 1 PP. Any contact conditions are applied on a Hit and the Vulnerability Condition on a Strong Hit. If the Target has a Vulnerability to the damage type, it is applied on a Hit+ instead.
+- Knowledge: Elemental Affinity — When you create a Power using Knowledge, you may add one Elemental Trait for 1 PP. Any contact conditions are applied on a Hit and the Vulnerability Condition on a Strong Hit. If the Target has a Vulnerability to the damage type, it is applied on a Hit+ instead.
 - Perception: Free Alteration (Range) — +1 Range.
 - Willpower: Free Alteration (Duration) — +1 Duration.
 
@@ -100,7 +78,7 @@ When creating an Power, you may choose which Attribute you use when you make an 
 
 ### Alterations
 
-**Alterations** are general upgrades available to all Abilities. They improve values an Power already has, but they do not create new functions. If an Power lacks a value, the relevant Alteration cannot be purchased unless an Interaction or Ability first grants that value.
+**Alterations** are general upgrades available to all Abilities. They improve values a Power already has, but they do not create new functions. If a Power lacks a value, the relevant Alteration cannot be purchased unless an Interaction or Ability first grants that value.
 
 Altering the **Area** of your Ability costs 3 PP per additional +1 meter to its radius. Most Effects start with a 1x1 Area of Effect, affecting only a single Target.
 
@@ -210,7 +188,7 @@ The **Know** Ability allows you to learn an amount of information about a Target
 
 Quick Thinking [1 PP]: In Tactical Mode, you may use this Power as a minor action instead of a standard action, if it is beneficial to you.
 
-Analyse [2 PP]: You learn the statistics (current Health, Move, Strike Value, and Elemental Traits) of a Target you can Sense with a precise Sense. For an additional 1 PP, you may also learn the Target's Level, Highest Resistance, and if they have an Power in one of the following categories: Buff, Debuff, Control, Damage, Healing, and its Target. For a total of 4 PP, you may choose to learn one Power they possess, any any Innate Abilities they possess (such as darkvision).
+Analyse [2 PP]: You learn the statistics (current Health, Move, Strike Value, and Elemental Traits) of a Target you can Sense with a precise Sense. For an additional 1 PP, you may also learn the Target's Level, Highest Resistance, and if they have a Power in one of the following categories: Buff, Debuff, Control, Damage, Healing, and its Target. For a total of 4 PP, you may choose to learn one Power they possess, any any Innate Abilities they possess (such as darkvision).
 
 Locate: [2 PP]: You learn Target's imprecise location within a number of kilometres equal to the Range of this Power. For an additional 2 PP, you may Track the Target's precise location as they move, so long as they do not leave the Locate Area.
 
