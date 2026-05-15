@@ -1,41 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Damage Types](#damage-types)
-  - [Physical](#physical)
-  - [Elemental](#elemental)
-  - [Demi-elemental](#demi-elemental)
-  - [Biological](#biological)
-  - [Magical](#magical)
-  - [Metaphysical](#metaphysical)
-- [Damage Conditions](#damage-conditions)
-  - [Physical](#physical-1)
-    - [Crushing](#crushing)
-    - [Slashing](#slashing)
-    - [Piercing](#piercing)
-    - [Ballistic](#ballistic)
-    - [Incapacitating](#incapacitating)
-  - [Elemental](#elemental-1)
-    - [Fire](#fire)
-    - [Frost](#frost)
-    - [Electricity](#electricity)
-    - [Acid](#acid)
-  - [Demi-elemental](#demi-elemental-1)
-    - [Wet](#wet)
-    - [Poison](#poison)
-    - [Toxic](#toxic)
-    - [Psychic](#psychic)
-  - [Metaphysical](#metaphysical-1)
-    - [Holy](#holy)
-    - [Vile](#vile)
-    - [Aberrant](#aberrant)
-    - [Death](#death)
-- [Elemental Tags](#elemental-tags)
-  - [Slime](#slime)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Damage Types
 
 ### Physical
@@ -43,39 +5,30 @@
 - Slashing (cutting, slicing)
 - Piercing (stabbing, impaling)
 - Ballistic (bullets, force such as an explosion)
-- Incapacitating (non-lethal damage [NL]; not deadly; deals stamina instead of health damage and might/will save vs knockout at 0. every hit after 0 stam deals 1 damage)
+- Incapacitating (non-lethal damage [NL]; not deadly; deals stamina instead of health damage and [Fitness + Endure] resist vs Knockout at 0. Every hit after 0 stam deals 1 damage only, negative Stamina subtracts from your dice pool)
 
 ### Elemental
 - Fire (burns; can melt ice on hit, removing the Frozen critical effect, turn Cold to Wet, remove Wet; critical effect: Ignite 1 flames damage/t)
 - Frost (frostbite, cold; can freeze target if Wet or slow (Cold) on critical, turns water into ice (1m²/rank)
 - Electricity (muscle/nerve damage, electrical burns; deals 5 damage to Wet targets, non-Wet targets receive 1 electricity damage)
 - Acid (corrosion; deal creature damage to equipment factoring equipment's material resistances)
-
-### Demi-elemental
 - Wet (creatures are immune to damage from being wet by default but some creatures have weakness to Wet)
 - Sonic (high-frequency vibration and sound waves, may damage/interrupt hearing-based actions)
 - Poison (acutely toxic, poison which causes internal damage or necrosis)
-- Toxic (biological hazards, long-lasting harm, disease, radiation, chronic health hazards)
-- True (hits vulnerable area; cannot be resisted) [req: not immune to critical damage]
-
-### Biological
-- Bleed (bleeding, haemorrhaging; triggers Blood effects on first instance) [requires: Blood]
-- Death (entropy; decay, time, ageing; 1% instant death on Strong Hit) [req: Biological]
-- Exposure [req Flesh, Living, or Mechanical]
-- Hunger (food/water deprivation) [req: Needs to Eat or Drink]
-- Heat (heat, magma, melting)
-- Pressure (compression) [req: Organs]
-- Suffocation (oxygen deprivation) [req: Breathing]
 
 ### Magical
 - Arcane (raw magical energy; unresistible)
 - Psychic (mental or non-visible damage, cringe; always targets morale pool before health pool) [req: Brain]
 
-### Metaphysical
+### Special
 - Aberrant (otherworldly, eldritch, changing; Targets Morale pool before Health pool, instead of Stamina)
-- Spirit (damages the soul) [req: Living]
+- Spirit (damages the soul, true damage) [req: Living]
 - Holy (pure positive energy; heals Holy, damages Vile, altruism and Luck)
 - Vile (pure negative energy; heals Vile, damages Holy, corruption and Despair)
+- Death (entropy; decay, time, ageing; 1% instant death on Strong Hit) [req: Biological]
+- Bleed (bleeding, haemorrhaging; triggers Blood effects on first instance) [requires: Blood]
+- Pressure (compression) [req: Organs]
+- Suffocation (oxygen deprivation) [req: Breathing]
 
 ## Damage Conditions
 Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a target with Vulnerability to that damage type.
@@ -132,8 +85,6 @@ Most damage types have a Vulnerability condition which is triggered when a Stron
 - Amplified by: Corroded, Acid terrain
 - Nullified by: Wet
 
-### Demi-elemental
-
 #### Wet
 - Gain Immunity: **Flammable**
 - Gain Resistance: Fire damage
@@ -174,7 +125,7 @@ Most damage types have a Vulnerability condition which is triggered when a Stron
 - Amplified by: Frightened
 
 #### Death
-- Vulnerability Condition: Doomed (make a death save if Doomed ** HD)
+- Vulnerability Condition: Doomed (make a Hit+ death save if Doomed > Level)
 
 ## Elemental Tags
 
