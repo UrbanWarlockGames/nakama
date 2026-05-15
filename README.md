@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong style="font-size: 2em;">Prismatic x Dungeon </strong>
+  <strong style="font-size: 2em;">Nakama: Battle Prowess </strong>
 </h1>
 <h2 align="center">
  A NSR-inspired Battle Shounen Tactical TTRPG
