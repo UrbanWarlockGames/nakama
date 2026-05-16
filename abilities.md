@@ -1,38 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Power Creation](#power-creation)
-- [Abilities](#abilities)
-- [Targets](#targets)
-  - [Example Targets](#example-targets)
-- [Potency](#potency)
-- [Hit Tiers](#hit-tiers)
-- [Affinities](#affinities)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Ability: Hurl](#ability-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Ability: Control](#ability-control)
-  - [Control Interactions](#control-interactions)
-- [Ability: Create](#ability-create)
-  - [Create Interactions](#create-interactions)
-- [Know](#know)
-  - [Know Interactions](#know-interactions)
-- [Transform](#transform)
-  - [Transform Interactions](#transform-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Power Creation
 
 Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -144,7 +109,7 @@ Collision Damage = Distance travelled (meters travelled before impact) + Size
 
 The **Hurl** Ability moves the **Target** forcefully in an orthogonal line from their initial position to another position within 1 meter a number of meters determined by the Result Tier. The damage dealt depends on whether the Target is **Physical** (Collision, representing moving a physical entity through space) or **Elemental** (Potency Value, representing the raw power of your Power).
 
-On a Weak Hit, the Target only moves 1 meter.
+On a Weak Hit, the Target up to a number of meters equal to 1 + the Power's Potency Value.
 
 On a Hit, you may move the Target up to a number of meters equal to 4 + the Power's Potency Value.
 
