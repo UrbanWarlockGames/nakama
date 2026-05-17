@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Disposition](#disposition)
+- [Influence](#influence)
+- [Favour](#favour)
+- [Debt](#debt)
+- [Trust](#trust)
+  - [Trust Table](#trust-table)
+- [Negotiations](#negotiations)
+- [GM Tables for NPCs](#gm-tables-for-npcs)
+  - [Motivation](#motivation)
+  - [Desire](#desire)
+  - [Fear Table](#fear-table)
+  - [Dependent Table](#dependent-table)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Disposition
 
 Each non-player character has a Disposition towards other characters determined by a First Impressions check based off their default values assigned by the GM. A character's Disposition determines their reception towards different types of Influence Actions, such as Build Trust or Antagonize. Each Player may decide their own Disposition towards other Players or towards NPCs, but this value does not need to be tracked.
