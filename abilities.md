@@ -1,40 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Power Creation](#power-creation)
-- [Abilities](#abilities)
-- [Targets](#targets)
-  - [Example Targets](#example-targets)
-- [Potency](#potency)
-- [Hit Tiers](#hit-tiers)
-- [Affinities](#affinities)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Ability: Hurl](#ability-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Ability: Control](#ability-control)
-  - [Control Interactions](#control-interactions)
-- [Ability: Create](#ability-create)
-  - [Create Interactions](#create-interactions)
-- [Ability: Know](#ability-know)
-  - [Know Interactions](#know-interactions)
-- [Ability: Transform](#ability-transform)
-  - [Transform Interactions](#transform-interactions)
-- [Ability: Move](#ability-move)
-  - [Move Interactions.](#move-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Power Creation
 
 Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -226,6 +189,7 @@ Detect [3 PP]: You learn if there are any hidden creatures within Range. For an 
 You can Transform your body in new ways. You gain a signature transformation. You may choose how it radically changes your appearance. You may gain muscles, height, change hair or eye colour, or any other changes to indicate you have gained power, and gain new changes after each consecutive transformation. You may transform into your signature transformation a number of times equal to your Potency Value each Episode. In addition, you gain one of the following transformation types equal to your PV. Choose from the following features:
 - Animal Transformation: You take the form of any mundane animal up to one Size larger or smaller than your base Size.
 - Elemental Transformation: You gain one Elemental Tag of your choice for the Duration.
+- Emotional Transformation: You may Invoke one of your Drives and immediately use a Transformation as a free Reaction.
 - Energising Transformation: You may add half the Potency Value of this Power (minimum 1) to all Body, Mind, or Social Attributes for the Duration of this Power. Each time you use this Power in a Scene, the bonus increases by +1.
 - Monstrous Transformation: You take the form of a monster, either of your own creation or from folklore or literature up to one Size larger or smaller than your base Size.
 - Persistent Transformation: You may take Strain equal to your Level to use this Power one time past its usual limit. This does not count towards your number of usages.
