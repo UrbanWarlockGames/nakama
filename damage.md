@@ -1,3 +1,39 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Damage Types](#damage-types)
+  - [Physical](#physical)
+  - [Primordial](#primordial)
+  - [Magical](#magical)
+  - [Special](#special)
+- [Damage Conditions](#damage-conditions)
+  - [Physical](#physical-1)
+    - [Crushing](#crushing)
+    - [Slashing](#slashing)
+    - [Piercing](#piercing)
+    - [Ballistic](#ballistic)
+    - [Incapacitating](#incapacitating)
+  - [Primordial](#primordial-1)
+    - [Fire](#fire)
+    - [Frost](#frost)
+    - [Electricity](#electricity)
+    - [Acid](#acid)
+    - [Poison](#poison)
+    - [Wet](#wet)
+  - [Magical](#magical-1)
+    - [Psychic](#psychic)
+  - [Special](#special-1)
+    - [Holy](#holy)
+    - [Vile](#vile)
+    - [Aberrant](#aberrant)
+    - [Spirit](#spirit)
+    - [Death](#death)
+- [Elemental Tags](#elemental-tags)
+  - [Slime](#slime)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Damage Types
 Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing, Ballistic, Incapacitating) and **Elemental Damage** (all other damage types).
 
