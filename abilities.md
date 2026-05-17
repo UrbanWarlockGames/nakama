@@ -1,38 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Power Creation](#power-creation)
-- [Abilities](#abilities)
-- [Targets](#targets)
-  - [Example Targets](#example-targets)
-- [Potency](#potency)
-- [Hit Tiers](#hit-tiers)
-- [Affinities](#affinities)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Ability: Hurl](#ability-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Ability: Control](#ability-control)
-  - [Control Interactions](#control-interactions)
-- [Ability: Create](#ability-create)
-  - [Create Interactions](#create-interactions)
-- [Know](#know)
-  - [Know Interactions](#know-interactions)
-- [Transform](#transform)
-  - [Transform Interactions](#transform-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Power Creation
 
 Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -202,7 +167,7 @@ Masterwork Weapon [4 PP]: While wielded by you, a created Object's Item bonus is
 
 Replicate [6 PP]: You may replicate a specific Target's appearance, modify the appearance of a Created Entity, or apply one Elemental Trait to it.
 
-## Know
+## Ability: Know
 
 The **Know** Ability allows you to learn an amount of information about a Target within Range or following specific Triggers. When you use this Power, you learn any Conditions an Entity is affected by and whether it is Bloodied.
 
@@ -219,7 +184,7 @@ For an additional 4 PP, you may Read the thoughts or memories of a Target, even 
 
 Detect [3 PP]: You learn if there are any hidden creatures within Range. For an additional 2 PP, you learn their imprecise location until they Move.
 
-## Transform
+## Ability: Transform
 
 You can Transform your body in new ways. You gain a signature transformation. You may choose how it radically changes your appearance. You may gain muscles, height, change hair or eye colour, or any other changes to indicate you have gained power, and gain new changes after each consecutive transformation. You may transform into your signature transformation a number of times equal to your Potency Value each Episode. In addition, you gain one of the following transformation types equal to your PV. Choose from the following features:
 - Animal Transformation: You take the form of any mundane animal up to one Size larger or smaller than your base Size.
@@ -235,6 +200,17 @@ You can Transform your body in new ways. You gain a signature transformation. Yo
 ### Transform Interactions
 - Transmogrify [4]: You may target an Object with this ability. Choose one of your Transformation Types to give them and describe their new appearance. You may choose to give them a humanised appearance if you wish.
 - Polymorph [8]: You may target a Creature with this ability. Choose one of your Transformation Types to give them and describe their new appearance.
+
+## Ability: Move
+
+You may add your Run or Dodge skill to your Move speed.
+
+### Move Interactions.
+- Boost (Land) [2 AP]: You can Boost a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Run].
+- Climb [2 AP]: You can Climb a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Climb].
+- Fly [4 AP]: You can Fly a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Acrobatics].
+- Phase [6 AP]: You can Phase through Terrain a number of meters equal to your [Potency Value].
+- Swim: [2 AP] You can Swim a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Swim].
 
 ## Tables
 
