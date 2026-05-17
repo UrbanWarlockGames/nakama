@@ -1,36 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Attributes](#attributes)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Skills](#skills)
-  - [Might](#might)
-  - [Agility](#agility)
-  - [Fitness](#fitness)
-  - [Knowledge](#knowledge)
-  - [Perception](#perception)
-  - [Willpower](#willpower)
-  - [Charm](#charm)
-  - [Rhetoric](#rhetoric)
-  - [Leadership](#leadership)
-- [Derived Attributes](#derived-attributes)
-  - [Stamina](#stamina)
-  - [Health](#health)
-  - [Morale](#morale)
-    - [Morale Triggers](#morale-triggers)
-    - [Panic](#panic)
-  - [Fellowship](#fellowship)
-  - [Stress](#stress)
-  - [Strike!](#strike)
-- [Vices and Virtues](#vices-and-virtues)
-- [Tables](#tables)
-  - [Attribute and Skill Cost](#attribute-and-skill-cost)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Attributes
 
 You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
@@ -151,6 +118,10 @@ Your Morale is equal to your Willpower score. When you experience a Morale Trigg
 #### Panic
 
 When you enter a state of **Panic**, you receive a -1 penalty to all Attacks and you must Move to the farthest position behind cover away from Hostile Entities and Take Cover. If you cannot or it is unsafe to do so, you must Attack the nearest Hostile creature until a path is clear. If you cannot, you must Take Cover or take another defensive Action.
+
+#### Morale in Narrative Mode
+
+In Narrative and Negotiation mode, instead of Panicking, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. If you are unable or unwilling to leave the scene physically, you may become dejected, depressed, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Morale.
 
 ### Fellowship
 
