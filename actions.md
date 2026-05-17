@@ -1,13 +1,5 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Actions](#actions)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Actions
-At the start of your turn, you have one **Standard Action** and one **Minor Action**. You may convert your Standard Action into two Minor Actions, so long as you have not used it yet. If you have two Minor Actions, you may convert them into one Standard Action.
+At the start of your turn, you have one **Standard Action** and one **Minor Action**. You may convert your Standard Action into two Minor Actions, so long as you have not used it yet. If you have two Minor Actions, you may convert them into one Standard Action. You gain one free combat reaction at the start of your turn.
 
 Most Actions are a Standard Action unless specified. The generic Minor Actions are:
 - Move
@@ -16,3 +8,65 @@ Most Actions are a Standard Action unless specified. The generic Minor Actions a
 - Raise a Shield
 - Ready a Reaction (any Standard or Minor Action + Trigger)
 - Basic Attack (Strike! = Strike Value + Item Bonus)
+
+### Combat Reactions
+You may use these actions as Reactions to any Attack roll.
+- Dodge: Roll [Agility] + [Dodge] to avoid damage on a Strong Hit.
+- Block: Roll [Fitness] + [Endure] for Physical Attacks or [Willpower] + [Composure] for Elemental Attacks. You reduce the amount of damage by an amount equal to your Level + number of 6s rolled.
+- Tank: Take damage as normal. You gain Resistance to the damage type of the Attack equal to your Level + 1 until the end of your next turn. You may step as part of this reaction when an Ally is about to be hit if the attacker or your Ally is adjacent to you or your body is along the path a projectile would travel. You take damage and any contact effects instead of the Ally for this attack.
+- Synergise: When an Ally makes a basic attack or Power roll, you may make a basic attack. On a Hit+, you add one Elemental damage type applicable to your basic attack to your Ally's attack. Both damage types occur simeultaneously with any Conditions or other extra effects applied on a Strong Hit after the damage is resolved.
+
+### Skill Actions
+As with all Skill rolls, you may replace the default Attribute with a more fitting one if the fiction permits it.
+
+#### Frighten
+Make a [Might] + [Frighten] roll.
+- Weak Hit: Increase your Frightened (-1 to all Combat Reactions) value by 1.
+- Hit: Increase your Frightened (-1 to all Combat Reactions) value by 1.
+- Strong Hit: Increase the Target's Frightened value to 2 if it is less than 2, or increase it by 1. The creature must make a Morale check at the end of each of its turns.
+
+#### Wrestling
+Before you may select a Wrestling manoeuvre, you must succeed a Grab check. It is determined by [Might] or [Fitness] + [Wrestling].
+
+On a Weak Hit, ...
+
+On a Hit, you successfully Grab the opponent. You may immediately Push/Pull the Target or choose another wrestling manoeuvre at the start of your next turn.
+
+On a Strong Hit, you may immediately choose one of the following manoeuvres:
+- Push/Pull: You may Move the Target along an orthogonal line number of meters equal to 1x, 1.5x, or 2x the total of your [Might] + [Grappling], determined by the Hit Tier.
+- Reposition: Move the Target 1m, 2m, or 3m determined by the Hit Tier. This movement counts as a Jump, meaning diagonals are permitted.
+- Restrain
+- Trip
+- Throw
+
+## Special Actions
+
+Special Actions are Tactical actions which either have a limited usage or prerequisites to use them.
+
+### Exploit Weakness
+
+You may roll a relevant skill, such as [Perception] + [Awareness] (general) or [Knowledge] + an appropriate skill based off the Entity type to see if you can figure out a Target's weak point. You may downgrade the Hit Tier of this roll if it is beneficial to you.
+- Weak Hit: You learn if the Target has a Vulnerability or Resistance (your choice).
+- Hit: You determine one Vulnerability and Resistance of the Target.
+- Strong Hit: You determine all Vulnerabilities or Resistances of the Target.
+
+### Heal
+Restore an Ally's Health once per Episode. Roll [Knowledge] or [Perception] + [Anatomy] or reduce a valid Vulnerability Condition.
+- Weak Hit: Heal an amount equal to your [Anatomy] skill or reduce a Vulnerability Condition by 1.
+- Hit: Heal an amount equal to the highest of your [Attribute] or [Anatomy] skill, or Negate a valid Vulnerability Condition.
+- Strong Hit: As Hit, but add your [Level] to any healing given.
+
+### Aid
+Restore an Ally's Morale.
+- Weak Hit: Restore Ally's Morale by 1.
+- Hit: Restore Ally's Morale by an amount equal to your Leadership score.
+- Strong Hit: Restore an Ally's Morale by an amount equal to your Leadership score + Level.
+
+### Assist
+You may Assist an ally with a skill check for which you have one or more points invested into. Roll the appropriate skill check.
+- Weak Hit: +0. The GM may Make a Move to turn this 0 into a -1.
+- Hit: +1 to their dice pool.
+- Strong Hit: +2 to their dice pool.
+
+### Take a Breather
+Once per Episode, you may an amount of Stamina equal to your maximum Stamina as a Narrative Action. Leftover Stamina becomes Overheal. Overheal can never be increased, only taking the highest value if additional Overheal is rolled.
