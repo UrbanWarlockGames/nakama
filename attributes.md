@@ -1,49 +1,15 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Attributes](#attributes)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Skills](#skills)
-  - [Might](#might)
-  - [Agility](#agility)
-  - [Fitness](#fitness)
-  - [Knowledge](#knowledge)
-  - [Perception](#perception)
-  - [Willpower](#willpower)
-  - [Charm](#charm)
-  - [Rhetoric](#rhetoric)
-  - [Leadership](#leadership)
-- [Derived Attributes](#derived-attributes)
-  - [Stamina](#stamina)
-  - [Health](#health)
-  - [Morale](#morale)
-    - [Morale Triggers](#morale-triggers)
-    - [Panic](#panic)
-    - [Morale in Narrative Mode](#morale-in-narrative-mode)
-  - [Fellowship](#fellowship)
-  - [Stress](#stress)
-  - [Strike!](#strike)
-- [Vices and Virtues](#vices-and-virtues)
-- [Tables](#tables)
-  - [Attribute and Skill Cost](#attribute-and-skill-cost)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Attributes
 
 You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
 
 ### Body
 - Might: Flex your muscles. **Inventory**, **Health**
-- Agility: Outmanoeuvre your foes. **Dodge**, **Move**
+- Agility: Outmanoeuvre your foes. **Dodge**, **Move**, **Initiative**
 - Fitness: Outlast your foes with endurance. Athletics, **Health**, **Stamina**
 
 ### Mind
-- Knowledge: Become a walking encyclopaedia. Analyse the situation. Recall key details.
-- Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**.
+- Knowledge: Become a walking encyclopaedia. Analyse the situation. Recall key details. At Level 1, you gain a free number of Skills at Rank 1 equal to your Knowledge skill, and gain one free skill at Level 1 each time you upgrade it.
+- Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**, **Initiative**
 - Willpower: The resolve to keep on going. **Morale**
 
 ### Social
@@ -86,7 +52,6 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 - Chemistry: build bombs and drugs
 - Cooking: cook nice food
 - Deduction: scene reconstruction, understand how something physically happened
-- Dungeoneering: dungeons and monsters
 - Engineering: understand structures and their weaknesses (sapping), operate heavy machinery or complex mechanical devices
 - Mathematics: understand numbers and geometry, calculate trajectories, logistics and supplies
 - Navigation: know your way, read maps, don't get lost

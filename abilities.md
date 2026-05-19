@@ -1,40 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Power Creation](#power-creation)
-- [Abilities](#abilities)
-- [Targets](#targets)
-  - [Example Targets](#example-targets)
-- [Potency](#potency)
-- [Hit Tiers](#hit-tiers)
-- [Affinities](#affinities)
-  - [Body](#body)
-  - [Mind](#mind)
-  - [Social](#social)
-- [Alterations and Interactions](#alterations-and-interactions)
-  - [Alterations](#alterations)
-  - [Interactions](#interactions)
-- [Size](#size)
-- [Forced Movement](#forced-movement)
-- [Ability: Hurl](#ability-hurl)
-  - [Hurl Interactions](#hurl-interactions)
-- [Ability: Control](#ability-control)
-  - [Control Interactions](#control-interactions)
-- [Ability: Create](#ability-create)
-  - [Create Interactions](#create-interactions)
-- [Ability: Know](#ability-know)
-  - [Know Interactions](#know-interactions)
-- [Ability: Transform](#ability-transform)
-  - [Transform Interactions](#transform-interactions)
-- [Ability: Move](#ability-move)
-  - [Move Interactions.](#move-interactions)
-- [Tables](#tables)
-  - [Alterations](#alterations-1)
-  - [Size](#size-1)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Power Creation
 
 Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
@@ -249,6 +212,18 @@ You may add your Run or Dodge skill to your Move speed.
 - Fly [4 AP]: You can Fly a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Acrobatics].
 - Phase [6 AP]: You can Phase through Terrain a number of meters equal to your [Potency Value].
 - Swim: [2 AP] You can Swim a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Swim].
+
+### Ability: Displace
+
+Similar to the Move Ability, but instead of adding new modes of locomotion, this Ability adds new actions to Move a Target, such as oneself or an allied creature in new ways. You may select 'Ally' as the Target for this Ability allowing you to select either yourself or an Ally in free variation. Attempting to move an Unwilling Entity using this Ability succeeds on a Strong Hit only. Movement using this Ability is instant and cannot trigger Reactions unless specified.
+
+#### Interactions
+
+- **Blink**: Immediately Move the Target to a hex anywhere in an Area within range.
+- **Swap**: Two Targets within Range exchange Positions.
+- **Portal**: create a temporary two-way opening between two points.
+- **Recall**: Move a Target to a Marked point or adjacent to a Marked Entity.
+- **Banish**: Remove a Target from the Scene for a basic Duration.
 
 ## Tables
 

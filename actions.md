@@ -1,29 +1,12 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Actions](#actions)
-  - [Combat Reactions](#combat-reactions)
-  - [Skill Actions](#skill-actions)
-    - [Frighten](#frighten)
-    - [Wrestling](#wrestling)
-- [Special Actions](#special-actions)
-  - [Exploit Weakness](#exploit-weakness)
-  - [Heal](#heal)
-  - [Aid](#aid)
-  - [Assist](#assist)
-  - [Take a Breather](#take-a-breather)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Actions
 At the start of your turn, you have one **Standard Action** and one **Minor Action**. You may convert your Standard Action into two Minor Actions, so long as you have not used it yet. If you have two Minor Actions, you may convert them into one Standard Action. You gain one free combat reaction at the start of your turn.
 
 Most Actions are a Standard Action unless specified. The generic Minor Actions are:
 - Move
-- Interact (with an Object, Item, or Terrain)
+- Interact (with an Object, Item, or Terrain, requires a free hand or to be holding the Object)
 - Use a Skill
-- Raise a Shield
+- Help (removes Prone from a Target, requires a free hand)
+- Raise a Shield (-1 Dodge, Blocks up to 6 Physical damage or an equal amount Elemental if it is a magic shield, then the shield is unusable until repaired)
 - Ready a Reaction (any Standard or Minor Action + Trigger)
 - Basic Attack (Strike! = Strike Value + Item Bonus)
 
@@ -32,7 +15,7 @@ You may use these actions as Reactions to any Attack roll.
 - Dodge: Roll [Agility] + [Dodge] to avoid damage on a Strong Hit.
 - Block: Roll [Fitness] + [Endure] for Physical Attacks or [Willpower] + [Composure] for Elemental Attacks. You reduce the amount of damage by an amount equal to your Level + number of 6s rolled.
 - Tank: Take damage as normal. You gain Resistance to the damage type of the Attack equal to your Level + 1 until the end of your next turn. You may step as part of this reaction when an Ally is about to be hit if the attacker or your Ally is adjacent to you or your body is along the path a projectile would travel. You take damage and any contact effects instead of the Ally for this attack.
-- Synergise: When an Ally makes a basic attack or Power roll, you may make a basic attack. On a Hit+, you add one Elemental damage type applicable to your basic attack to your Ally's attack. Both damage types occur simeultaneously with any Conditions or other extra effects applied on a Strong Hit after the damage is resolved.
+- Combine Elements: When an Ally makes a basic attack or Power roll, you may make a basic attack. On a Hit+, you add one Elemental damage type applicable to your basic attack to your Ally's attack. Both damage types occur simultaneously with any Conditions or other extra effects applied on a Strong Hit after the damage is resolved.
 
 ### Skill Actions
 As with all Skill rolls, you may replace the default Attribute with a more fitting one if the fiction permits it.
@@ -47,9 +30,11 @@ Make a [Might] + [Frighten] roll.
 Before you may select a Wrestling manoeuvre, you must succeed a Grab check. It is determined by [Might] or [Fitness] + [Wrestling].
 
 On a Weak Hit, ...
+Reduce a Target's Defence by an amount determined by the Hit Tier.
 
 On a Hit, you successfully Grab the opponent. You may immediately Push/Pull the Target or choose another wrestling manoeuvre at the start of your next turn.
 
+#### Wrestling
 On a Strong Hit, you may immediately choose one of the following manoeuvres:
 - Push/Pull: You may Move the Target along an orthogonal line number of meters equal to 1x, 1.5x, or 2x the total of your [Might] + [Grappling], determined by the Hit Tier.
 - Reposition: Move the Target 1m, 2m, or 3m determined by the Hit Tier. This movement counts as a Jump, meaning diagonals are permitted.
@@ -58,11 +43,9 @@ On a Strong Hit, you may immediately choose one of the following manoeuvres:
 - Throw
 
 ## Special Actions
-
 Special Actions are Tactical actions which either have a limited usage or prerequisites to use them.
 
 ### Exploit Weakness
-
 You may roll a relevant skill, such as [Perception] + [Awareness] (general) or [Knowledge] + an appropriate skill based off the Entity type to see if you can figure out a Target's weak point. You may downgrade the Hit Tier of this roll if it is beneficial to you.
 - Weak Hit: You learn if the Target has a Vulnerability or Resistance (your choice).
 - Hit: You determine one Vulnerability and Resistance of the Target.
