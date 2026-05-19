@@ -1,0 +1,31 @@
+# Obsidian workspace and local vault settings
+.obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local/private files
+private/
+drafts/
+*.local.md
+
+# Future site build output
+_site/
+dist/
+.cache/
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+secrets.*
