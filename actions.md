@@ -1,22 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Actions](#actions)
-  - [Combat Reactions](#combat-reactions)
-  - [Skill Actions](#skill-actions)
-    - [Frighten](#frighten)
-    - [Wrestling](#wrestling)
-    - [Wrestling](#wrestling-1)
-- [Special Actions](#special-actions)
-  - [Exploit Weakness](#exploit-weakness)
-  - [Heal](#heal)
-  - [Aid](#aid)
-  - [Assist](#assist)
-  - [Take a Breather](#take-a-breather)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Actions
 At the start of your turn, you have one **Standard Action** and one **Minor Action**. You may convert your Standard Action into two Minor Actions, so long as you have not used it yet. If you have two Minor Actions, you may convert them into one Standard Action. You gain one free combat reaction at the start of your turn.
 
