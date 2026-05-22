@@ -48,7 +48,7 @@ Where X = Condition Value (CV).
 - Amplified by: What increases X
 - Reduced by: What decreases X by 1
 - Nullified by: What removes X entirely
-- Special: edge cases, terrain, anatomy requirements, odd interactions
+- Area Condition: Condition when applied to Terrain
 
 ### Physical
 
@@ -105,7 +105,7 @@ Where X = Condition Value (CV).
 
 #### Acid
 - Vulnerability Condition: Corroded X
-- Effect: -1 Defence; persistent Acid damage equal to X; X increases by 1 at the start of each turn
+- Effect: -1 Defence; persistent Acid damage equal to X; X increases by 1 at the start of each turn. Double damage to Objects without Immunity.
 - Amplified by: Corroded, start of Target's turn
 - Nullified by: Wet
 
@@ -157,7 +157,8 @@ Where X = Condition Value (CV).
 
 #### Death
 - Vulnerability Condition: Doomed X
-- Effect: If Doomed X > Level, take direct Health damage equal to Condition Value on a failed ...
+- Effect: If Doomed X > Level, take direct Health damage equal to X. Otherwise, roll a d100. On a 100, the Entity instantly dies.
+- Nullified by: Unliving
 
 ## Elemental Tags
 
