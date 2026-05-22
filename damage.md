@@ -33,7 +33,7 @@ These damage types are typically reserved for secondary effects or reserved for 
 - Suffocation (oxygen deprivation) [req: Breathing]
 
 ## Damage Conditions
-Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type. Damage Conditions stack. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
+Most damage types have a Vulnerability condition which is triggered when a Hit+ is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type. Damage Conditions stack. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
 
 Terrain with the Condition, such as Wet Terrain or Charged Terrain, apply the Vulnerability Condition to Entites with the corresponding Vulnerability that enter the Terrain and at the end of each of their turns they end inside the terrain thereafter. Persistent Damage is always applied at the end of one's turn giving opportunity to remove it before taking damage again.
 
@@ -61,7 +61,7 @@ Where X = Condition Value (CV).
 - Vulnerability Condition: Bleeding X
 - Effect: X Persistent Bleed damage
 - Amplified by: Bleeding, Impaled
-- Reduced by: Heal (Weak Hit)
+- Reduced by: Heal (Weak Hit+)
 - Nullified by: Fire damage, Heal (Hit+)
 
 #### Piercing
@@ -71,7 +71,7 @@ Where X = Condition Value (CV).
 - Nullified by: Restoration
 
 #### Ballistic
-- Vulnerability Condition: Armour Break or Blown Apart (no Armour remaining)
+- Vulnerability Condition: Armour Break or Blown Apart (no Armour remaining) (Strong Hit)
 - Effect: Armour Break: damage to Armour is doubled. If no Armour remains, the Target gains Blown Apart instead: the Target takes +1 damage from the first damage instance received each turn.
 - Amplified by: Blown Apart
 - Nullified by: Restoration
@@ -88,7 +88,7 @@ Where X = Condition Value (CV).
 - Nullified by: Wet, extinguished using the Interact action or Fall Prone
 
 #### Frost
-- Vulnerability Condition: Frozen X
+- Vulnerability Condition: Frozen X (Strong Hit)
 - Effect: Paralysed, Suffocating, Armour X, Fire Resistance X, Vulnerability X to Frost, Ballistic, Sonic, and Crushing, Immunity to all other damage types
 - Initial Value: Wet x 2
 - Reduced by: successful [Might] or [Fitness] + [Bash]
@@ -105,7 +105,7 @@ Where X = Condition Value (CV).
 
 #### Acid
 - Vulnerability Condition: Corroded X
-- Effect: -1 Defence; persistent Acid damage equal to X; X increases by 1 at the start of each turn. Double damage to Objects without Immunity.
+- Effect: -X Block; persistent Acid damage equal to X; X increases by 1 at the start of each turn. Double damage to Objects without Immunity.
 - Amplified by: Corroded, start of Target's turn
 - Nullified by: Wet
 
@@ -116,7 +116,7 @@ Where X = Condition Value (CV).
 - Nullified by: Restoration
 
 #### Wet
-- Gain Condition: Wet X (Hit+)
+- Gain Condition: Wet X
 - Gain Immunity: **Flammable**
 - Gain Resistance: Fire damage
 - Gain Vulnerability: Electric and Frost damage
