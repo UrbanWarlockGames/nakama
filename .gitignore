@@ -31,3 +31,5 @@ node_modules/
 secrets.*
 wipwipability22.md
 WIPWIPabilityconcept.md
+.gitignore
+chargen.old

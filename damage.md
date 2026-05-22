@@ -1,39 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Damage Types](#damage-types)
-  - [Physical](#physical)
-  - [Primordial](#primordial)
-  - [Magical](#magical)
-  - [Special](#special)
-- [Damage Conditions](#damage-conditions)
-  - [Physical](#physical-1)
-    - [Crushing](#crushing)
-    - [Slashing](#slashing)
-    - [Piercing](#piercing)
-    - [Ballistic](#ballistic)
-    - [Incapacitating](#incapacitating)
-  - [Primordial](#primordial-1)
-    - [Fire](#fire)
-    - [Frost](#frost)
-    - [Electricity](#electricity)
-    - [Acid](#acid)
-    - [Poison](#poison)
-    - [Wet](#wet)
-  - [Magical](#magical-1)
-    - [Psychic](#psychic)
-  - [Special](#special-1)
-    - [Holy](#holy)
-    - [Vile](#vile)
-    - [Aberrant](#aberrant)
-    - [Spirit](#spirit)
-    - [Death](#death)
-- [Elemental Tags](#elemental-tags)
-  - [Slime](#slime)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Damage Types
 Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing, Ballistic, Incapacitating) and **Elemental Damage** (all other damage types).
 
@@ -42,12 +6,12 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 - Slashing (cutting, slicing)
 - Piercing (stabbing, impaling)
 - Ballistic (bullets, explosive force)
-- Incapacitating (non-lethal damage [NL]; not deadly; deals stamina instead of health damage and [Fitness + Endure] resist vs Knockout at 0. Every hit after 0 stam deals 1 damage only, negative Stamina subtracts from your dice pool)
+- Incapacitating (non-lethal damage [NL]; not deadly; deals Strain (Stamina damage) instead of Harm (Health damage) and Unconscious at 0 on a Strong Hit. Every hit after 0 Stamina deals 1 damage only, negative Stamina subtracts from your dice pool)
 
 ### Primordial
-- Fire (burns; can melt ice on hit, removing the Frozen critical effect, turn Cold to Wet, remove Wet; critical effect: Ignite 1 flames damage/t)
-- Frost (frostbite, cold; can freeze target if Wet or slow (Cold) on critical, turns water into ice (1m²/rank)
-- Electricity (muscle/nerve damage, electrical burns; deals 5 damage to Wet targets, non-Wet targets receive 1 electricity damage)
+- Fire (burns; can melt ice on hit, removing the Frozen critical effect, turn Cold to Wet, remove Wet; critical effect: Ignite 1 flames damage/turn)
+- Frost (frostbite, cold; can Freeze (Strong Hit) Target if Wet or Slow (Hit), turns water into ice (Slippery terrain))
+- Electric (muscle/nerve damage, electrical burns)
 - Acid (corrosion; deal creature damage to equipment factoring equipment's material resistances)
 - Poison (acutely toxic, poison which causes internal damage or necrosis)
 - Sonic (high-frequency vibration and sound waves, may damage/interrupt hearing-based actions)
@@ -55,7 +19,7 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 
 ### Magical
 - Arcane (raw magical energy; unresistible)
-- Psychic (mental or non-visible damage, cringe; always targets morale pool before health pool) [req: Brain]
+- Psychic (mental or non-visible damage, cringe; always Targets morale pool before health pool) [req: Brain]
 
 ### Special
 These damage types are typically reserved for secondary effects or reserved for background characters. You must ask your GM before selecting one as an Elemental Damage type or Elemental Tag.
@@ -69,102 +33,131 @@ These damage types are typically reserved for secondary effects or reserved for 
 - Suffocation (oxygen deprivation) [req: Breathing]
 
 ## Damage Conditions
-Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a target, or a Hit+ on a target with Vulnerability to that damage type. Damage Conditions stack. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
+Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type. Damage Conditions stack. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
+
+Terrain with the Condition, such as Wet Terrain or Charged Terrain, apply the Vulnerability Condition to Entites with the corresponding Vulnerability that enter the Terrain and at the end of each of their turns they end inside the terrain thereafter. Persistent Damage is always applied at the end of one's turn giving opportunity to remove it before taking damage again.
+
+Amplifying the Condition means its Condition Value increases by +1. Likewise, Reducing the Condition Value means it is decreased by -1. Nullifying a Condition means you immediately lose it after a successful action, after taking the corresponding Damage Type, or other Trigger.
+
+### Vulnerability Conditions
+Where X = Condition Value (CV).
+
+- Vulnerability Condition: Condition X
+- Effect: What X does
+- Applied by: Strong Hit, or Hit+ against Vulnerable Targets
+- Amplified by: What increases X
+- Reduced by: What decreases X by 1
+- Nullified by: What removes X entirely
+- Special: edge cases, terrain, anatomy requirements, odd interactions
 
 ### Physical
 
 #### Crushing
-- Vulnerability Condition: Broken Bones (Limbs become broken on Strong Hit hit leaving one of your choice unusable. Alternatively, a Head or Torso hit leaves the Target Stunned until Aided)
-- Reduced by: Aid
+- Vulnerability Condition: Broken Bones (Choose: Limbs or Body. Limbs: become broken leaving one Hand or Appendage of your choice unusable. Body: Target is Stunned until the end of their next turn or until Helped)
+- Reduced by: Heal (Hit+)
 - Nullified by: Restoration
 
 #### Slashing
-- Vulnerability Condition: Bleeding (1 Bleed damage each turn)
+- Vulnerability Condition: Bleeding X
+- Effect: X Persistent Bleed damage
 - Amplified by: Bleeding, Impaled
 - Reduced by: Heal (Weak Hit)
-- Nullified by: Fire, Heal (Hit+)
+- Nullified by: Fire damage, Heal (Hit+)
 
 #### Piercing
-- Vulnerability Condition: Impaled (+2 damage ongoing)
+- Vulnerability Condition: Impaled X
+- Effect: X Persistent Piercing damage
 - Amplified by: Impaled
 - Nullified by: Restoration
 
 #### Ballistic
-- Vulnerability Condition: Blown Apart (+1 damage or Armour Break)
+- Vulnerability Condition: Armour Break or Blown Apart (no Armour remaining)
+- Effect: Armour Break: damage to Armour is doubled. If no Armour remains, the Target gains Blown Apart instead: the Target takes +1 damage from the first damage instance received each turn.
 - Amplified by: Blown Apart
 - Nullified by: Restoration
 
 #### Incapacitating
 - Vulnerability Condition: Unconscious
-- Nullified by: Conscious, Dead
 
 ### Primordial
 
 #### Fire
-- Gain Vulnerability to Fire damage
-- Vulnerability Condition: Ignite (1 Fire damage each turn until extinguished [minor action])
-- Amplified by: **Flammable** (+1 persistent Fire damage each turn until extinguished), Fiery terrain
-- Nullified by: Wet
+- Vulnerability Condition: Ignite X
+- Effect: X Persistent Fire damage
+- Initial Value: Flammable x 2
+- Nullified by: Wet, extinguished using the Interact action or Fall Prone
 
 #### Frost
-- Gain Vulnerability to Fire, Frost, Ballistic, and Sonic damage
-- Vulnerability Condition: Frozen (Paralysed [cannot take physical actions], **Suffocating**, Vulnerability to Cold, Ballistic, Sonic, and Crushing damage, Resistance to Fire damage, Immune to else), gain Armour and Fire resistance equal to ability rank
-- Vulnerability Condition (Move): Prone (when moving on Frozen hex)
-- Amplified by: Freezing, Frost terrain, Wet (gains Armour = Wet value x 2)
-- Area Nullified by: Fire
-- Condition Nullified by: Crushing, Fire (resisted)
+- Vulnerability Condition: Frozen X
+- Effect: Paralysed, Suffocating, Armour X, Fire Resistance X, Vulnerability X to Frost, Ballistic, Sonic, and Crushing, Immunity to all other damage types
+- Initial Value: Wet x 2
+- Reduced by: successful [Might] or [Fitness] + [Bash]
+- Nullified by: Crushing or Fire damage on a Strong Hit
+- Area Condition: Slippery
+- Area Effect: must make [Agility] or [Fitness] + [Acrobatics] vs. **Prone** when moving through Slippery Terrain
+- Area Nullified by: Fire damage (becomes Wet)
 
-#### Electricity
-- Vulnerability Condition: Charged (1 Electricity damage to touching same source of water)
-- Amplified by: Charged = no higher than Wet value, Charged terrain
+#### Electric
+- Vulnerability Condition: Charged X
+- Effect: X persistent Electric damage to any Wet Targets and all touching same Wet Area
+- Amplified by: Charged
 - Nullified by: leaving affected hexes
 
 #### Acid
-- Vulnerability Condition: Chance to become Corroded (-1 Defence, 1 Acid damage and-1 Defence, increases by 1 at the start of each turn until washed away) damage to equipment equal to health damage using material durability + size
-- Amplified by: Corroded, Acid terrain
+- Vulnerability Condition: Corroded X
+- Effect: -1 Defence; persistent Acid damage equal to X; X increases by 1 at the start of each turn
+- Amplified by: Corroded, start of Target's turn
 - Nullified by: Wet
 
 #### Poison
-- Vulnerability Condition: Poisoned (1 Poison damage each turn until Restored,-1 to all attribute checks)
+- Vulnerability Condition: Poisoned X
+- Effect: X Persistent Poison damage each turn until Restored, -X to all Body Attribute rolls
 - Amplified by: Poisoned
 - Nullified by: Restoration
 
 #### Wet
+- Gain Condition: Wet X (Hit+)
 - Gain Immunity: **Flammable**
 - Gain Resistance: Fire damage
-- Gain Vulnerability: Electricity and Frost damage
-- Vulnerability Condition: Wet; applies Prone when movement on Wet terrain
-- Amplified by: Wet, Wet terrain
-- Nullified by: Freezing (Wet area on floor becomes Frozen), Fire (Wet area is removed)
+- Gain Vulnerability: Electric and Frost damage
+- Amplified by: Wet
+- Nullified by: Frost (Wet becomes Frozen), Fire (Wet is Nullified)
 
 ### Magical
 
 #### Psychic
-- Vulnerability Condition: Brain Drain (cannot use Abilities for rank duration,-2 equal to rank on all Knowledge and Will-based tasks, if **III: cannot take any actions with the Knowledge trait)
+- Vulnerability Condition: Brain Drain X
+- Effect: Cannot use Smarts or Willpower Abilities for X rounds; -2X to Smarts and Willpower-based rolls; at Brain Drain 3, cannot take Smarts actions
 - Amplified by: Brain Drain
-- Reduced by: Aid (Leadership)
+- Reduced by: Aid (Leadership), end of Target's turn
 - Nullified by: Brainless
 
 ### Special
 
 #### Holy
-- Vulnerability Condition: Holy Fire (you cannot receive the effects of healing)
-- Nullified by: Restoration
+- Vulnerability Condition: Holy Fire
+- Effect: You cannot receive the effects of healing
+- Nullified by: Restoration, Corrupted
 
 #### Vile
-- Vulnerability Condition: Corrupted (you cannot receive the effects of healing)
-- Nullified by: Restoration
+- Vulnerability Condition: Corrupted
+- Effect: You cannot receive the effects of healing
+- Nullified by: Restoration, Holy Fire
 
 #### Aberrant
-- Vulnerability Condition: Frightened (-1 to all Combat Reactions and make a Morale check at the end of your turn)
+- Vulnerability Condition: Frightened X
+- Effect: -X to all Combat Reactions and make a Morale check at the end of your turn
 - Amplified by: Frightened
+- Reduced by: Aid (Leadership)
 
 #### Spirit
-- Vulnerability Condition: Siphoned (-1 to all Power rolls)
+- Vulnerability Condition: Siphoned X
+- Effect: -X to all Power rolls
 - Amplified by: Siphoned
 
 #### Death
-- Vulnerability Condition: Doomed (make a Hit+ death save if Doomed > Level, take direct Health damage equal to Condition Value on a failure)
+- Vulnerability Condition: Doomed X
+- Effect: If Doomed X > Level, take direct Health damage equal to Condition Value on a failed ...
 
 ## Elemental Tags
 
@@ -174,12 +167,12 @@ Basic Attacks with the corresponding Elemental Tag deal the associated damage ty
 - Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters (Might Resist) and Prone on a Strong Hit.
 - Metal: **Piercing** or **Electric** damage. Size considered +2 for Weight (swimming, grappling). Wet Vulnerability.
 - Oil: **Poison** damage. Applies **Flammable** condition on Hit+
-- Smoke: **Suffocation damage**. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all hexes in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
+- Smoke: **Suffocation** damage. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all hexes in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
 - Vapour: **Wet** and **Suffocating** damage. Makes Creatures and Objects in Area Wet but not Terrain or Self
 - Water: **Wet** damage. Applies Wet to Self and Area
 - Wood: **Incapacitating** or **Poison** damage. You are Flammable.
 
 ### Slime
 - Terrain: **Slowing**; half Move after entering space
-- Creature: DR 1 (Physical) or **Sticky** + Boneless (count as Size 0 for squeezing into spaces) or Organless (immune to pressure/fall and bleed damage) or Brainless (cannot take Knowledge actions, immune to Brain Drain and Psychic damage)
+- Creature: DR 1 (Physical) or **Sticky** + Boneless (count as Size 0 for squeezing into spaces) or Organless (immune to pressure/fall and bleed damage) or Brainless (cannot take Smarts actions, immune to Brain Drain and Psychic damage)
 - Object: **Sticky**; Might Resist to Disengage or Escape

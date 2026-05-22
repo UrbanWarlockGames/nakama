@@ -1,13 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Complications](#complications)
-  - [A Deal with the Devil](#a-deal-with-the-devil)
-  - [d20 Complications](#d20-complications)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Complications
 
 After the Complication is chosen or rolled, the GM reads the Complication out-loud and asks, "Does your character know what that means?" This gives the Player the freedom to interpret their Complication in an interesting or character-focused manner if they desire. The GM is encouraged to "yes, and" the response and build on top of it, if it is not quite meaningful enough of a Complication, rather than outright denying it. If the Player declines, the GM is free to interpret the Complication however they wish. Other Players are also encouraged to build on the Complication if they have a good idea, but it is not required. If a Complication is ever not fitting, the GM can re-roll it any time.

@@ -5,7 +5,7 @@ Most Actions are a Standard Action unless specified. The generic Minor Actions a
 - Move
 - Interact (with an Object, Item, or Terrain, requires a free hand or to be holding the Object)
 - Use a Skill
-- Help (removes Prone from a Target, requires a free hand)
+- Help (removes Prone or Stunned from a Target, requires a free hand)
 - Raise a Shield (-1 Dodge, Blocks up to 6 Physical damage or an equal amount Elemental if it is a magic shield, then the shield is unusable until repaired)
 - Ready a Reaction (any Standard or Minor Action + Trigger)
 - Basic Attack (Strike! = Strike Value + Item Bonus)

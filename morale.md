@@ -1,15 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Morale](#morale)
-  - [Non-player Characters](#non-player-characters)
-  - [Player Characters](#player-characters)
-  - [Morale Triggers](#morale-triggers)
-  - [Panic](#panic)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Morale
 
 ### Non-player Characters

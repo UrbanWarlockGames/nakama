@@ -1,11 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Story Structure](#story-structure)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Story Structure
 
 - Scene: When you switch from Narrative, Tactical, or Negotiation Mode, the Scene changes. There are usually 4-6 Scenes in an Episode. This could roughly equate to one "Encounter".

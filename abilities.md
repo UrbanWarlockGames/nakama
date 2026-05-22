@@ -13,7 +13,15 @@ An Power is built from the following parts:
 
 ## Abilities
 
-The Ability defines what the Power fundamentally does and, when paired with a Target what it can affect. Each Ability has base values for Range, Duration, Distance, and Effects, as well as unique upgrades called Interactions. Abilities are limited in scope to only being able to do what they are described to be able to do, and only to their designated Target.
+The Ability defines what the Power fundamentally does and, when paired with a Target what it can affect. Each Ability has base values for Range, Duration, Distance, and Effects, as well as unique upgrades called Interactions. Abilities are limited in scope to only being able to do what they are described to be able to do, and only to their designated Target. When you use an Ability, you may choose how it manifests visually and what noise it makes. Anyone who can Sense you using an Ability knows you are using an Ability (typically through Sight and Hearing), but not necessarily what the Ability does if the effect is not obvious.
+
+### Duration
+The basic Duration of an Ability is determined by the Hit Tier:
+- Weak Hit: half the Potency Value (PV) of the Ability
+- Hit: equal to the Potency Value (PV) of the Ability
+- Strong Hit: double the Potency Value (PV) of the Ability 
+
+Some Abilities or Interactions will have a specified Duration. This specified Duration is not affected by Alterations made to the Duration of the Ability. If no Duration is specified, the effect is Instant, which is also a specific Duration.
 
 ## Targets
 
@@ -71,7 +79,7 @@ Altering the **Area** of your Ability costs 3 PP per additional +1 meter to its 
 
 Altering the **Range** of your Ability costs 1 PP per additional +1 meter to its Range, drawn as a line from you to the Target.
 
-Altering the **Duration** of your Ability costs 4 PP per turn the Effects of your Ability last for.
+Altering the **Duration** costs 4 PP per rank. Each rank increases the Ability's basic Duration by +1. Specific Durations are unaffected.
 
 Altering the **Reliability** of one of your Ability's Interactions costs 4 PP to trigger on a Hit or better, or 8 PP for a Weak Hit or better.
 
@@ -131,13 +139,17 @@ Pin costs 4 PP and knocks the Target or Obstacle Prone on a Strong Hit.
 
 ## Ability: Control
 
-The **Control** Ability allows you to Interact with a General Physical Target [choose: Small Creature, Object, or Terrain] at a Range of 1 + Potency Value meters. The Target may feel your touch. If your Ability is Elemental in nature, they may feel the Element, such as a light *heat* from Fire, *cold* from Frost, or a harmless *static shock* from Lightning.
+The **Control** Ability allows you to Interact with a General Physical Target [choose: Small Creature, Object, or Terrain] at a Range of 1 + Potency Value meters. The Target may feel your touch. If your Ability is Elemental in nature, they may feel the Element, such as a light *heat* from Fire, *cold* from Frost, or a harmless *static shock* from Lightning. An Unwilling Target can only be under the effect of one Control Interaction at once.
 
 ### Control Interactions
 
 Communication [2 PP]: You may communicate with the Target. They hear your voice as a distant echo, and cannot directly place its source or point of origin unless they can Sense you using the Power.
 
 Charm [3 PP]: You may influence the Disposition of the Target, the Effects of which are determined by the Hit Tier. On a Weak Hit, you may nudge the Target's Disposition one degree. On a Hit, you may nudge the Target's Disposition two degrees or issue a Command using their minor action, which they will follow so long as it does not cause immediate harm to them or their Allies. On a Strong Hit, you may nudge the Target's Disposition three degrees or issue a Command using their standard or minor action, which they must obey. In addition, a Target is Charmed, meaning it cannot take hostile actions against you for the Duration. If the Target witnessed you use this Power on it, it remains aware after the Effect ends.
+
+Taboo [4]: Declare one Taboo action the Target cannot break without suffering the consequences of this Ability. If they attempt to perform the Taboo action, make a Power Roll immediately as a free reaction. On a Weak Hit, the Target suffers damage equal to half the PV of this Ability. On a Hit, they gain the Brain Drain condition (or the value increases by 1), decreasing by 1 at the end of their next turn. On a Strong Hit, their action fails. This Ability lasts for a basic Duration or until they successfully perform the Taboo action.
+
+Truth/Lies [4]: Choose either Truth or Lies. On a Weak Hit, you know if the Target is knowingly telling the truth or lying for three of your questions. On a Hit, a bell resounds every time they tell the truth when answering one of your questions, or a buzzer beeps when they knowingly tell a lie for a basic Duration. Strong Hit: The Target cannot knowingly lie or tell the truth for a basic Duration.
 
 Confuse [4 PP]: On a Weak Hit, the Target will laugh off or ignore any non-harmful Abilities you take against it for a number of rounds in Tactical Mode, or seconds in Narrative Mode, equal to the Potency Value of this Power. On a Hit, the Target becomes Confused, unable to tell Allies from Enemies. It will act according to its nature in this disoriented state for the Duration. On a Strong Hit, it becomes Berserk, attacking the nearest Entity, prioritising Hostile Creatures, followed by Creatures within range of its basic attack. You may choose the effects of a lower Hit Tier if it is beneficial to you.
 
@@ -219,11 +231,79 @@ Similar to the Move Ability, but instead of adding new modes of locomotion, this
 
 #### Interactions
 
-- **Blink**: Immediately Move the Target to a hex anywhere in an Area within range.
-- **Swap**: Two Targets within Range exchange Positions.
-- **Portal**: create a temporary two-way opening between two points.
-- **Recall**: Move a Target to a Marked point or adjacent to a Marked Entity.
-- **Banish**: Remove a Target from the Scene for a basic Duration.
+- **Recall** [3]: You may then Move a Target to a Marked point or adjacent to a Marked Entity.
+- **Swap** [3]: Two Targets within Range exchange Positions.
+- **Portal** [5]: create a temporary two-way opening between two points within Range. Any Entities willingly or unwillingly moved through the portal will appear through the other one. If an Entity is forcibly moved through the Portal, they will continue travelling the original Distance in addition to the distance travelled by the Portal.
+- **Blink** [6]: Immediately Move the Target to a hex anywhere in an Area within range.
+- **Banish** [7]: Remove a Target from the Scene for a basic Duration. When the effect ends, the Target returns to its previous location, or to a random adjacent valid space if that location is occupied.
+
+### Ability: Grant
+
+The Grant Ability is used to give additional action types to the Target, typically Self or a Creature. If an Object gains an action, it may use it if it has consciousness. If the Target for an Interaction with this Ability is Self, it is a passive effect and does not need to be applied as an Action. Otherwise, it lasts for a basic Duration.
+
+#### Grant Interactions
+
+- **Share Senses** [3]: Both you and a Target share one imprecise sense originating from either you or the Target (your choice). On a Strong Hit, you may share one precise sense. This only works only as an imprecise sense Strong Hit if the Target is Unwilling. The Target is aware someone if observing it unless this Ability has the Subtle trait. The maximum Distance an Entity under the effects of this Interaction can travel from you is a number of meters equal to your PV x 10 before the effect ends.
+- **Combat Readiness** [3]: Gain an additional free combat reaction.
+- **Reactive Strike** [4]: You may add the Reactive Strike combat reaction to your list of available combat reactions. Reactive Strike — You may make a melee basic attack against a Target within Range when they make a Move or Interact action, or when they make a Ranged Attack.
+- **React** [5]: Gain an additional free reaction.
+- **Hasten** [6]: Gain one extra minor action.
+
+### Ability: Restore
+
+**Restore reverses damage, degradation, loss, or harmful states affecting the Target.**
+
+#### Restore Interactions
+
+- **Heal/Repair** [2]: Restore Health, Stamina, or Morale to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
+- **Cleanse Condition** [3]: Remove one specific Condition, such as "Cleanse (Prone)"
+- **Cleanse Vulnerability** [3]: Nullify any Vulnerability Condition that can be Nullified by Restoration
+- **Regenerate** [3]: Restore missing body parts or functionality of a willing Creature or reconstruct an Object/Terrain. The Target's limbs or functionality can only be restored to its state at birth or creation and not be given additional functionality. Requires a Strong Hit for full functionality to be restored.
+- **Re/Animate** [6]: Give life to an Object or return a defeated Target to the Scene. May have unintended consequences if the integrity of the body or soul of the creature is damaged. This Ability can only be used on Entities that were removed from the current Scene or that have been dead for no longer than ten minutes in Narrative Mode.
+
+### Ability: Weaken
+
+The basic Duration is a number of rounds equal to half your PV on a Weak Hit, your PV on a Hit, or PV x2 rounds on a Strong Hit.
+
+#### Interactions
+- **Delay** [2]: Delay an effect applied to the Target until after a basic Duration. The effect is suspended for the Duration and continues as normal afterwards.
+- **Drain** [2]: Perform a basic attack. If you deal Health damage, you restore an amount of Health equal to half the damage dealt, up to your PV.
+- **Ground** [2]: Choose one movement type such as Burrow or Fly you know the Target has. They may not use that movement type for the Duration of this Ability.
+- **Slow** [3]: Reduce movement by W: half PV, H: PV, S: apply Slowed (1/2 Move)
+- **Expose** [3]: Apply Vulnerability to a specific Element to the Target.
+- **Hex** [4]: Extend the duration of one Condition that uses a basic Duration on the Target by one round. You may use this Interaction a number of times each Scene equal to half your PV.
+- **Impair** [4]: Weak Hit: The Target drops all items they are holding, Hit: The Target cannot convert their standard action into two additional minor actions, Strong: The Target must choose between using their standard or minor action. You may choose a lower Hit Tier if it is beneficial to you.
+- **Stun** [4]: The Target cannot take Reactions.
+- **Paralyse** [8]: The Target becomes Immobilised (cannot Move) and can not make Body or Social actions, including speaking. Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
+- **Incapacitate** [12]: The Target becomes Helpless (Paralysed and Prone). Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
+
+### Ability: Protect
+
+The **Protect** Ability negates, reduces, or redirects oncoming damage or effects directed to the Target. This Ability lasts for a number of rounds equal to your PV. You may use each Interaction for this Ability once per Scene.
+
+#### Interactions
+
+- **Shield** [2]: You count as wielding a magic shield for the duration of this Ability or until it is broken.
+- **Barrier** [5]: You count as if you have used the Raise a Shield action using a magic shield for the duration of this ability. This shield persists, reducing in damage reduction until it reaches 0, when it breaks. The amount of maximum damage reduced is equal to your PV.
+- **Ward** [4]: Damage from Elemental attacks is reduced by your PV for the duration of this Ability.
+- **Protection** [4]: You become immune to a specific Condition for the duration of this Ability.
+- **Taunt** [4]: The Target becomes **Fascinated** with you for a basic Duration. All attacks it makes must include you as a Target and it suffers a penalty to all Perception rolls equal to your PV.
+- **Reflect** [5]: Reaction: Reflect — On a Weak Hit, you take 1/2 damage from a ranged Ability targetting you. On a Hit, you take no damage and restore Stamina equal to half the damage you would receive instead. Overheal applies. On a Strong Hit, you may redirect a ranged Ability targetting or passing through you back to its source. You may choose a lower Hit Tier if it is beneficial to you.
+
+## Power Origin
+It may be helpful for you to consider the source of your Power when building your character. The following rules are designed to support various fantasies from different media involving the origin of one's powers. Some campaigns may allow any origin, while others may specify one or more allowed origins.
+- Innate: You were born with your Power even if it manifested later in life.
+- Training: You trained hard, studied obscure texts, or learned your power from a mentor.
+- Mark: You were Marked by a powerful entity from birth.
+- Object: Your power comes from an object you hold close to you, such as a talisman.
+
+### Phantasm
+Also known as a stand, eidolon, or persona, a Phantasm is an entity bound to your person. Your Phantasm has a separate body, personality, and identity from you, but is intrinsically linked to you in some way. This link is the source of your Power. Your Phantasm shares your resource pool, actions, and turn in Tactical Mode. Any effects placed on you also affect your Phantasm. You may choose a Body, Mind, or Social Phantasm, giving it a score in each attribute of that category equal to 1 + half your Level. If its strike value is higher than yours, it may use its own strike value for basic attacks.
+Choose one ability for your Phantasm
+- Share Senses: You can see through your Phantasm's eyes as an action, lasting until one of you is disrupted.
+- Fusion: You and your Phantasm can fuse into one character, sharing all Abilities and Skills, averaging Attributes. You take the Size of either yourself or your Phantasm's base Size.
+- Invisible: Your Phantasm is Invisible to most others, unless they also have a Phantasm or truesight.
+- Independent: x10 maximum distance travelled from self.
 
 ## Tables
 
