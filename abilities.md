@@ -290,6 +290,91 @@ The **Protect** Ability negates, reduces, or redirects oncoming damage or effect
 - **Taunt** [4]: The Target becomes **Fascinated** with you for a basic Duration. All attacks it makes must include you as a Target and it suffers a penalty to all Perception rolls equal to your PV.
 - **Reflect** [5]: Reaction: Reflect — On a Weak Hit, you take 1/2 damage from a ranged Ability targetting you. On a Hit, you take no damage and restore Stamina equal to half the damage you would receive instead. Overheal applies. On a Strong Hit, you may redirect a ranged Ability targetting or passing through you back to its source. You may choose a lower Hit Tier if it is beneficial to you.
 
+## Nullify
+
+The **Nullify** Ability allows you to end, suppress, or prevent Powers and supernatural effects.
+
+### Interactions
+
+- Dispel [3]: End one ongoing Power effect within Range. If the effect's PV is higher than this Ability's PV, Dispel only succeeds on a Strong Hit.
+Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Interactions for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
+- Seal [6]: Choose one Ability you know the Target has. The Target cannot use that Ability for a basic Duration. If the Ability's PV is higher than this Ability's PV, Seal only succeeds on a Strong Hit. If the Target for Seal is Self, Seal one of your own Abilities ongoing. Choose another one of your Abilities. Add 1/2 the PV (min. 0) of the Sealed Ability to the chosen Ability's PV ongoing. You may Burn a seal you apply to yourself as a free reaction, dealing an amount of Fire or Spirit damage (your choice) to yourself equal to half the PV of the Ability being unsealed. You then lose the bonus to PV on your other Ability but can freely use the previously Sealed Ability again. Unsealing an Ability gives it +1 Potency until the end of your next turn. An Ability can only benefit from one Self Seal at a time.
+
+### Ability: Duplicate
+
+You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Morale and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Interaction says otherwise.
+
+#### Duplicate Interactions
+
+- **Clone** [4]: Your Duplicate no longer has only 1 HP. Instead, it shares your Health and Stamina pools. Damage to either of you is applied to the same pool only once.
+- **Skilled** [3]: The Duplicate shares your Skills and may make Skill rolls.
+- **Relay** [4]: Use a Power from the Duplicate's position.
+- **Sacrifice** [4]: You may transfer damage you would take to the Duplicate, destroying it in the process. Make a Power roll. You take full damage on a Weak Hit, half on a Hit, and no damage on a Strong Hit.
+- **Swarm** [4]: You may make a number of Duplicates equal to your Potency Value. These Duplicates can never have more than 1 hit point.
+- **Autonomous** [4]: The Duplicate may act autonomously within the Range of this Ability or the Range x 10 meters in Narrative Mode. Instead of full turns in Tactical Mode, a Duplicate gets a free minor action.
+
+## Mimic
+
+You replicate a feature specified by the Interaction belonging to a Target within Range. Unless an Interaction says otherwise, you must have observed the feature or successfully identified it. The copied feature uses the Attribute and PV of Mimic for damage, Power Rolls, Range, Duration, and other PV-based effects, but is otherwise identical. The Duration of Copy is equal to to your PV in rounds when in Tactical Mode, and in minutes in Narrative Mode, unless otherwise stated by the Interaction. After the Duration, you lose access to the feature.
+
+#### Mimic Interactions
+
+- **Copy Power** [4]: Copy one observed Ability with lower PV. All Alterations and Interactions for the Ability are also copied.
+- **Copy Skill** [2]: Copy a skill, combat reaction, voice, handwriting, or mannerism.
+- **Copy Trait** [3]: Copy one sense, movement mode, resistance, Elemental trait, or innate feature.
+- **Steal** [6]: You may steal one trait, Ability, or sense from the Target. The Target loses access to the stolen feature for a basic Duration or until you Steal another feature. You may only have one stolen feature at a time.
+- **Store Adaptation** [6]: You may store a number of Copied features equal to your PV. Only one stored feature may be active at a time. Switching the active feature costs a standard action. Stored features are lost at the end of the Episode.
+
+## Absorb
+
+The **Absorb** Ability takes in an incoming or existing Elemental effect and stores, reduces, converts, or releases it. Absorb must choose an Elemental Target.
+
+
+- **Soak** [2]: Reduce incoming damage of the chosen Target type equal to your PV as a Combat Reaction.
+- **Store** [3]: Gain Charge equal to half the damage prevented by Soak, up to PV. Unused Charge expires at the end of the Scene.
+- **Release** [3]: Spend Charge when using an Ability. For each point of Charge spent, increase one of the following by +1 for that use: damage, Range, Area, Distance, or a basic Duration. You may spend a maximum amount of Charge on one Ability equal to half this Ability's PV.
+- **Convert** [3]: Spend Charge to Restore Stamina to yourself equal to the Charge spent.
+- **Extinguish** [3]: Reduce or extinguish a source of elemental energy in an Area, such as a torch, magical light, or electrical arc.
+
+### Ability: Project
+
+Project separates a Target's consciousness, spirit, or senses, from its body for the Duration.
+
+#### Project Interactions
+- **Tether** [2]: You always know the direction and distance to your body. You may return to it as a free reaction. If an effect would prevent you from returning, make a Power Roll; on a Hit, you return safely.
+- **Exorcise** [3]: Target one projected, possessing, or spiritually displaced Entity. On a Hit, force it back to its body, vessel, or origin. On a Strong Hit, it cannot Project again for a basic Duration.
+- **Astral Projection** [6]: You leave your body and become Intangible and gain Spirit sense for a basic Duration. Your body is unconscious while you are projecting. Your projected form can Move, Sense, and use non-Physical Powers, but cannot interact with the Physical world unless another effect allows it. Physical creatures cannot see or interact with you without an appropriate Sense or Spirit effect. You are immune to Physical damage and Vulnerable to Spirit damage. You are aware if something interacts with your body. If your body takes damage, you immediately return to it.
+
+### Ability: Alter
+
+You may change the properties of a Target specified by the Interaction type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Interaction says otherwise. Creatures that would reasonably die or be impaired from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
+
+#### Alter Interactions
+The Interactions of Alter are sorted by sub-category for easy of use.
+
+##### Appearance
+- **Glamour** [2]: Alter the appearance, voice, scent, or other identifying traits of the Target.
+- **Muffle** [3]: Hide the Target from all imprecise senses, such as hearing, smell, and taste.
+- **Conceal** [5]: Hide the Target from one precise sense, such as sight, precise smell, or echolocation. For +2 PP, hide it from all precise senses except Truesight.
+
+##### Form
+- **Material** [5]: Change material to another of similar value and state, such as stone to mud, wood to metal, flesh to stone. The Target now matches the texture, flexibility, sharpness, hardness, etc. of the chosen material for the Duration.
+- **Shape** [3]: Change the Target's physical shape without adding or removing material
+- **Resize or Lighten/Burden** [4]: Increase or decrease Size an amount of stages equal to PV. Alternatively, the Target remains same size with only its Weight changing to match the Size
+- **Purify** [3]: Purify the Target from disease or improve material quality, purity, sharpness, clarity, or stability.
+- **Corrupt** [5]: Change the Target's material to become hazardous, brittle, rotten, corroded, dull, unstable, or contaminated.
+- **Perception** [5]: Improve one of the Target's senses, granting +1 Perception and Range and improve one imprecise sense to a precise sense for the Duration of the Ability. You may instead choose to grant darkvision, infravision, echolocation, or tremorsense as a precise sense for the duration.
+
+##### State
+- **Muddy/Solidify** [3]: turn solids in Area into semi-solid slime/goo and back for the Duration of the Ability.
+- **Melt/Congeal** [4]: turn semi-solids in Area into liquids (liquefy) and back for the Duration of the Ability.
+- **Evaporate/Condense** [4]: turn liquid in Area to gas and back for the Duration of the Ability.
+- **Heat/Cool** [3]: Change the temperature of the Target up to its boiling point or down to its freezing point without changing the phase of matter of the Target.
+- **Charge/Discharge** [3]: Alter the magnetic charge of the Target, shifting them between magnetic, charged, and chargeless. Magnetic Entities move towards each other at 1 m per round until they collide.
+- **Dampen/Dry** [2]: Shift the Target between Wet, Sticky, and Dry.
+- **Harden/Soften** [3]: Shift the Target between brittle, elastic (stretchy, bouncy), and malleable (like clay).
+- **Rouse/Exhaust** [5]: Shift the Target between Alert, Drowsy, and Asleep. Shifting a Target two stages only succeeds on a Strong Hit. A Target that takes damage immediately becomes Alert.
+
 ## Power Origin
 It may be helpful for you to consider the source of your Power when building your character. The following rules are designed to support various fantasies from different media involving the origin of one's powers. Some campaigns may allow any origin, while others may specify one or more allowed origins.
 - Innate: You were born with your Power even if it manifested later in life.
