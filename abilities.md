@@ -237,11 +237,11 @@ Similar to the Move Ability, but instead of adding new modes of locomotion, this
 - **Blink** [6]: Immediately Move the Target to a hex anywhere in an Area within range.
 - **Banish** [7]: Remove a Target from the Scene for a basic Duration. When the effect ends, the Target returns to its previous location, or to a random adjacent valid space if that location is occupied.
 
-### Ability: Grant
+## Ability: Grant
 
 The Grant Ability is used to give additional action types to the Target, typically Self or a Creature. If an Object gains an action, it may use it if it has consciousness. If the Target for an Interaction with this Ability is Self, it is a passive effect and does not need to be applied as an Action. Otherwise, it lasts for a basic Duration.
 
-#### Grant Interactions
+### Grant Interactions
 
 - **Share Senses** [3]: Both you and a Target share one imprecise sense originating from either you or the Target (your choice). On a Strong Hit, you may share one precise sense. This only works only as an imprecise sense Strong Hit if the Target is Unwilling. The Target is aware someone if observing it unless this Ability has the Subtle trait. The maximum Distance an Entity under the effects of this Interaction can travel from you is a number of meters equal to your PV x 10 before the effect ends.
 - **Combat Readiness** [3]: Gain an additional free combat reaction.
@@ -249,11 +249,11 @@ The Grant Ability is used to give additional action types to the Target, typical
 - **React** [5]: Gain an additional free reaction.
 - **Hasten** [6]: Gain one extra minor action.
 
-### Ability: Restore
+## Ability: Restore
 
 **Restore reverses damage, degradation, loss, or harmful states affecting the Target.**
 
-#### Restore Interactions
+### Restore Interactions
 
 - **Heal/Repair** [2]: Restore Health, Stamina, or Morale to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
 - **Cleanse Condition** [3]: Remove one specific Condition, such as "Cleanse (Prone)"
@@ -261,7 +261,7 @@ The Grant Ability is used to give additional action types to the Target, typical
 - **Regenerate** [3]: Restore missing body parts or functionality of a willing Creature or reconstruct an Object/Terrain. The Target's limbs or functionality can only be restored to its state at birth or creation and not be given additional functionality. Requires a Strong Hit for full functionality to be restored.
 - **Re/Animate** [6]: Give life to an Object or return a defeated Target to the Scene. May have unintended consequences if the integrity of the body or soul of the creature is damaged. This Ability can only be used on Entities that were removed from the current Scene or that have been dead for no longer than ten minutes in Narrative Mode.
 
-### Ability: Weaken
+## Ability: Weaken
 
 The basic Duration is a number of rounds equal to half your PV on a Weak Hit, your PV on a Hit, or PV x2 rounds on a Strong Hit.
 
@@ -277,7 +277,17 @@ The basic Duration is a number of rounds equal to half your PV on a Weak Hit, yo
 - **Paralyse** [8]: The Target becomes Immobilised (cannot Move) and can not make Body or Social actions, including speaking. Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
 - **Incapacitate** [12]: The Target becomes Helpless (Paralysed and Prone). Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
 
-### Ability: Protect
+### Nullify
+
+The **Nullify** Ability allows you to end, suppress, or prevent Powers and supernatural effects.
+
+#### Interactions
+
+- Dispel [3]: End one ongoing Power effect within Range. If the effect's PV is higher than this Ability's PV, Dispel only succeeds on a Strong Hit.
+Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Interactions for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
+- Seal [6]: Choose one Ability you know the Target has. The Target cannot use that Ability for a basic Duration. If the Ability's PV is higher than this Ability's PV, Seal only succeeds on a Strong Hit. If the Target for Seal is Self, Seal one of your own Abilities ongoing. Choose another one of your Abilities. Add 1/2 the PV (min. 0) of the Sealed Ability to the chosen Ability's PV ongoing. You may Burn a seal you apply to yourself as a free reaction, dealing an amount of Fire or Spirit damage (your choice) to yourself equal to half the PV of the Ability being unsealed. You then lose the bonus to PV on your other Ability but can freely use the previously Sealed Ability again. Unsealing an Ability gives it +1 Potency until the end of your next turn. An Ability can only benefit from one Self Seal at a time.
+
+## Ability: Protect
 
 The **Protect** Ability negates, reduces, or redirects oncoming damage or effects directed to the Target. This Ability lasts for a number of rounds equal to your PV. You may use each Interaction for this Ability once per Scene.
 
@@ -290,17 +300,19 @@ The **Protect** Ability negates, reduces, or redirects oncoming damage or effect
 - **Taunt** [4]: The Target becomes **Fascinated** with you for a basic Duration. All attacks it makes must include you as a Target and it suffers a penalty to all Perception rolls equal to your PV.
 - **Reflect** [5]: Reaction: Reflect — On a Weak Hit, you take 1/2 damage from a ranged Ability targetting you. On a Hit, you take no damage and restore Stamina equal to half the damage you would receive instead. Overheal applies. On a Strong Hit, you may redirect a ranged Ability targetting or passing through you back to its source. You may choose a lower Hit Tier if it is beneficial to you.
 
-## Nullify
+### Absorb
 
-The **Nullify** Ability allows you to end, suppress, or prevent Powers and supernatural effects.
+The **Absorb** Ability takes in an incoming or existing Elemental effect and stores, reduces, converts, or releases it. Absorb must choose an Elemental Target.
 
-### Interactions
+#### Absorb Interactions
 
-- Dispel [3]: End one ongoing Power effect within Range. If the effect's PV is higher than this Ability's PV, Dispel only succeeds on a Strong Hit.
-Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Interactions for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
-- Seal [6]: Choose one Ability you know the Target has. The Target cannot use that Ability for a basic Duration. If the Ability's PV is higher than this Ability's PV, Seal only succeeds on a Strong Hit. If the Target for Seal is Self, Seal one of your own Abilities ongoing. Choose another one of your Abilities. Add 1/2 the PV (min. 0) of the Sealed Ability to the chosen Ability's PV ongoing. You may Burn a seal you apply to yourself as a free reaction, dealing an amount of Fire or Spirit damage (your choice) to yourself equal to half the PV of the Ability being unsealed. You then lose the bonus to PV on your other Ability but can freely use the previously Sealed Ability again. Unsealing an Ability gives it +1 Potency until the end of your next turn. An Ability can only benefit from one Self Seal at a time.
+- **Soak** [2]: Reduce incoming damage of the chosen Target type equal to your PV as a Combat Reaction.
+- **Store** [3]: Gain Charge equal to half the damage prevented by Soak, up to PV. Unused Charge expires at the end of the Scene.
+- **Release** [3]: Spend Charge when using an Ability. For each point of Charge spent, increase one of the following by +1 for that use: damage, Range, Area, Distance, or a basic Duration. You may spend a maximum amount of Charge on one Ability equal to half this Ability's PV.
+- **Convert** [3]: Spend Charge to Restore Stamina to yourself equal to the Charge spent.
+- **Extinguish** [3]: Reduce or extinguish a source of elemental energy in an Area, such as a torch, magical light, or electrical arc.
 
-### Ability: Duplicate
+## Ability: Duplicate
 
 You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Morale and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Interaction says otherwise.
 
@@ -313,7 +325,7 @@ You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point
 - **Swarm** [4]: You may make a number of Duplicates equal to your Potency Value. These Duplicates can never have more than 1 hit point.
 - **Autonomous** [4]: The Duplicate may act autonomously within the Range of this Ability or the Range x 10 meters in Narrative Mode. Instead of full turns in Tactical Mode, a Duplicate gets a free minor action.
 
-## Mimic
+### Mimic
 
 You replicate a feature specified by the Interaction belonging to a Target within Range. Unless an Interaction says otherwise, you must have observed the feature or successfully identified it. The copied feature uses the Attribute and PV of Mimic for damage, Power Rolls, Range, Duration, and other PV-based effects, but is otherwise identical. The Duration of Copy is equal to to your PV in rounds when in Tactical Mode, and in minutes in Narrative Mode, unless otherwise stated by the Interaction. After the Duration, you lose access to the feature.
 
@@ -324,17 +336,6 @@ You replicate a feature specified by the Interaction belonging to a Target withi
 - **Copy Trait** [3]: Copy one sense, movement mode, resistance, Elemental trait, or innate feature.
 - **Steal** [6]: You may steal one trait, Ability, or sense from the Target. The Target loses access to the stolen feature for a basic Duration or until you Steal another feature. You may only have one stolen feature at a time.
 - **Store Adaptation** [6]: You may store a number of Copied features equal to your PV. Only one stored feature may be active at a time. Switching the active feature costs a standard action. Stored features are lost at the end of the Episode.
-
-## Absorb
-
-The **Absorb** Ability takes in an incoming or existing Elemental effect and stores, reduces, converts, or releases it. Absorb must choose an Elemental Target.
-
-
-- **Soak** [2]: Reduce incoming damage of the chosen Target type equal to your PV as a Combat Reaction.
-- **Store** [3]: Gain Charge equal to half the damage prevented by Soak, up to PV. Unused Charge expires at the end of the Scene.
-- **Release** [3]: Spend Charge when using an Ability. For each point of Charge spent, increase one of the following by +1 for that use: damage, Range, Area, Distance, or a basic Duration. You may spend a maximum amount of Charge on one Ability equal to half this Ability's PV.
-- **Convert** [3]: Spend Charge to Restore Stamina to yourself equal to the Charge spent.
-- **Extinguish** [3]: Reduce or extinguish a source of elemental energy in an Area, such as a torch, magical light, or electrical arc.
 
 ### Ability: Project
 
