@@ -123,7 +123,7 @@ On a Hit, you may move the Target up to a number of meters equal to 4 + the Powe
 
 On a Strong Hit, you may move the Target up to a number of meters equal to 6 + the Power's Potency Value.
 
-### Hurl Interactions
+#### Hurl Interactions
 
 The Interactions for Hurl are Explode, Mark, Ricochet, Launch, and Pin.
 
@@ -141,7 +141,7 @@ Pin costs 4 PP and knocks the Target or Obstacle Prone on a Strong Hit.
 
 The **Control** Ability allows you to Interact with a General Physical Target [choose: Small Creature, Object, or Terrain] at a Range of 1 + Potency Value meters. The Target may feel your touch. If your Ability is Elemental in nature, they may feel the Element, such as a light *heat* from Fire, *cold* from Frost, or a harmless *static shock* from Lightning. An Unwilling Target can only be under the effect of one Control Interaction at once.
 
-### Control Interactions
+#### Control Interactions
 
 Communication [2 PP]: You may communicate with the Target. They hear your voice as a distant echo, and cannot directly place its source or point of origin unless they can Sense you using the Power.
 
@@ -161,7 +161,7 @@ Mind Blank [6 PP]: In Tactical Mode, the Target forgets the past number of round
 
 The **Create** Ability creates a new instance of a **Target** within a range of 1 meter for a number of rounds equal to 2 + your Potency Value. The Entity (Creature, Object, or Terrain) created is a generic form of the specified Target. For example, < Create: Small Creature > is an invalid Power. < Create: Small Wolf > is valid, but cannot be used to replicate a specific wolf you know or have seen, and you have no control over its appearance or disposition. The Entity uses the Potency of this Power for all checks, Damage, Health and Move. Terrain and Objects have a Move of 0 meters. You may have no more Creations active at once than your Potency Value.
 
-### Create Interactions
+#### Create Interactions
 
 Summon Ally [2 PP]: The Target is considered an Ally and will fight alongside you for the Duration. You and your Allies are still affected by any Effects the Entity creates, such as hazardous terrain. As a minor action, you may control the Entity on your Turn in Tactical Mode, otherwise it acts according to its nature.
 
@@ -183,7 +183,7 @@ Replicate [6 PP]: You may replicate a specific Target's appearance, modify the a
 
 The **Know** Ability allows you to learn an amount of information about a Target within Range or following specific Triggers. When you use this Power, you learn any Conditions an Entity is affected by and whether it is Bloodied.
 
-### Know Interactions
+#### Know Interactions
 
 Quick Thinking [1 PP]: In Tactical Mode, you may use this Power as a minor action instead of a standard action, if it is beneficial to you.
 
@@ -210,7 +210,7 @@ You can Transform your body in new ways. You gain a signature transformation. Yo
 - Terrifying Transformation: Your transformation radically changes your form that others may find disturbing or outright frightening. You gain +1 to all Frighten checks against Targets equal to or less than your Level.
 - Weaponised Transformation: You may add the Potency Value of this Power to your Strikes for the Duration.
 
-### Transform Interactions
+#### Transform Interactions
 - Transmogrify [4]: You may target an Object with this ability. Choose one of your Transformation Types to give them and describe their new appearance. You may choose to give them a humanised appearance if you wish.
 - Polymorph [8]: You may target a Creature with this ability. Choose one of your Transformation Types to give them and describe their new appearance.
 
@@ -218,7 +218,7 @@ You can Transform your body in new ways. You gain a signature transformation. Yo
 
 You may add your Run or Dodge skill to your Move speed.
 
-### Move Interactions.
+#### Move Interactions.
 - Boost (Land) [2 AP]: You can Boost a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Run].
 - Climb [2 AP]: You can Climb a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Climb].
 - Fly [4 AP]: You can Fly a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Acrobatics].
@@ -241,7 +241,7 @@ Similar to the Move Ability, but instead of adding new modes of locomotion, this
 
 The Grant Ability is used to give additional action types to the Target, typically Self or a Creature. If an Object gains an action, it may use it if it has consciousness. If the Target for an Interaction with this Ability is Self, it is a passive effect and does not need to be applied as an Action. Otherwise, it lasts for a basic Duration.
 
-### Grant Interactions
+#### Grant Interactions
 
 - **Share Senses** [3]: Both you and a Target share one imprecise sense originating from either you or the Target (your choice). On a Strong Hit, you may share one precise sense. This only works only as an imprecise sense Strong Hit if the Target is Unwilling. The Target is aware someone if observing it unless this Ability has the Subtle trait. The maximum Distance an Entity under the effects of this Interaction can travel from you is a number of meters equal to your PV x 10 before the effect ends.
 - **Combat Readiness** [3]: Gain an additional free combat reaction.
@@ -253,7 +253,7 @@ The Grant Ability is used to give additional action types to the Target, typical
 
 **Restore reverses damage, degradation, loss, or harmful states affecting the Target.**
 
-### Restore Interactions
+#### Restore Interactions
 
 - **Heal/Repair** [2]: Restore Health, Stamina, or Morale to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
 - **Cleanse Condition** [3]: Remove one specific Condition, such as "Cleanse (Prone)"
@@ -265,7 +265,7 @@ The Grant Ability is used to give additional action types to the Target, typical
 
 The basic Duration is a number of rounds equal to half your PV on a Weak Hit, your PV on a Hit, or PV x2 rounds on a Strong Hit.
 
-#### Interactions
+#### Weaken Interactions
 - **Delay** [2]: Delay an effect applied to the Target until after a basic Duration. The effect is suspended for the Duration and continues as normal afterwards.
 - **Drain** [2]: Perform a basic attack. If you deal Health damage, you restore an amount of Health equal to half the damage dealt, up to your PV.
 - **Ground** [2]: Choose one movement type such as Burrow or Fly you know the Target has. They may not use that movement type for the Duration of this Ability.
@@ -281,7 +281,7 @@ The basic Duration is a number of rounds equal to half your PV on a Weak Hit, yo
 
 The **Nullify** Ability allows you to end, suppress, or prevent Powers and supernatural effects.
 
-#### Interactions
+#### Nullify Interactions
 
 - Dispel [3]: End one ongoing Power effect within Range. If the effect's PV is higher than this Ability's PV, Dispel only succeeds on a Strong Hit.
 - Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Interactions for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
@@ -291,7 +291,7 @@ The **Nullify** Ability allows you to end, suppress, or prevent Powers and super
 
 The **Protect** Ability negates, reduces, or redirects oncoming damage or effects directed to the Target. This Ability lasts for a number of rounds equal to your PV. You may use each Interaction for this Ability once per Scene.
 
-#### Interactions
+#### Protect Interactions
 
 - **Shield** [2]: You count as wielding a magic shield for the duration of this Ability or until it is broken.
 - **Barrier** [5]: You count as if you have used the Raise a Shield action using a magic shield for the duration of this ability. This shield persists, reducing in damage reduction until it reaches 0, when it breaks. The amount of maximum damage reduced is equal to your PV.
@@ -346,19 +346,19 @@ Project separates a Target's consciousness, spirit, or senses, from its body for
 - **Exorcise** [3]: Target one projected, possessing, or spiritually displaced Entity. On a Hit, force it back to its body, vessel, or origin. On a Strong Hit, it cannot Project again for a basic Duration.
 - **Astral Projection** [6]: You leave your body and become Intangible and gain Spirit sense for a basic Duration. Your body is unconscious while you are projecting. Your projected form can Move, Sense, and use non-Physical Powers, but cannot interact with the Physical world unless another effect allows it. Physical creatures cannot see or interact with you without an appropriate Sense or Spirit effect. You are immune to Physical damage and Vulnerable to Spirit damage. You are aware if something interacts with your body. If your body takes damage, you immediately return to it.
 
-### Ability: Alter
+## Ability: Alter
 
 You may change the properties of a Target specified by the Interaction type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Interaction says otherwise. Creatures that would reasonably die or be impaired from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
 
-#### Alter Interactions
+### Alter Interactions
 The Interactions of Alter are sorted by sub-category for easy of use.
 
-##### Appearance
+#### Appearance
 - **Glamour** [2]: Alter the appearance, voice, scent, or other identifying traits of the Target.
 - **Muffle** [3]: Hide the Target from all imprecise senses, such as hearing, smell, and taste.
 - **Conceal** [5]: Hide the Target from one precise sense, such as sight, precise smell, or echolocation. For +2 PP, hide it from all precise senses except Truesight.
 
-##### Form
+#### Form
 - **Material** [5]: Change material to another of similar value and state, such as stone to mud, wood to metal, flesh to stone. The Target now matches the texture, flexibility, sharpness, hardness, etc. of the chosen material for the Duration.
 - **Shape** [3]: Change the Target's physical shape without adding or removing material
 - **Resize or Lighten/Burden** [4]: Increase or decrease Size an amount of stages equal to PV. Alternatively, the Target remains same size with only its Weight changing to match the Size
@@ -366,7 +366,7 @@ The Interactions of Alter are sorted by sub-category for easy of use.
 - **Corrupt** [5]: Change the Target's material to become hazardous, brittle, rotten, corroded, dull, unstable, or contaminated.
 - **Perception** [5]: Improve one of the Target's senses, granting +1 Perception and Range and improve one imprecise sense to a precise sense for the Duration of the Ability. You may instead choose to grant darkvision, infravision, echolocation, or tremorsense as a precise sense for the duration.
 
-##### State
+#### State
 - **Muddy/Solidify** [3]: turn solids in Area into semi-solid slime/goo and back for the Duration of the Ability.
 - **Melt/Congeal** [4]: turn semi-solids in Area into liquids (liquefy) and back for the Duration of the Ability.
 - **Evaporate/Condense** [4]: turn liquid in Area to gas and back for the Duration of the Ability.
