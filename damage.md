@@ -116,7 +116,7 @@ Where X = Condition Value (CV).
 - Nullified by: Restoration
 
 #### Wet
-- Gain Condition: Wet X
+- Gain Condition: Wet X (Contact)
 - Gain Immunity: **Flammable**
 - Gain Resistance: Fire damage
 - Gain Vulnerability: Electric and Frost damage
@@ -167,7 +167,7 @@ Basic Attacks with the corresponding Elemental Tag deal the associated damage ty
 - Earth: **Crushing** damage. Effects with the Fire tag count as one Tier lower against you.
 - Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters (Might Resist) and Prone on a Strong Hit.
 - Metal: **Piercing** or **Electric** damage. Size considered +2 for Weight (swimming, grappling). Wet Vulnerability.
-- Oil: **Poison** damage. Applies **Flammable** condition on Hit+
+- Oil: **Poison** damage. Applies **Flammable** condition on Hit+ (Contact)
 - Smoke: **Suffocation** damage. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all hexes in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
 - Vapour: **Wet** and **Suffocating** damage. Makes Creatures and Objects in Area Wet but not Terrain or Self
 - Water: **Wet** damage. Applies Wet to Self and Area

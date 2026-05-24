@@ -13,7 +13,7 @@ Most Actions are a Standard Action unless specified. The generic Minor Actions a
 ### Combat Reactions
 You may use these actions as Reactions to any Attack roll.
 - Dodge: Roll [Agility] + [Dodge] to avoid damage on a Strong Hit.
-- Block: Roll [Fitness] + [Endure] for Physical Attacks or [Willpower] + [Composure] for Elemental Attacks. You reduce the amount of damage by an amount equal to your Level + number of 6s rolled.
+- Block: Roll [Fitness] + [Endure] for Physical Attacks or [Willpower] + [Composure] for Elemental Attacks. You reduce the amount of damage by an amount equal to your Level + number of 6s rolled. Reducing the damage to 0 prevents Damage Types without the Contact Trait from applying their Vulnerability Condition.
 - Tank: Take damage as normal. You gain Resistance to the damage type of the Attack equal to your Level + 1 until the end of your next turn. You may step as part of this reaction when an Ally is about to be hit if the attacker or your Ally is adjacent to you or your body is along the path a projectile would travel. You take damage and any contact effects instead of the Ally for this attack.
 - Combine Elements: When an Ally makes a basic attack or Power roll, you may make a basic attack. On a Hit+, you add one Elemental damage type applicable to your basic attack to your Ally's attack. Both damage types occur simultaneously with any Conditions or other extra effects applied on a Strong Hit after the damage is resolved.
 
@@ -58,7 +58,8 @@ Restore an Ally's Health once per Episode. Roll [Knowledge] or [Perception] + [A
 - Strong Hit: As Hit, but add your [Level] to any healing given.
 
 ### Aid
-Restore an Ally's Morale.
+// change to Comfort?
+Make a [Leadership] + [Rally] or [Empathy] to restore an Ally's Morale.
 - Weak Hit: Restore Ally's Morale by 1.
 - Hit: Restore Ally's Morale by an amount equal to your Leadership score.
 - Strong Hit: Restore an Ally's Morale by an amount equal to your Leadership score + Level.
