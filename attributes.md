@@ -120,7 +120,7 @@ When you enter a state of **Panic**, you receive a -1 penalty to all Attacks and
 
 #### Morale in Narrative Mode
 
-In Narrative and Negotiation mode, instead of Panicking, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. If you are unable or unwilling to leave the scene physically, you may become dejected, depressed, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Morale.
+In Narrative and Negotiation mode, instead of Panicking, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Morale.
 
 ### Fellowship
 

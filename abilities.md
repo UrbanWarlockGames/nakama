@@ -272,8 +272,9 @@ The basic Duration is a number of rounds equal to half your PV on a Weak Hit, yo
 - **Slow** [3]: Reduce movement by W: half PV, H: PV, S: apply Slowed (1/2 Move)
 - **Expose** [3]: Apply Vulnerability to a specific Element to the Target.
 - **Hex** [4]: Extend the duration of one Condition that uses a basic Duration on the Target by one round. You may use this Interaction a number of times each Scene equal to half your PV.
-- **Impair** [4]: Weak Hit: The Target drops all items they are holding, Hit: The Target cannot convert their standard action into two additional minor actions, Strong: The Target must choose between using their standard or minor action. You may choose a lower Hit Tier if it is beneficial to you.
+- **Disrupt** [4]: Weak Hit: The Target drops all items they are holding, Hit: The Target cannot convert their standard action into two additional minor actions, Strong: The Target must choose between using their standard or minor action. You may choose a lower Hit Tier if it is beneficial to you.
 - **Stun** [4]: The Target cannot take Reactions.
+- **Silence** [5]: The Target is unable to speak on a Strong Hit.
 - **Paralyse** [8]: The Target becomes Immobilised (cannot Move) and can not make Body or Social actions, including speaking. Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
 - **Incapacitate** [12]: The Target becomes Helpless (Paralysed and Prone). Duration: Weak Hit 1 round, Hit 2 rounds, Strong Hit half PV rounds, minimum 1.
 
@@ -348,7 +349,7 @@ Project separates a Target's consciousness, spirit, or senses, from its body for
 
 ## Ability: Alter
 
-You may change the properties of a Target specified by the Interaction type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Interaction says otherwise. Creatures that would reasonably die or be impaired from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
+You may change the properties of a Target specified by the Interaction type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Interaction says otherwise. Creatures that would reasonably die or be lose function from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
 
 ### Alter Interactions
 The Interactions of Alter are sorted by sub-category for easy of use.

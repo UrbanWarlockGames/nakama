@@ -6,7 +6,7 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 - Slashing (cutting, slicing)
 - Piercing (stabbing, impaling)
 - Ballistic (bullets, explosive force)
-- Incapacitating (non-lethal damage [NL]; not deadly; deals Strain (Stamina damage) instead of Harm (Health damage) and Unconscious at 0 on a Strong Hit. Every hit after 0 Stamina deals 1 damage only, negative Stamina subtracts from your dice pool)
+- Incapacitating (non-lethal damage [NL]; less-lethal; deals Strain (Stamina damage) instead of Harm (Health damage) and Unconscious at 0 on a Strong Hit. Every hit after 0 Stamina deals 1 damage only, negative Stamina subtracts from your dice pool)
 
 ### Primordial
 - Fire (burns; can melt ice on hit, removing the Frozen critical effect, turn Cold to Wet, remove Wet; critical effect: Ignite 1 flames damage/turn)
@@ -53,7 +53,7 @@ Where X = Condition Value (CV).
 ### Physical
 
 #### Crushing
-- Vulnerability Condition: Broken Bones (Choose: Limbs or Body. Limbs: become broken leaving one Hand or Appendage of your choice unusable. Body: Target is Stunned until the end of their next turn or until Helped)
+- Vulnerability Condition: Broken Bones (Choose: Limbs or Body. Limb Injury: one Hand or similar appendage of your choice becomes unusable. All items held in that Hand are dropped. Body Injury: Target is Stunned until the end of their next turn or until Helped)
 - Reduced by: Heal (Hit+)
 - Nullified by: Restoration
 
@@ -164,7 +164,7 @@ Where X = Condition Value (CV).
 
 Basic Attacks with the corresponding Elemental Tag deal the associated damage type and apply any Vulnerability Conditions on a Strong Hit to Targets with the associated Vulnerability. Any Entities (Creatures, Objects, or Terrain) with the Elemental Tag is immune to the corresponding Vulnerability Condition, but gains Vulnerability to any associated Weakening or Nullifying Effects. For example, a Creature with the Wet trait always counts as being Wet, and any attacks apply the Wet condition.
 - Ash: **Suffocating** and **Fire** damage + **Ignite** on Strong Hit
-- Earth: **Crushing** damage. Effects with the Fire tag count as one Tier lower against you.
+- Earth: **Crushing** damage. Effects with the Fire tag count as one Tier lower against you. Applies **Slowed** on a Strong Hit.
 - Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters (Might Resist) and Prone on a Strong Hit.
 - Metal: **Piercing** or **Electric** damage. Size considered +2 for Weight (swimming, grappling). Wet Vulnerability.
 - Oil: **Poison** damage. Applies **Flammable** condition on Hit+ (Contact)

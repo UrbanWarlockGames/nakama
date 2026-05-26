@@ -23,7 +23,7 @@ You can spend 1 Influence point to gain one of the following:
 ### Leverage Types
 The following types of Leverage work even if you do not have a Bond with the character, but without a Bond they can only support a Rank 1 Favour. When used, they damage your Bond with the character toward 0 by an amount equal to the Favour Rank:
 - Incentive: Offer something of value to the character, such as Wealth or a valuable object (a bribe).
-- Threat: Includes revealing a Secret, threatening a Drive, or threatening a Dependent (someone powerless who is close to them). Threatening a Dependent is often unheroic (especially if you mean it), but Invoking them in an argument may not be.
+- Threat: Includes revealing a Secret, threatening a Drive, or threatening a Dependent (a non-powered person who is close to them). Threatening a Dependent is often unheroic (especially if you mean it), but Invoking them in an argument may not be.
 - Manipulation: Includes lying or appealing to Ethics, Emotions, or by Invoking one of their Drives.
 
 ### Influencing Nakama
@@ -36,7 +36,7 @@ If the defending Player would like to make a counter-offer, they first refuse th
 
 ## Favour
 
-A Favour is a meaningful request made by one character of another toward a specific goal, often related to a character's Motivations or other Drives. A Favour can be a simple action or a complex task toward an end goal. The complexity of the Task determines its Favour Rank (see: Trust Table). A character will not agree to a Favour they believe would cause unacceptable harm to themself or someone they Trust, unless the Favour's Rank is high enough, the request strongly aligns with their Drives, or suitable Leverage is used. A character in a confused or inebriated state may agree to do something they otherwise would be opposed to, if the Favour appeals to one of their Drives, but coercing someone in such a way may result in a loss of Trust.
+A Favour is a meaningful request made by one character of another toward a specific goal, often related to a character's Motivations or other Drives. A Favour can be a simple action or a complex task toward an end goal. The complexity of the Task determines its Favour Rank (see: Trust Table). A character will not agree to a Favour they believe would cause unacceptable harm to themself or someone they Trust, unless the Favour's Rank is high enough, the request strongly aligns with their Drives, or suitable Leverage is used.
 
 Failing to complete a Favour makes you take an amount of Morale damage equal to the Favour Rank (half on a partial completion), or 1 Stress (your choice).
 
