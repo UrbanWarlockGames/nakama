@@ -23,11 +23,10 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 
 ### Special
 These damage types are typically reserved for secondary effects or reserved for background characters. You must ask your GM before selecting one as an Elemental Damage type or Elemental Tag.
-- Holy (pure positive energy; heals Holy, damages Vile, altruism and Luck)
-- Vile (pure negative energy; heals Vile, damages Holy, corruption and Despair)
+- Life (vital energy, altruism and luck; heals Living, damages Unliving)	# may be called 'Holy' in some settings
+- Death (entropy, decay, time, ageing; heals Unliving, damages Living) [req: Biological]	# may be called 'Vile' in some settings
 - Aberrant (otherworldly, eldritch, changing; Targets Morale pool before Health pool, instead of Stamina)
 - Spirit (damages the soul, true damage) [req: Living]
-- Death (entropy; decay, time, ageing; 1% instant death on Strong Hit) [req: Biological]
 - Bleed (bleeding, haemorrhaging; triggers Blood effects on first instance) [requires: Blood]
 - Pressure (compression) [req: Organs]
 - Suffocation (oxygen deprivation) [req: Breathing]
@@ -50,7 +49,7 @@ Where X = Condition Value (CV).
 - Nullified by: What removes X entirely
 - Area Condition: Condition when applied to Terrain
 
-### Physical
+### Physical Vulnerability Conditions
 
 #### Crushing
 - Vulnerability Condition: Broken Bones (Choose: Limbs or Body. Limb Injury: one Hand or similar appendage of your choice becomes unusable. All items held in that Hand are dropped. Body Injury: Target is Stunned until the end of their next turn or until Helped)
@@ -79,7 +78,7 @@ Where X = Condition Value (CV).
 #### Incapacitating
 - Vulnerability Condition: Unconscious
 
-### Primordial
+### Primordial Vulnerability Conditions
 
 #### Fire
 - Vulnerability Condition: Ignite X
@@ -123,7 +122,7 @@ Where X = Condition Value (CV).
 - Amplified by: Wet
 - Nullified by: Frost (Wet becomes Frozen), Fire (Wet is Nullified)
 
-### Magical
+### Magical Vulnerability Conditions
 
 #### Psychic
 - Vulnerability Condition: Brain Drain X
@@ -132,17 +131,17 @@ Where X = Condition Value (CV).
 - Reduced by: Aid (Leadership), end of Target's turn
 - Nullified by: Brainless
 
-### Special
+### Special Vulnerability Conditions
 
-#### Holy
-- Vulnerability Condition: Holy Fire
-- Effect: You cannot receive the effects of healing
-- Nullified by: Restoration, Corrupted
+#### Life
+- Vulnerability Condition: Radiant Fire
+- Effect: You cannot receive the effects of healing. Can be applied to Living Creatures on a Strong Hit as a Restoration Effect
+- Nullified by: Restoration, Object, Terrain
 
-#### Vile
-- Vulnerability Condition: Corrupted
-- Effect: You cannot receive the effects of healing
-- Nullified by: Restoration, Holy Fire
+#### Death
+- Vulnerability Condition: Doomed X
+- Effect: If Doomed X > Level, take direct Health damage equal to X. Otherwise, roll a d100. On a 100, the Entity instantly dies. Can be applied to Unliving Creatures on a Strong Hit as a Restoration Effect
+- Nullified by: Restoration, Object, Terrain
 
 #### Aberrant
 - Vulnerability Condition: Frightened X
@@ -154,11 +153,6 @@ Where X = Condition Value (CV).
 - Vulnerability Condition: Siphoned X
 - Effect: -X to all Power rolls
 - Amplified by: Siphoned
-
-#### Death
-- Vulnerability Condition: Doomed X
-- Effect: If Doomed X > Level, take direct Health damage equal to X. Otherwise, roll a d100. On a 100, the Entity instantly dies.
-- Nullified by: Unliving
 
 ## Elemental Tags
 
