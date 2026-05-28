@@ -8,22 +8,22 @@ You have 30 XP points to spend on your Attributes and Skills. Each of your Attri
 - Fitness: Outlast your foes with endurance. Athletics, **Health**, **Stamina**
 
 ### Mind
-- Knowledge: Become a walking encyclopaedia. Analyse the situation. Recall key details. At Level 1, you gain a free number of Skills at Rank 1 equal to your Knowledge skill, and gain one free skill at Level 1 each time you upgrade it.
+- Smarts: Become a walking encyclopaedia. Analyse the situation. Recall key details. At Level 1, you gain a free number of Skills at Rank 1 equal to your Smarts skill, and gain one free skill at Level 1 each time you upgrade it.
 - Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**, **Initiative**
 - Willpower: The resolve to keep on going. **Morale**
 
-### Social
+### Heart
 - Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (**Reaction Roll**). Leave a good **First Impression**.
 - Rhetoric: Be convincing. Know what others desire.
 - Leadership: Rally your Allies (**Aid**). Be a good shoulder to cry on (Heal their Stress and Morale). Know how to work-up a crowd.
 
 ## Skills
 
-Skills have an associated Attribute, but can be used with other Attributes if justified. Knowledge can be used with almost any Skill to understand more about its key concepts.
+Skills have an associated Attribute, but can be used with other Attributes if justified. Smarts can be used with almost any Skill to understand more about its key concepts.
 
 ### Might
 - Bash: break down objects
-- Frighten: terrorise the weak-willed; intimidation
+- Frighten: intimidation
 - Labour: manual labour using hand tools, understand/empathise with the working man
 - Lift: lift and drag
 - Throw: throw long distances and accurately
@@ -34,45 +34,43 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 - Escape Artist: squeezing in and out of tight places
 - Sleight of Hand: hand-eye coordination, conceal small objects, pick locks, impress small children with coin tricks
 - Stealth: make your presence minimal; hide, move quietly, blend-in with a crowd, shadow others
-- Stunt Driving: do a sick kickflip; planes, trains, automobiles, youth/delinquent culture
 
 ### Fitness
 - Climb: climb and maintain your grip
 - Endure: don't let the pain stop you
-- Jump: jump high and far
+- Jump: jump high and far. jump distance = jump. ignores diagonal penalty
 - Ride: ride 'em cowboy
-- Run and Chase: endurance running
+- Run / Chase: endurance running
 - Swim: don't sink
 - Wrestle: grappling
 
-### Knowledge
-- Anatomy: understand the human body and disease, practice medicine
+### Smarts
+- Academics: anthropology, history, linguistics, culture, literature, high art
 - Appraise: understand value and economics
-- Botany: plants and fungi
-- Chemistry: build bombs and drugs
-- Cooking: cook nice food
+- Cooking: cook healthy and nutritious food
 - Deduction: scene reconstruction, understand how something physically happened
-- Engineering: understand structures and their weaknesses (sapping), operate heavy machinery or complex mechanical devices
-- Mathematics: understand numbers and geometry, calculate trajectories, logistics and supplies
-- Navigation: know your way, read maps, don't get lost
+- Medicine: understand the human body and disease, practice medicine
 - Occult: understand the supernatural
 - Research: read books, find the right information
 - Rigging: using ropes, tying knots, setting up traps
-- Sewing: repair and make cloth-based goods, clothing or light armour
-- Society: anthropology, culture, literature
-- Technobabble: fast talking; sound smart while saying nothing of substance
-- Warfare: tactics, strategy, famous battles, weaponry, armour
-- Zoology: understand mundane animals
+- Science: SCIENCE!; make gadgets, bombs, doodads, understand scientific concepts such as maths, biology, chemistry, physics, electronics; technobabble: fast talking; sound smart while saying nothing of substance
+- has a chance make a random fact about the world true on a Strong Hit
+- Warfare: tactics, strategy, famous battles, weaponry, armour, field repair
 
 ### Perception
-- Awareness: know your surroundings, pay attention to small details
-- Search: check for loot, check for traps
-- Track: follow the clues
+- Awareness: know your surroundings
+- Inspect: check something specific for small details
+- Search: check general area for loot, check for traps
+- Track: follow someone/something
 
 ### Willpower
 - Composure: keep a straight face, focus while distracted
+- Instinct: you can't explain it. you just KNOW; commune with the world itself, hear it breathe, hear its pain
+- Navigate: don't lose your way; read maps, don't get lost
 
 ### Charm
+- Animal Friend: make small and big critters your friends, boop the snoot
+- Be Cool: do a sick kickflip; know/operate planes, trains, automobiles, and youth/delinquent culture
 - Carouse: build bonds, drink and be merry, get the latest gossip
 - Distract: distract, lure
 - Etiquette: fit in with rich snobs
@@ -80,14 +78,17 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 - Perform: play music, dance, sing, do stand-up comedy, mimicry, disguises, makeup
 
 ### Rhetoric
-- Ethics: politics, propaganda, power structures, authority, appeal to ethics
+- Authority: politics, propaganda, power structures, authority, appeal to ethics
 - Insight: understand motivations and leverage
 - Lie: manipulate others for your own gain or just for the fun of it, twist the truth, fabricate evidence
-- Persuade: argue using facts and logic
+- Persuade: argue using FACTS and LOGIC
 
 ### Leadership
+- Coordinate: get people who are butting heads to work together
 - Empathy: appeal to people's feelings, talk through things, understand people's emotions or state of mind, express yourself through art
-- Rally to Action: heal an Ally's Morale damage, appeal to people's morals or convictions
+- Logistics: stay fed and on schedule
+- Mentor: take others under your wing and teach/train them in your ways
+- Rally: heal an Ally's Morale damage, appeal to people's morals or convictions
 - Speeches: address a room of people or crowd
 
 ## Derived Attributes
@@ -132,7 +133,7 @@ Your Stress starts at 0. Each time your Party fails a Negotiation, all members p
 
 ### Strike!
 
-In character creation, you may choose any Attribute to be your Basic Attack Attribute. You can pick any Attribute, as long as you can explain *how* you use it. For example, some characters may use *raw physical power* (Might), while others use *cunning* (Knowledge). Others may *act unassuming* (Charm) so their opponents let their guard down. Once you choose your Basic Attack Attribute, you may not change it again.
+In character creation, you may choose any Attribute to be your Basic Attack Attribute. You can pick any Attribute, as long as you can explain *how* you use it. For example, some characters may use *raw physical power* (Might), while others use *cunning* (Smarts). Others may *act unassuming* (Charm) so their opponents let their guard down. Once you choose your Basic Attack Attribute, you may not change it again.
 
 When you make a Basic Attack, you roll a number dice equal to your **Basic Attack Attribute** + **Strike Value**, which is equal to your Level + Item Bonus. An Item Bonus comes from magic items or a physical weapon 3 or more sizes greater than your Target. A magic item for a *Might* character, such as a magic sword or greataxe, would look different than one for a *Willpower* character, such as a magic bracelet that focuses their power. Your basic attack can look like anything you desire, from your fists to a burst of physic energy, but they do not have an Elemental tag except from a magic item.
 
