@@ -24,7 +24,7 @@ As with all Skill rolls, you may replace the default Attribute with a more fitti
 Make a [Might] + [Frighten] roll.
 - Weak Hit: Increase your Frightened (-1 to all Combat Reactions) value by 1.
 - Hit: Increase your Frightened (-1 to all Combat Reactions) value by 1.
-- Strong Hit: Increase the Target's Frightened value to 2 if it is less than 2, or increase it by 1. The creature must make a Morale check at the end of each of its turns.
+- Strong Hit: Increase the Target's Frightened value to 2 if it is less than 2, or increase it by 1. The creature must make a Belief check at the end of each of its turns.
 
 #### Wrestling
 Before you may select a Wrestling manoeuvre, you must succeed a Grab check. It is determined by [Might] or [Fitness] + [Wrestling].
@@ -59,10 +59,10 @@ Restore an Ally's Health once per Episode. Roll [Knowledge] or [Perception] + [A
 
 ### Aid
 // change to Comfort?
-Make a [Leadership] + [Rally] or [Empathy] to restore an Ally's Morale.
-- Weak Hit: Restore Ally's Morale by 1.
-- Hit: Restore Ally's Morale by an amount equal to your Leadership score.
-- Strong Hit: Restore an Ally's Morale by an amount equal to your Leadership score + Level.
+Make a [Leadership] + [Rally] or [Empathy] to restore an Ally's Belief.
+- Weak Hit: Restore Ally's Belief by 1.
+- Hit: Restore Ally's Belief by an amount equal to your Leadership score.
+- Strong Hit: Restore an Ally's Belief by an amount equal to your Leadership score + Level.
 
 ### Assist
 You may Assist an ally with a skill check for which you have one or more points invested into. Roll the appropriate skill check.

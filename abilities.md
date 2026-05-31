@@ -57,7 +57,7 @@ When creating a Power, you may choose which Attribute you use when you make a Po
 ### Body
 - Might: Free Alteration (Size) — +1 Size of Target.
 - Agility: Finesse — Once per Episode, you may use an Agility Power as swift action. If that Power or Interaction is already a minor action, it becomes a free action instead. 
-- Fitness: Overdrive — Once per Episode, when you roll a Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Morale damage (your choice).
+- Fitness: Overdrive — Once per Episode, when you roll a Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Belief damage (your choice).
 
 ### Mind
 - Knowledge: Elemental Affinity — When you create a Power using Knowledge, you may add one Elemental Trait for 1 PP. Any contact conditions are applied on a Hit and the Vulnerability Condition on a Strong Hit. If the Target has a Vulnerability to the damage type, it is applied on a Hit+ instead.
@@ -67,7 +67,7 @@ When creating a Power, you may choose which Attribute you use when you make a Po
 ### Social
 - Charm: Off Guard — You gain a +1 against unaware or friendly Targets the first time this Power is used in a Scene.
 - Rhetoric: Cost Reduction (Condition) — Reduce the cost of any Interaction that applies a Condition by 1 PP. You may also choose to create an Improv Interaction that applies a Condition on a Strong Hit with a cost determined by the base Condition cost.
-- Leadership: Supportive — Add the number of 6s rolled to healing effects for Health, Stamina, Morale, and Armour while using this Power.
+- Leadership: Supportive — Add the number of 6s rolled to healing effects for Health, Stamina, Belief, and Armour while using this Power.
 
 ## Alterations and Interactions
 
@@ -255,7 +255,7 @@ The Grant Ability is used to give additional action types to the Target, typical
 
 #### Restore Interactions
 
-- **Heal/Repair** [2]: Restore Health, Stamina, or Morale to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
+- **Heal/Repair** [2]: Restore Health, Stamina, or Belief to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
 - **Cleanse Condition** [3]: Remove one specific Condition, such as "Cleanse (Prone)"
 - **Cleanse Vulnerability** [3]: Nullify any Vulnerability Condition that can be Nullified by Restoration
 - **Regenerate** [3]: Restore missing body parts or functionality of a willing Creature or reconstruct an Object/Terrain. The Target's limbs or functionality can only be restored to its state at birth or creation and not be given additional functionality. Requires a Strong Hit for full functionality to be restored.
@@ -315,7 +315,7 @@ The **Absorb** Ability takes in an incoming or existing Elemental effect and sto
 
 ## Ability: Duplicate
 
-You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Morale and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Interaction says otherwise.
+You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Belief and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Interaction says otherwise.
 
 #### Duplicate Interactions
 

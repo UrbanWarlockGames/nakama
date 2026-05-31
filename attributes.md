@@ -10,12 +10,12 @@ You have 30 XP points to spend on your Attributes and Skills. Each of your Attri
 ### Mind
 - Smarts: Become a walking encyclopaedia. Analyse the situation. Recall key details. At Level 1, you gain a free number of Skills at Rank 1 equal to your Smarts skill, and gain one free skill at Level 1 each time you upgrade it.
 - Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**, **Initiative**
-- Willpower: The resolve to keep on going. **Morale**
+- Willpower: The resolve to keep on going. **Belief**
 
 ### Heart
 - Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (**Reaction Roll**). Leave a good **First Impression**.
 - Rhetoric: Be convincing. Know what others desire.
-- Leadership: Rally your Allies (**Aid**). Be a good shoulder to cry on (Heal their Stress and Morale). Know how to work-up a crowd.
+- Leadership: Rally your Allies (**Aid**). Be a good shoulder to cry on (Heal their Stress and Belief). Know how to work-up a crowd.
 
 ## Skills
 
@@ -88,7 +88,7 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 - Empathy: appeal to people's feelings, talk through things, understand people's emotions or state of mind, express yourself through art
 - Logistics: stay fed and on schedule
 - Mentor: take others under your wing and teach/train them in your ways
-- Rally: heal an Ally's Morale damage, appeal to people's morals or convictions
+- Rally: heal an Ally's Belief damage, appeal to people's morals or convictions
 - Speeches: address a room of people or crowd
 
 ## Derived Attributes
@@ -103,25 +103,25 @@ You have a number of Hit Points (Health) equal to your [Might + Fitness + Level]
 
 At 0 Health, you enter your **Last Stand**. After a number of rounds equal to your Level, you become incapacitated and then die after your **Final Goodbye**. You may choose to say your **Final Goodbye** at any point after you enter your **Last Stand**. Doing so will give you a bonus to your next action's dice pool or damage equal to the number of Party Members you have. Once the action is resolved, you immediately die.
 
-### Morale
+### Belief
 
-Your Morale is equal to your Willpower score. When you experience a Morale Trigger, you must make a Willpower Resistance check. If you fail, your Willpower is reduced by 1 point. If your Willpower is reduced to 0, you enter a state of **Panic**. Your Morale is restored when a Party Member uses the Aid action on you by an amount equal to their Leadership score. Each time you recover Stress or Fellowship, you also regain all lost Morale.
+Your Belief is equal to your Willpower score. When you experience a Belief Trigger, you must make a Willpower Resistance check. If you fail, your Willpower is reduced by 1 point. If your Willpower is reduced to 0, you enter a state of **Despair**. Your Belief is restored when a Party Member uses the Aid action on you by an amount equal to their Leadership score. Each time you recover Stress or Fellowship, you also regain all lost Belief.
 
-#### Morale Triggers
+#### Belief Triggers
 - An adjacent Ally is killed or incapacitated.
 - Half of your side is killed or incapacitated.
 - Your Leader is killed or incapacitated.
 - You are surrounded on all sides by Hostile Entities or impassable Terrain
 - You are Bloodied (half Health)
-- An adjacent Ally fails a Morale check
+- An adjacent Ally fails a Belief check
 
-#### Panic
+#### Despair in Tactical Mode
 
-When you enter a state of **Panic**, you receive a -1 penalty to all Attacks and you must Move to the farthest position behind cover away from Hostile Entities and Take Cover. If you cannot or it is unsafe to do so, you must Attack the nearest Hostile creature until a path is clear. If you cannot, you must Take Cover or take another defensive Action.
+When you enter a state of **Despair**, you receive a -1 penalty to all Attacks and you must Move to the farthest position behind cover away from Hostile Entities and Take Cover. If you cannot or it is unsafe to do so, you must Attack the nearest Hostile creature until a path is clear. If you cannot, you must Take Cover or take another defensive Action.
 
-#### Morale in Narrative Mode
+#### Despair in Narrative Mode
 
-In Narrative and Negotiation mode, instead of Panicking, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Morale.
+In Narrative and Negotiation mode, when your Belief reaches 0, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. A common choice is to go engage in your Vice. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Belief.
 
 ### Fellowship
 
@@ -129,7 +129,7 @@ The Party shares a pool of **Fellowship** equal to the number of permanent Party
 
 ### Stress
 
-Your Stress starts at 0. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Morale damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. Each teammate should talk about a different Party member until no one is left out. It is encouraged that the group plan an activity to **Relax** during this time if possible, such as *visiting a hot spring* or *going to the beach*. Recovering Stress rewards 1 Ability Point and restores all Fellowship.
+Your Stress starts at 0. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. Each teammate should talk about a different Party member until no one is left out. It is encouraged that the group plan an activity to **Relax** during this time if possible, such as *visiting a hot spring* or *going to the beach*. Recovering Stress rewards 1 Ability Point and restores all Fellowship.
 
 ### Strike!
 
@@ -145,7 +145,7 @@ For example, you may make your Vice: **Drunkard (Composure)** with the Compulsio
 
 You may also Overindulge as a Downtime Action. If you choose to Overindulge in your Vice, explain what you do and what pushes your character to do it. After the Scene, you gain a -1 to your next roll using the paired Skill and gain one Stress. Regardless of whether you Request/Accept a Compulsion from the GM or Overindulge, you gain one point of Luck.
 
-Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may act on your Virtue's Compulsion in Narrative Mode or as a Downtime Action to recover all lost Morale. If your Morale is full, your party regains 1 Fellowship so long as you have at least one party member assisting you.
+Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may act on your Virtue's Compulsion in Narrative Mode or as a Downtime Action to recover all lost Belief. If your Belief is full, your party regains 1 Fellowship so long as you have at least one party member assisting you.
 
 ## Tables
 

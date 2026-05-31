@@ -38,7 +38,7 @@ If the defending Player would like to make a counter-offer, they first refuse th
 
 A Favour is a meaningful request made by one character of another toward a specific goal, often related to a character's Motivations or other Drives. A Favour can be a simple action or a complex task toward an end goal. The complexity of the Task determines its Favour Rank (see: Trust Table). A character will not agree to a Favour they believe would cause unacceptable harm to themself or someone they Trust, unless the Favour's Rank is high enough, the request strongly aligns with their Drives, or suitable Leverage is used.
 
-Failing to complete a Favour makes you take an amount of Morale damage equal to the Favour Rank (half on a partial completion), or 1 Stress (your choice).
+Failing to complete a Favour makes you take an amount of Belief damage equal to the Favour Rank (half on a partial completion), or 1 Stress (your choice).
 
 ## Debt
 
@@ -154,7 +154,7 @@ Both sides must agree to the conditions, then, the Social Contract is formed. If
 - A successful Argument fills 1 segment of the Negotiation clock or 2 if the targeted trait is Vulnerable.
 - Instead of forming an Argument, a Player may try to Expose a Drive by offering the opponent a Debt on them. The opponent will reveal one unknown, unresisted Drive in return for the Debt. The Player may then describe how they figure it out or get the Opponent to expose the Drive themself.
 - In addition, arguments that do not target a specific Drive may fall under the traits of: Ethics (Rhetoric; what is right), Empathy (Leadership; emotions, bonds), Logic (Smarts; evidence), Duty (Willpower; what must be done), or Temptation (Charm; offer something for compliance). Some characters may resist or be Vulnerable to arguments with these traits, as with the other personality traits. However, unlike targeting a Drive, a general argument only fills 1 segment when targeting a Vulnerable trait, fills 0 segments when targeting a neutral trait, and marks a failure with a resisted trait, alongside a GM Move.
-- On the GM's turn, they Make a Move, such as Revealing a Weakness, provoking the player to roll a [Willpower] + [Composure] check or suffer Morale damage. A Player is removed from the Negotiation when their Morale drops to 0. A Debt may also be used as a GM Move to drop a Player from the Negotiation.
+- On the GM's turn, they Make a Move, such as Revealing a Weakness, provoking the player to roll a [Willpower] + [Composure] check or suffer Belief damage. A Player is removed from the Negotiation when their Belief drops to 0. A Debt may also be used as a GM Move to drop a Player from the Negotiation.
 - The Initiator loses if all members of their side are removed from the Negotiation, they abandon the Social Contract, or they suffer three failures. Mark a failure when they invoke a resisted Drive, target an incorrect specific Drive, or make an Argument that does not apply to any relevant Drive or Bond.
 - Whichever side loses the Negotiation gains 1 Stress and must follow the Social Contract established by the other party, or face a Complication determined by the GM.
 
@@ -163,9 +163,9 @@ wip
 
 Make a Move:
 - Get Defensive: The Defendant hardens their position. Mark a failure unless the Initiator changes approach.
-- Poison the Well: Introduce doubt, rumour, or insult the character of a participant. They must take Morale damage equal to double your Level or suffer -1 forward to their next roll after the Negotiation.
+- Poison the Well: Introduce doubt, rumour, or insult the character of a participant. They must take Belief damage equal to double your Level or suffer -1 forward to their next roll after the Negotiation.
 - Redirect Blame: Shift attention to another character or issue. The next Argument must address the new target or fill no segments.
-- Reveal a Weakness: Expose one of the Instigator's Drives. The target must roll a [Willpower] + [Composure] check or suffer Morale damage equal to the Drive's Value + your Level.
+- Reveal a Weakness: Expose one of the Instigator's Drives. The target must roll a [Willpower] + [Composure] check or suffer Belief damage equal to the Drive's Value + your Level.
 - Twist Their Words: ...
 - Use a Debt: Spend a Debt to remove a participant.
 

@@ -1,5 +1,5 @@
 ## Damage Types
-Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing, Ballistic, Incapacitating) and **Elemental Damage** (all other damage types).
+Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing, Ballistic, Incapacitating) and **Elemental Damage** (all other damage types). **Special Damage** cannot be selected without permission from the GM first.
 
 ### Physical
 - Crushing (blunt force trauma)
@@ -19,20 +19,20 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 
 ### Magical
 - Arcane (raw magical energy; unresistible)
-- Psychic (mental or non-visible damage, cringe; always Targets morale pool before health pool) [req: Brain]
+- Psychic (mental or non-visible damage, cringe; always Targets Belief pool instead of Stamina pool before Health pool) [req: Brain]
 
 ### Special
 These damage types are typically reserved for secondary effects or reserved for background characters. You must ask your GM before selecting one as an Elemental Damage type or Elemental Tag.
 - Life (vital energy, altruism and luck; heals Living, damages Unliving)	# may be called 'Holy' in some settings
 - Death (entropy, decay, time, ageing; heals Unliving, damages Living) [req: Biological]	# may be called 'Vile' in some settings
-- Aberrant (otherworldly, eldritch, changing; Targets Morale pool before Health pool, instead of Stamina)
+- Aberrant (otherworldly, eldritch, changing; Targets Belief pool instead of Stamina pool before Health pool, instead of Stamina)
 - Spirit (damages the soul, true damage) [req: Living]
 - Bleed (bleeding, haemorrhaging; triggers Blood effects on first instance) [requires: Blood]
 - Pressure (compression) [req: Organs]
 - Suffocation (oxygen deprivation) [req: Breathing]
 
 ## Damage Conditions
-Most damage types have a Vulnerability condition which is triggered when a Hit+ is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type. Damage Conditions stack. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
+Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type, unless specified otherwise in the Condition. Conditions with a Value are Ampligied (increase their Value by 1) when applied again. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
 
 Terrain with the Condition, such as Wet Terrain or Charged Terrain, apply the Vulnerability Condition to Entites with the corresponding Vulnerability that enter the Terrain and at the end of each of their turns they end inside the terrain thereafter. Persistent Damage is always applied at the end of one's turn giving opportunity to remove it before taking damage again.
 
@@ -76,7 +76,7 @@ Where X = Condition Value (CV).
 - Nullified by: Restoration
 
 #### Incapacitating
-- Vulnerability Condition: Unconscious
+- Vulnerability Condition: Unconscious (You are Helpless, cannot take any Actions, and cannot use any Senses)
 
 ### Primordial Vulnerability Conditions
 
@@ -98,9 +98,9 @@ Where X = Condition Value (CV).
 
 #### Electric
 - Vulnerability Condition: Charged X
-- Effect: X persistent Electric damage to any Wet Targets and all touching same Wet Area
+- Effect: X persistent Electric damage to any Wet Targets and all Wet Entities touching the same Wet Area
 - Amplified by: Charged
-- Nullified by: leaving affected hexes
+- Nullified by: leaving affected Area
 
 #### Acid
 - Vulnerability Condition: Corroded X
@@ -114,6 +114,12 @@ Where X = Condition Value (CV).
 - Amplified by: Poisoned
 - Nullified by: Restoration
 
+#### Sonic
+- Gain Condition: Deafened X (Contact)
+- Effect: You cannot Hear and get a -X to all Social Actions
+- Amplified by: Deafened
+- Reduced by: end of your next turn
+
 #### Wet
 - Gain Condition: Wet X (Contact)
 - Gain Immunity: **Flammable**
@@ -121,6 +127,7 @@ Where X = Condition Value (CV).
 - Gain Vulnerability: Electric and Frost damage
 - Amplified by: Wet
 - Nullified by: Frost (Wet becomes Frozen), Fire (Wet is Nullified)
+- Terrain Effect: Entities that enter the Area or end their turn in the Area increase their Wet value by 1.
 
 ### Magical Vulnerability Conditions
 
@@ -145,7 +152,7 @@ Where X = Condition Value (CV).
 
 #### Aberrant
 - Vulnerability Condition: Frightened X
-- Effect: -X to all Combat Reactions and make a Morale check at the end of your turn
+- Effect: -X to all Combat Reactions and make a Belief check at the end of your turn
 - Amplified by: Frightened
 - Reduced by: Aid (Leadership)
 
@@ -153,16 +160,17 @@ Where X = Condition Value (CV).
 - Vulnerability Condition: Siphoned X
 - Effect: -X to all Power rolls
 - Amplified by: Siphoned
+- Nullified by: Restoration
 
 ## Elemental Tags
 
 Basic Attacks with the corresponding Elemental Tag deal the associated damage type and apply any Vulnerability Conditions on a Strong Hit to Targets with the associated Vulnerability. Any Entities (Creatures, Objects, or Terrain) with the Elemental Tag is immune to the corresponding Vulnerability Condition, but gains Vulnerability to any associated Weakening or Nullifying Effects. For example, a Creature with the Wet trait always counts as being Wet, and any attacks apply the Wet condition.
 - Ash: **Suffocating** and **Fire** damage + **Ignite** on Strong Hit
 - Earth: **Crushing** damage. Effects with the Fire tag count as one Tier lower against you. Applies **Slowed** on a Strong Hit.
-- Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters (Might Resist) and Prone on a Strong Hit.
+- Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters. An unwilling Target may resist with [Might] + [Wrestle] + [Size]. On a Strong Hit, the Target also becomes Prone.
 - Metal: **Piercing** or **Electric** damage. Size considered +2 for Weight (swimming, grappling). Wet Vulnerability.
 - Oil: **Poison** damage. Applies **Flammable** condition on Hit+ (Contact)
-- Smoke: **Suffocation** damage. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all hexes in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
+- Smoke: **Suffocation** damage. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all squares in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
 - Vapour: **Wet** and **Suffocating** damage. Makes Creatures and Objects in Area Wet but not Terrain or Self
 - Water: **Wet** damage. Applies Wet to Self and Area
 - Wood: **Incapacitating** or **Poison** damage. You are Flammable.
