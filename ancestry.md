@@ -16,13 +16,9 @@ Each Ancestry feature should belong to one of these categories:
 4. **Trait**
 5. **Gifted or Skilled**
 
----
-
 # Elemental Tags
 
 Spend 1 Ancestry slot to gain one Elemental Tag from the Elemental Tags list. Your body is now a source for that Element. Your basic attack may deal the Damage Type granted by that Elemental Tag. If your Elemental Tag lists two Damage Types, choose one when you gain the Tag. You may spend 2 Ancestry Slots on the Elemental Tag instead to gain Versatile on your basic attacks with those Damage Types.
-
----
 
 # Senses
 
@@ -43,7 +39,7 @@ Spend 1 slot to do one of the following:
 ### Senses
 
 | Sense          | Precision  | Notes                                              |
-| ---------------| ---------: | -------------------------------------------------- |
+| | : | -- |
 | Sight          |    Precise | Blocked by darkness and cover                      |
 | Hearing        |  Imprecise | Blocked by silence, Wind                           |
 | Echolocation   |    Precise | As Hearing                                         |
@@ -70,8 +66,6 @@ Choose one:
 
 You gain Truesight [Precise] for the Entities of the chosen category within 12 meters.
 
----
-
 # Movement
 
 By default you have a Land speed equal to double your Agility rating.
@@ -94,8 +88,6 @@ Spend 1 slot to gain one movement type while using the Move action:
 - **Hover:** You fly at half your Land speed.
 - **Rocket Flight:** You cannot use Stealth while flying. When you take off, Flammable Terrain adjacent to you gains Ignite X equal to your Ancestry Power Potency.
 - **Winged Flight:** You need empty spaces equal to twice your Size on each side of you in order to spread wings and fly.
-
----
 
 # Physical Descriptors
 
@@ -127,8 +119,6 @@ You may store small objects inside your body. You take +1 damage from Crushing a
 
 You count as two Sizes larger for weight. This includes: Wrestle, being Lifted, swimming, and falling.
 
----
-
 # Traits
 
 ## Gifted [Minor]
@@ -139,7 +129,13 @@ Gain **+1 PP** at character creation.
 
 Gain one Skill at Rank 2 and one Skill at Rank 1.
 
----
+## Tough [Minor]
+
+You gain +2 to your Health pool.
+
+## Hearty [Minor]
+
+You gain +2 to your Stamina pool.
 
 ## Artificial Body [Minor]
 
@@ -148,8 +144,6 @@ Choose one:
 **Automaton:** You are Artificial and Living. You replace Biological with Artificial. You are Bloodless, Anaerobic, and Autotrophic, but you require fuel, maintenance, charging, or another upkeep method. Choose one body material: Metal, Wood, Stone, or Clay.
 
 **Construct:** You are Artificial and Unliving. You replace Biological with Artificial. You are Bloodless, Anaerobic, and Autotrophic, but you require fuel, maintenance, charging, or another upkeep method. You cannot benefit from ordinary Heal actions or medicine. You may be Repaired using Science or Warfare. You cannot be resurrected. Choose one body material: Metal, Wood, Stone, or Clay.
-
----
 
 ## Slime [Major]
 You gain the Acid Elemental Tag. Choose one ability from each group:
@@ -160,8 +154,6 @@ If you have blood, your blood becomes **Acid blood**. When you receive Slashing 
 
 **Sticky:** An adjacent creature cannot Disengage unless it first succeeds on an Escape Artist roll with a Hit+. If the creature is Grabbed, it succeeds only on a Strong Hit. This does not apply while you or the Target is Wet.
 
----
-
 ## Material
 
 - Metal: You gain the Metal Elemental Tag.
@@ -170,39 +162,29 @@ If you have blood, your blood becomes **Acid blood**. When you receive Slashing 
 - Clay: You gain Malleable.
 - Glass: You gain Vulnerability to Crushing damage. When you receive Crushing damage, deal 2 Slashing Splash Damage to all adjacent Entities.
 
-## Other Traits
+## Definitions
 
 ### Biology
 
-Biological: Biological is the default body type. A character is Biological unless a rule replaces Biological with another trait.
-
-Artificial: You are immune to disease, Poison damage, and Death damage.
+- Biological: Biological is the default body type. A character is Biological unless a rule replaces Biological with another trait.
+- Artificial: You are immune to disease, Poison damage, and Death damage.
 
 ### Life
 
-Living: You are healed by Life and damaged by Death.
-
-Unliving: You are healed by Death and damaged by Life. You are immune to Spirit damage and possession.
-
-Object: You have Integrity instead of Health and Hardness instead of Armour. Your Hardness is DR to all damage you are not Vulnerable to equal to the Hardness of your primary Material.
+- Living: You are healed by Life and damaged by Death.
+- Unliving: You are healed by Death and damaged by Life. You are immune to Spirit damage and possession.
+- Object: You have Integrity instead of Health and Hardness instead of Armour. Your Hardness is DR to all damage you are not Vulnerable to equal to the Hardness of your primary Material.
 
 ### Body
 
-Incorporeal: You have no solid body. You can move through Creatures and Objects, but not Terrain. You cannot carry Objects unless they are also Incorporeal. You cannot Grab, Restrain, or be Grabbed or Restrained by corporeal Creatures. You gain Resistance to all Physical damage and Vulnerability to Spirit Damage, even if you would be otherwise Immune.
-
-Bloodless: You are immune to Bleed damage and effects that require Blood.
-
-Organless: You have Anaerobic and Autotrophic. You are immune to Pressure damage and effects that require organs.
-
-Anaerobic: You are immune to Suffocation damage, inhalation effects, and do not need to breathe.
-
-Autotrophic: You do not need to eat or drink.
-
-Brainless: *You do not have a brain.* You are immune to Brain Drain and Psychic damage, but cannot use Smarts Actions. You may still think and act normally.
-
-Boneless: You count as Size 0 for squeezing and you are immune to the Broken Bones condition.
-
-Amorphous: You are Organless, Boneless, and Brainless.
+- Amorphous: You are Organless, Boneless, and Brainless.
+- Anaerobic: You are immune to Suffocation damage, inhalation effects, and do not need to breathe.
+- Autotrophic: You do not need to eat or drink.
+- Bloodless: You are immune to Bleed damage and effects that require Blood.
+- Boneless: You count as Size 0 for squeezing and you are immune to the Broken Bones condition.
+- Brainless: *You do not have a brain.* You are immune to Brain Drain and Psychic damage, but cannot use Smarts Actions. You may still think and act normally.
+- Incorporeal: You have no solid body. You can move through Creatures and Objects, but not Terrain. You cannot carry Objects unless they are also Incorporeal. You cannot Grab, Restrain, or be Grabbed or Restrained by corporeal Creatures. You gain Resistance to all Physical damage and Vulnerability to Spirit Damage, even if you would be otherwise Immune.
+- Organless: You have Anaerobic and Autotrophic. You are immune to Pressure damage and effects that require organs.
 
 ### Malleable
 
@@ -224,6 +206,6 @@ You count as Size -1 for squeezing. You gain +1 to Escape Artist.
 
 You gain +1 m reach for Interact actions. You count as Size +1 against Grab and Restrain.
 
-#### Crude
+#### Esoteric
 
 You may change your silhouette. You gain +1 to Perform checks to disguise your body shape. You do not change colour, scent, voice, clothing, or equipment.
