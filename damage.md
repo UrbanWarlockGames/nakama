@@ -14,7 +14,7 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 - Electric (muscle/nerve damage, electrical burns)
 - Acid (corrosion; deal creature damage to equipment factoring equipment's material resistances)
 - Poison (acutely toxic, poison which causes internal damage or necrosis)
-- Sonic (high-frequency vibration and sound waves, may damage/interrupt hearing-based actions)
+- Wind (high-frequency vibration and sound waves, may damage/interrupt hearing-based actions)
 - Wet (water damage; creatures are immune to damage from being Wet by default but some creatures have weakness to Wet)
 
 ### Magical
@@ -88,7 +88,7 @@ Where X = Condition Value (CV).
 
 #### Frost
 - Vulnerability Condition: Frozen X (Strong Hit)
-- Effect: Paralysed, Suffocating, Armour X, Fire Resistance X, Vulnerability X to Frost, Ballistic, Sonic, and Crushing, Immunity to all other damage types
+- Effect: Paralysed, Suffocating, Armour X, Fire Resistance X, Vulnerability X to Frost, Ballistic, Wind, and Crushing, Immunity to all other damage types
 - Initial Value: Wet x 2
 - Reduced by: successful [Might] or [Fitness] + [Bash]
 - Nullified by: Crushing or Fire damage on a Strong Hit
@@ -114,12 +114,6 @@ Where X = Condition Value (CV).
 - Amplified by: Poisoned
 - Nullified by: Restoration
 
-#### Sonic
-- Gain Condition: Deafened X (Contact)
-- Effect: You cannot Hear and get a -X to all Social Actions
-- Amplified by: Deafened
-- Reduced by: end of your next turn
-
 #### Wet
 - Gain Condition: Wet X (Contact)
 - Gain Immunity: **Flammable**
@@ -128,6 +122,12 @@ Where X = Condition Value (CV).
 - Amplified by: Wet
 - Nullified by: Frost (Wet becomes Frozen), Fire (Wet is Nullified)
 - Terrain Effect: Entities that enter the Area or end their turn in the Area increase their Wet value by 1.
+
+#### Wind
+- Gain Condition: Deafened X (Contact)
+- Effect: You cannot Hear and get a -X to all Social Actions
+- Amplified by: Deafened
+- Reduced by: end of your next turn
 
 ### Magical Vulnerability Conditions
 
@@ -161,21 +161,3 @@ Where X = Condition Value (CV).
 - Effect: -X to all Power rolls
 - Amplified by: Siphoned
 - Nullified by: Restoration
-
-## Elemental Tags
-
-Basic Attacks with the corresponding Elemental Tag deal the associated damage type and apply any Vulnerability Conditions on a Strong Hit to Targets with the associated Vulnerability. Any Entities (Creatures, Objects, or Terrain) with the Elemental Tag is immune to the corresponding Vulnerability Condition, but gains Vulnerability to any associated Weakening or Nullifying Effects. For example, a Creature with the Wet trait always counts as being Wet, and any attacks apply the Wet condition.
-- Ash: **Suffocating** and **Fire** damage + **Ignite** on Strong Hit
-- Earth: **Crushing** damage. Effects with the Fire tag count as one Tier lower against you. Applies **Slowed** on a Strong Hit.
-- Gravity: **Crushing** and **Pressure** damage. On Hit+ you may Shift the Target SV/PV meters. An unwilling Target may resist with [Might] + [Wrestle] + [Size]. On a Strong Hit, the Target also becomes Prone.
-- Metal: **Piercing** or **Electric** damage. Size considered +2 for Weight (swimming, grappling). Wet Vulnerability.
-- Oil: **Poison** damage. Applies **Flammable** condition on Hit+ (Contact)
-- Smoke: **Suffocation** damage. Hexes you enter become **Smokey** for a number of rounds equal to your Target Strike Value/Potency Value. If all squares in an enclosed space become **Smokey**, the duration becomes Permanent until a 1x1 meter opening is made in the room, after which the duration returns to normal. All creatures within Smokey terrain are Concealed unless they have smokesight or non-sight or smell precise senses. Smokey terrain makes creatures Hidden instead of Concealed to characters with infravision.
-- Vapour: **Wet** and **Suffocating** damage. Makes Creatures and Objects in Area Wet but not Terrain or Self
-- Water: **Wet** damage. Applies Wet to Self and Area
-- Wood: **Incapacitating** or **Poison** damage. You are Flammable.
-
-### Slime
-- Terrain: **Slowing**; half Move after entering space
-- Creature: DR 1 (Physical) or **Sticky** + Boneless (count as Size 0 for squeezing into spaces) or Organless (immune to pressure/fall and bleed damage) or Brainless (cannot take Smarts actions, immune to Brain Drain and Psychic damage)
-- Object: **Sticky**; Might Resist to Disengage or Escape
