@@ -26,6 +26,7 @@ Spend 1 Ancestry slot to gain one Elemental Tag from the Elemental Tags list. Yo
 You begin with **Sight [Precise]** and **Hearing [Imprecise]**. You may swap Sight [Precise] for Hearing [Precise] and pick another Imprecise Sense, such as Smell or Tremorsense.
 
 A **Precise Sense** can locate a creature accurately enough to target it normally. Unless a feature says otherwise, a Precise Sense has a Range equal to the size of the map in Tactical Mode, so long as you can draw a direct line from yourself to a Detected Target without obstructions. This is typically hand-waved in Narrative Mode or is comparable to human sight.
+
 An **Imprecise Sense** can detect presence or direction, but not exact position. A creature you can only sense using an imprecise sense is considered Concealed by you. An Imprecise Sense has a Range equal to double your Perception in meters.
 
 ## Sense Slot
