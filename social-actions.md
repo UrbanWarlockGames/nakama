@@ -3,6 +3,23 @@ Social rolls are made when a character uses a Social Attribute and skill to chan
 
 Social rolls do not directly force characters to perform meaningful actions. To get a character to do something, you need a reason they would act: Trust, Antagonism, Leverage, Debt, or a Social Contract created through Negotiation.
 
+## Bonds Table
+
+Bonds are reciprocal. Trust and Antagonism represent the state of the relationship between two characters, even if only the Player records the value. A Rank 0 Bond does not necessarily mean they have neutral feelings towards you, but rather there is no meaningful Bond to Invoke. A character at Bond 0 may still dislike, fear, resent, or oppose you.
+
+| Bond Score | Rank  | Meaning                                                                                                             |
+| ---------: | ----: | ------------------------------------------------------------------------------------------------------------------- |
+|         +6 |    6  | Devoted Friend: high risk, betrayal of interest, or life-changing implications                                      |
+|   +4 to +5 |  4-5  | Loyal Friend: meaningful cost, danger, secrecy, or reputation risk                                                  |
+|   +2 to +3 |  2-3  | Reliable Friend: real inconvenience, small risk, or complex task                                                    |
+|         +1 |    1  | Familiar: low cost, low risk, short duration                                                                        |
+|          0 |    0  | No meaningful Bond; common courtesy only                                                                            |
+|         -1 |    1  | Petty Rivalry: compete, argue, show off, insult back, follow briefly, refuse to back down                           |
+|   -2 to -3 |  2-3  | Risky Rivalry: accept a contest, confront publicly, take a risk to beat them, delay own plans                       |
+|   -4 to -5 |  4-5  | Serious Rivalry: endanger reputation, reveal strength, take a dangerous fight, oppose orders, pursue across a Scene |
+|         -6 |    6  | Obsessive Rivalry: stake identity, status, ideology, command, or major goals on defeating or surpassing them        |
+
+
 ## Discern Motives
 
 Describe how you try to read another character, then ask the GM a question about the character's motives during a conversation. Make a [Rhetoric] + [Insight] roll. This could be used to try to discern lies from truth or something deeper about the character.
@@ -19,6 +36,7 @@ You can spend 1 Influence point to gain one of the following:
 - Intel: Learn one of the character's Drives (Motivation, Desire, or Fear) and gain a +1 forward to your next Social roll against them.
 - Leverage: Ask a Favour through Trust or another type of Leverage, or to Rouse someone to action using Antagonism. If you use Trust or Antagonism as Leverage, you spend the point of Influence instead of spending Trust to Ask a Favour or Antagonism to Rouse to Action using the appropriate Bond Level. This does not require clearing a Courtesy Owed or a Triumph, but it damages the Bond (toward 0) equal to the Favour Rank due to its one-sided and coercive nature.
 - Impose a Debt: Attempt to gain a Debt on someone you know one or more Drives of. You must explain how you are using your Influence over the character to Impose a Debt on them. If you cannot reasonably explain how you have enough Influence over the character to Impose a Debt on them, the action fails and you may try a different Influence action. If the GM agrees, begin a Negotiation. The initial progress clock is determined by their personality type (such as Ambitious, Hedonistic, Anxious) and the targeted Drives. Each side proposes their win/lose conditions and what they want the other to do. Once resolved, the Scene progresses with the winning side gaining a Debt on the other.
+- Rebuke Influence: You may spend 1 Influence point you have on another character to cancel their Influence attempt on you. The character may then double down by spending two Influence points they have on you to push it. You must always match the number of Influence points spent to rebuke an Influence attempt.
 
 ### Leverage Types
 The following types of Leverage work even if you do not have a Bond with the character, but without a Bond they can only support a Rank 1 Favour. When used, they damage your Bond with the character toward 0 by an amount equal to the Favour Rank:
@@ -136,9 +154,9 @@ When you use Rouse to Action on a Rival, spend 1 Antagonism to provoke them into
 |          4-5 | Serious challenge: endanger reputation, reveal strength, take a dangerous fight, oppose orders, pursue you across a Scene. |
 |          6   | Obsessive rivalry: stake identity, status, ideology, command, or major goals on defeating or surpassing you.               |
 
-## Negotiations 
+## Negotiation Mode
 
-When two or more characters engage in prolonged social conflict and neither side backs down, such as after a Favour is refused, you may start a Negotiation.
+When two or more characters engage in prolonged social conflict and neither side backs down, such as after a Favour is refused, the Scene may shift to Negotiation Mode if both sides agree a meaningful exchange can be made.
 
 Each side makes a Stipulation (one explicit action they will not permit) and Concession (one point they will concede on), as well as declaring what Favour the other side must comply with if their side succeeds in the Negotiation. After both parties speak, they may Agree or Renegotiate the Terms of the Social Contract.
 
@@ -168,22 +186,6 @@ Make a Move:
 - Reveal a Weakness: Expose one of the Instigator's Drives. The target must roll a [Willpower] + [Composure] check or suffer Belief damage equal to the Drive's Value + your Level.
 - Twist Their Words: ...
 - Use a Debt: Spend a Debt to remove a participant.
-
-## Bonds Table
-
-Bonds are reciprocal. Trust and Antagonism represent the state of the relationship between two characters, even if only the Player records the value. A Rank 0 Bond does not necessarily mean they have neutral feelings towards you, but rather there is no meaningful Bond to Invoke. A character at Bond 0 may still dislike, fear, resent, or oppose you.
-
-| Bond Score | Rank  | Meaning                                                                                                             |
-| ---------: | ----: | ------------------------------------------------------------------------------------------------------------------- |
-|         +6 |    6  | Devoted Friend: high risk, betrayal of interest, or life-changing implications                                      |
-|   +4 to +5 |  4-5  | Loyal Friend: meaningful cost, danger, secrecy, or reputation risk                                                  |
-|   +2 to +3 |  2-3  | Reliable Friend: real inconvenience, small risk, or complex task                                                    |
-|         +1 |    1  | Familiar: low cost, low risk, short duration                                                                        |
-|          0 |    0  | No meaningful Bond; common courtesy only                                                                            |
-|         -1 |    1  | Petty Rivalry: compete, argue, show off, insult back, follow briefly, refuse to back down                           |
-|   -2 to -3 |  2-3  | Risky Rivalry: accept a contest, confront publicly, take a risk to beat them, delay own plans                       |
-|   -4 to -5 |  4-5  | Serious Rivalry: endanger reputation, reveal strength, take a dangerous fight, oppose orders, pursue across a Scene |
-|         -6 |    6  | Obsessive Rivalry: stake identity, status, ideology, command, or major goals on defeating or surpassing them        |
 
 ## GM Tables for NPCs
 
