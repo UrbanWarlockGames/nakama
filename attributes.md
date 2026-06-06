@@ -91,6 +91,10 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 - Rally: heal an Ally's Belief damage, appeal to people's morals or convictions
 - Speeches: address a room of people or crowd
 
+## Gaining Experience
+
+When you gain XP or Power Points, mark 1 box on the respective tracker. When you mark all boxes in the tracker, you gain the respective point.
+
 ## Derived Attributes
 
 ### Stamina
@@ -105,7 +109,7 @@ At 0 Health, you enter your **Last Stand**. After a number of rounds equal to yo
 
 ### Belief
 
-Your Belief is equal to your Willpower score. When you experience a Belief Trigger, you must make a Willpower Resistance check. If you fail, your Willpower is reduced by 1 point. If your Willpower is reduced to 0, you enter a state of **Despair**. Your Belief is restored when a Party Member uses the Aid action on you by an amount equal to their Leadership score. Each time you recover Stress or Fellowship, you also regain all lost Belief.
+Your Belief is equal to your Willpower score. When you experience a Belief Trigger, you must make a Willpower Resistance check. If you fail, your Willpower is reduced by 1 point. If your Willpower is reduced to 0, you enter a state of **Despair**. Your Belief is restored when a Party Member uses the Aid action on you by an amount equal to their Leadership score.
 
 #### Belief Triggers
 - An adjacent Ally is killed or incapacitated.
@@ -121,7 +125,7 @@ When you enter a state of **Despair**, you receive a -1 penalty to all Attacks a
 
 #### Despair in Narrative Mode
 
-In Narrative and Negotiation mode, when your Belief reaches 0, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. A common choice is to go engage in your Vice. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Belief.
+In Narrative and Negotiation mode, when your Belief reaches 0 or your Stress exceeds your current Belief pool, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. A common choice is to go engage in your Vice. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Belief.
 
 ### Fellowship
 
@@ -129,7 +133,7 @@ The Party shares a pool of **Fellowship** equal to the number of permanent Party
 
 ### Stress
 
-Your Stress starts at 0. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. Each teammate should talk about a different Party member until no one is left out. It is encouraged that the group plan an activity to **Relax** during this time if possible, such as *visiting a hot spring* or *going to the beach*. Recovering Stress rewards 1 Ability Point and restores all Fellowship.
+Your Stress starts at 0. When your Stress exceeds your current Belief pool, you enter Despair. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. When you recover Stress, mark 1 Power Point on the PP Tracker.
 
 ### Strike!
 
@@ -139,13 +143,13 @@ When you make a Basic Attack, you roll a number dice equal to your **Basic Attac
 
 ## Vices and Virtues
 
-Choose or create three Vices and Virtues. Pair each to a Skill, and then choose a Compulsion Trigger for that Skill. This is your **Compulsion**, an otherworldly pull towards your Vice. How you interpret your Vice, and whether you choose to act on it is up to you.
+Choose or create three Vices and Virtues. Pair each to a Skill, and then choose a Compulsion Trigger for that Skill. This is your **Compulsion**, an otherworldly Pull towards your Vice. How you interpret your Vice, and whether you choose to act on it is up to you. If you or the GM decide resisting temptation would require a roll, it is called a Push instead. For a Push, roll [Willpower] + [paired Skill].
 
-For example, you may make your Vice: **Drunkard (Composure)** with the Compulsion Trigger **Visit a bar** or **See an unattended alcoholic drink**. When the opportunity to indulge arises, you may declare your intended action. If your GM agrees it would hinder your party or hurt you to act on your Compulsion, you gain one point of Luck upon completing the action. Luck acts like Fellowship, but can only be used by you. You can only have one point of Luck stored at once, and it goes away at the end of the next Episode.
+For example, you may make your Vice: **Drunkard (Composure)** with the Compulsion Trigger **Visit a bar** or **See an unattended alcoholic drink**. When the opportunity to indulge arises, you may declare your intended action. If your GM agrees it would hinder your party or hurt you to act on your Compulsion, you mark Ego upon completing the action. Ego acts like Fellowship, but can only be used by you. You can only have one point of Ego marked, and it goes away at the end of the next Episode.
 
-You may also Overindulge as a Downtime Action. If you choose to Overindulge in your Vice, explain what you do and what pushes your character to do it. After the Scene, you gain a -1 to your next roll using the paired Skill and gain one Stress. Regardless of whether you Request/Accept a Compulsion from the GM or Overindulge, you gain one point of Luck.
+You may also Overindulge as a Downtime Action. If you choose to Overindulge in your Vice, explain what you do and what pushes your character to do it. After the Scene, you gain a -1 to your next roll using the paired Skill and gain one Stress. Regardless of whether you Request/Accept a Compulsion from the GM or Overindulge, you mark Ego.
 
-Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may act on your Virtue's Compulsion in Narrative Mode or as a Downtime Action to recover all lost Belief. If your Belief is full, your party regains 1 Fellowship so long as you have at least one party member assisting you.
+Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may Uphold your Virtue in Narrative Mode or as a Downtime Action. See Uphold a Virtue.
 
 ## Tables
 
