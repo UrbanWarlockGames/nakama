@@ -10,7 +10,7 @@ Most Actions are a Standard Action unless specified. The generic Minor Actions a
 - Help (removes Prone or Stunned from a Target, requires a free hand)
 - Raise a Shield (-1 Dodge, Blocks up to 6 Physical damage or an equal amount Elemental if it is a magic shield, then the shield is unusable until repaired)
 - Ready a Reaction (any Standard or Minor Action + Trigger)
-- Basic Attack (Strike! = Strike Value + Item Bonus)
+- Basic Attack (Strike! = Strike Attribute + Strike Value)
 
 ### Combat Reactions
 You may use these actions as Reactions to any Attack roll.
@@ -38,7 +38,7 @@ On a Hit, you successfully Grab the opponent. You may immediately Push/Pull the 
 
 #### Wrestling
 On a Strong Hit, you may immediately choose one of the following manoeuvres:
-- Push/Pull: You may Move the Target along an orthogonal line number of meters equal to 1x, 1.5x, or 2x the total of your [Might] + [Grappling], determined by the Hit Tier.
+- Push/Pull: You may Move the Target along an orthogonal line number of meters equal to 1x, 1.5x, or 2x the total of your [Might] + [Wrestle], determined by the Hit Tier.
 - Reposition: Move the Target 1m, 2m, or 3m determined by the Hit Tier. This movement counts as a Jump, meaning diagonals are permitted.
 - Restrain
 - Trip
@@ -48,23 +48,16 @@ On a Strong Hit, you may immediately choose one of the following manoeuvres:
 Special Actions are Tactical actions which either have a limited usage or prerequisites to use them.
 
 ### Exploit Weakness
-You may roll a relevant skill, such as [Perception] + [Awareness] (general) or [Knowledge] + an appropriate skill based off the Entity type to see if you can figure out a Target's weak point. You may downgrade the Hit Tier of this roll if it is beneficial to you.
+You may roll a relevant skill, such as [Perception] + [Awareness] (general) or [Smarts] + an appropriate skill based off the Entity type to see if you can figure out a Target's weak point. You may downgrade the Hit Tier of this roll if it is beneficial to you.
 - Weak Hit: You learn if the Target has a Vulnerability or Resistance (your choice).
 - Hit: You determine one Vulnerability and Resistance of the Target.
 - Strong Hit: You determine all Vulnerabilities or Resistances of the Target.
 
 ### Heal
-Restore an Ally's Health once per Episode. Roll [Knowledge] or [Perception] + [Anatomy] or reduce a valid Vulnerability Condition.
-- Weak Hit: Heal an amount equal to your [Anatomy] skill or reduce a Vulnerability Condition by 1.
-- Hit: Heal an amount equal to the highest of your [Attribute] or [Anatomy] skill, or Negate a valid Vulnerability Condition.
+Restore an Ally's Health once per Episode. Roll [Smarts] or [Perception] + [Medicine] or reduce a valid Vulnerability Condition.
+- Weak Hit: Heal an amount equal to your [Medicine] skill or reduce a Vulnerability Condition by 1.
+- Hit: Heal an amount equal to the highest of your [Attribute] or [Medicine] skill, or Negate a valid Vulnerability Condition.
 - Strong Hit: As Hit, but add your [Level] to any healing given.
-
-### Aid
-// change to Comfort?
-Make a [Leadership] + [Rally] or [Empathy] to restore an Ally's Belief.
-- Weak Hit: Restore Ally's Belief by 1.
-- Hit: Restore Ally's Belief by an amount equal to your Leadership score.
-- Strong Hit: Restore an Ally's Belief by an amount equal to your Leadership score + Level.
 
 ### Assist
 You may Assist an ally with a skill check for which you have one or more points invested into. Roll the appropriate skill check.
@@ -72,5 +65,11 @@ You may Assist an ally with a skill check for which you have one or more points 
 - Hit: +1 to their dice pool.
 - Strong Hit: +2 to their dice pool.
 
+### Comfort
+Make a [Leadership] + [Rally] or [Empathy] to restore an Ally's Belief.
+- Weak Hit: Restore Ally's Belief by 1.
+- Hit: Restore Ally's Belief by an amount equal to your Leadership score.
+- Strong Hit: Restore an Ally's Belief by an amount equal to your Leadership score + Level.
+
 ### Take a Breather
-Once per Episode, you may an amount of Stamina equal to your maximum Stamina as a Narrative Action. Leftover Stamina becomes Overheal. Overheal can never be increased, only taking the highest value if additional Overheal is rolled.
+Once per Episode, you may recover an amount of Stamina equal to your maximum Stamina as a Narrative Action. Leftover Stamina becomes Overheal. Overheal can never be increased, only taking the highest value if additional Overheal is rolled. Overheal is lost at the end of an Episode but only takes the highest value if rolled more than once.

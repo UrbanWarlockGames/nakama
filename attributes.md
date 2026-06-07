@@ -1,6 +1,6 @@
 ## Attributes
 
-You have 30 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
+You have 35 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
 
 ### Body
 - Might: Flex your muscles. **Inventory**, **Health**
@@ -15,7 +15,7 @@ You have 30 XP points to spend on your Attributes and Skills. Each of your Attri
 ### Heart
 - Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (**Reaction Roll**). Leave a good **First Impression**.
 - Rhetoric: Be convincing. Know what others desire.
-- Leadership: Rally your Allies (**Aid**). Be a good shoulder to cry on (Heal their Stress and Belief). Know how to work-up a crowd.
+- Leadership: Rally your Allies (**Comfort**). Be a good shoulder to cry on (Heal their Stress and Belief). Know how to work-up a crowd.
 
 ## Skills
 
@@ -93,23 +93,38 @@ Skills have an associated Attribute, but can be used with other Attributes if ju
 
 ## Gaining Experience
 
-When you gain XP or Power Points, mark 1 box on the respective tracker. When you mark all boxes in the tracker, you gain the respective point.
+When you gain XP or Power Points, mark 1 box on the respective tracker. When you mark all four boxes in the tracker, you gain the respective point.
 
-## Derived Attributes
+## Player Resources
+
+### Armour
+
+Before you take physical damage to your Health, you first take damage to your Armour. You may purchase 1 natural armour for 2 XP. Natural armour does not have any Move penalty and is cumulative with purchased Armour. It recovers automatically at the start of a new Episode. You may choose any Armour type except Power during character creation for free.
+
+The Armour types are:
+- Clothing: 0 Armour
+- Light: 2 Armour [-1 Move]
+- Medium: 4 Armour [-2 Move]
+- Heavy: 6 Armour [-3 Move]
+- Power: 8 Armour [-4 Move] [W4]
 
 ### Stamina
 
-Before you take damage to your Health, you first take Stamina damage (Strain). Your Stamina is equal to your [Fitness + Willpower + Level]. You may use the **Take a Breather** Narrative action to recover all Stamina once per Episode.
+Before you take physical damage to your Health, you first take Stamina damage (Strain). Your Stamina is equal to your [Fitness + Willpower + Level x 2]. You may use the **Take a Breather** Narrative action to recover all Stamina once per Episode. When your Stamina is 0, you become Weary. Each further instance of Incapacitating damage deals 1 Stamina damage and increases your Weary value by 1. You get a penalty to all Body Attribute rolls equal to your Weary value. Restoring Stamina reduces your Weary value by 1 for each point of Stamina restored.
+
+### Aura
+
+Before you take elemental damage to your Stamina, you first take Aura damage (Shields). Your Aura is equal to 5 and you can buy 1 point of Aura for 1 PP. Your Aura replenishes at the start of a new Episode. Some GM Moves have a greater effect when your Aura is Depleted (at 0).
 
 ### Health
 
-You have a number of Hit Points (Health) equal to your [Might + Fitness + Level]. Each point of damage to your Health takes one week to recover naturally.
+You have a number of Hit Points (Health) equal to your [Might + Fitness + Level x 2]. Each point of damage to your Health takes one week to recover naturally. When you are at half health or below, you are Bloodied. Some GM Moves have a greater effect when you are Bloodied.
 
 At 0 Health, you enter your **Last Stand**. After a number of rounds equal to your Level, you become incapacitated and then die after your **Final Goodbye**. You may choose to say your **Final Goodbye** at any point after you enter your **Last Stand**. Doing so will give you a bonus to your next action's dice pool or damage equal to the number of Party Members you have. Once the action is resolved, you immediately die.
 
 ### Belief
 
-Your Belief is equal to your Willpower score. When you experience a Belief Trigger, you must make a Willpower Resistance check. If you fail, your Willpower is reduced by 1 point. If your Willpower is reduced to 0, you enter a state of **Despair**. Your Belief is restored when a Party Member uses the Aid action on you by an amount equal to their Leadership score.
+Your Belief is equal to your [Willpower + Level x 2]. If your Belief is reduced to 0, you enter a state of **Despair**. Some GM Moves have a greater effect when you are in Despair.
 
 #### Belief Triggers
 - An adjacent Ally is killed or incapacitated.
@@ -129,17 +144,55 @@ In Narrative and Negotiation mode, when your Belief reaches 0 or your Stress exc
 
 ### Fellowship
 
-The Party shares a pool of **Fellowship** equal to the number of permanent Party members. Anyone may spend Fellowship to *re-roll* an important check (taking the highest number of successes) or upgrade the Hit Tier of a roll, such as turning a Weak Hit into a Hit. Even if your Party members are not present during the session, they are still with you in spirit until they permanently part ways with the group.
+The Party shares a pool of **Fellowship** equal to the number of permanent Party members. Anyone may spend Fellowship to *re-roll* an important check (taking the highest number of successes) or upgrade the Hit Tier of a roll, such as turning a Weak Hit into a Hit. Even if your Party members are not present during the session, they are still with you in spirit until they permanently part ways with the group. When you spend Fellowship, the GM gains Malice, which is spent on GM Moves during Complications. When the GM spends Malice, you gain an equal amount of Fellowship.
 
 ### Stress
 
-Your Stress starts at 0. When your Stress exceeds your current Belief pool, you enter Despair. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. You can recover Stress during Downtime by taking part in a *talking about your feelings* and showing *appreciation for your teammates*, such as by *comforting them* or talking about a time *they were there for you* or *saved your life*. When you recover Stress, mark 1 Power Point on the PP Tracker.
+Your Stress starts at 0. When you gain Stress, mark Drain on one Attribute of your choice by -1. You may unmark Drain from an Attribute when you Rest after decreasing your Stress. When your Stress exceeds your current Belief pool, you enter Despair. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. See the Downtime rules for how to recover Stress. When you recover Stress, mark 1 Power Point on the PP Tracker.
+
+### Wealth
+
+Your Wealth pool starts a 1. You may spend XP in character creation only to gain Wealth equal to the number of XP Spent up to a maximum of 8 Wealth. You may attempt to buy any Item with a Wealth Rank equal to or less than your Wealth pool. When you attempt to buy an Item of a Rank 0 to 2 below to your Wealth pool, make a Wealth roll with a dice pool equal to your Wealth Pool. On a Strong Hit, your Wealth does not decrease by 1.
+
+| Wealth Rank | Scale                | Example Purchases                                                                 |
+| ----------: | -------------------- | --------------------------------------------------------------------------------- |
+|           0 | Broke                | Cheap meal, bus fare, used clothing                                               |
+|           1 | Pocket Money         | Simple weapon, basic tools, poor lodging                                          |
+|           2 | Working Class        | Light armour, common tool kit, modest lodging, minor bribe                        |
+|           3 | Comfortable          | Medium armour, specialist tool, domestic animal, local safehouse                  |
+|           4 | Affluent             | Heavy armour, rare tool, vehicle rental, private room, meaningful bribe           |
+|           5 | Rich                 | Used vehicle, small property, expensive bribe                                     |
+|           6 | Very Rich            | New vehicle, small business, power armour, major equipment, large favour purchase |
+|           7 | Wealthy Elite        | House, large business, specialised vehicle, rare commissioned item                |
+|           8 | Major Capital        | Skyscraper, estate, private airship, major organisation funding                   |
+|           9 | Institutional Wealth | City district, private island, major infrastructure project, regional corporation |
+|          10 | Global Capital       | Fortune 500 company, a small country, private space programme                     |
+
+You may roll Wealth any time to open an unknown storage capsule, potentially containing a convenient item of your choice for the given situation. The item inside an unknown storage capsule cannot have a value greater than your Wealth pool.
+
+A known storage capsule can be opened without rolling, but it will only ever contain what you put inside it originally. Nakama can only open a storage capsule once per Scene.
+
+- Weak Hit: The storage capsule is empty. An empty storage capsule can store an item up to the size of a tank inside it.
+- Hit: The storage capsule contains a similar item to what you request. The storage capsule is destroyed upon opening it.
+- Strong Hit: The storage capsule contains the exact item you need for this situation, even if it is different than the item you requested. The storage capsule is destroyed upon opening it.
+
+Regardless of the result, decrease your Wealth by 1.
+
+## Other Derived Attributes
+
+### Move
+
+Move equals Agility × 2 - [worn Armour / 2] metres.
+
+### Range
+
+Your base Range is equal to [Perception x 2] metres.
 
 ### Strike!
 
 In character creation, you may choose any Attribute to be your Basic Attack Attribute. You can pick any Attribute, as long as you can explain *how* you use it. For example, some characters may use *raw physical power* (Might), while others use *cunning* (Smarts). Others may *act unassuming* (Charm) so their opponents let their guard down. Once you choose your Basic Attack Attribute, you may not change it again.
 
-When you make a Basic Attack, you roll a number dice equal to your **Basic Attack Attribute** + **Strike Value**, which is equal to your Level + Item Bonus. An Item Bonus comes from magic items or a physical weapon 3 or more sizes greater than your Target. A magic item for a *Might* character, such as a magic sword or greataxe, would look different than one for a *Willpower* character, such as a magic bracelet that focuses their power. Your basic attack can look like anything you desire, from your fists to a burst of physic energy, but they do not have an Elemental tag except from a magic item.
+When you make a Basic Attack, you roll a number dice equal to your **Basic Attack Attribute** + **Strike Value**, which is equal to [1 + Item Bonus]. An Item Bonus comes from magic items or a physical weapon 3 or more sizes greater than your Target. A magic item for a *Might* character, such as a magic sword or greataxe, would look different than one for a *Willpower* character, such as a magic bracelet that focuses their power. Your basic attack can look like anything you desire, from your fists to a burst of physic energy, but they do not have an Elemental tag except from a magic item.
 
 ## Vices and Virtues
 
@@ -150,6 +203,10 @@ For example, you may make your Vice: **Drunkard (Composure)** with the Compulsio
 You may also Overindulge as a Downtime Action. If you choose to Overindulge in your Vice, explain what you do and what pushes your character to do it. After the Scene, you gain a -1 to your next roll using the paired Skill and gain one Stress. Regardless of whether you Request/Accept a Compulsion from the GM or Overindulge, you mark Ego.
 
 Virtues are a *moral duty* you feel towards a *person, place, thing, or cause*. The Compulsion Trigger can be as general or specific as you like, such as: **Never let a friend down** or **Liberate the oppressed from tyranny**. You may Uphold your Virtue in Narrative Mode or as a Downtime Action. See Uphold a Virtue.
+
+## Debate
+
+Each Negotiation trait has a Debate Rating: Vulnerable, Neutral, or Resist. The lowest Debate Rating is Vulnerable. The middle Debate Rating is Neutral. The highest Debate Rating is Resist. You choose the rating when there is a tie. Debate Rating is used when another character targets one of your Negotiation traits. See Negotiation Mode.
 
 ## Tables
 

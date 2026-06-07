@@ -189,7 +189,7 @@ If Upholding your Virtue creates trouble, puts you at risk, or forces a hard cho
 
 ## Rest
 
-At the end of Downtime, your Nakama must put together a meal of ingredients each of you procure. When adding an ingredient, each Nakama shares a new memory, dream, Secret, Drive, or wish connected to the ingredient. Doing so restores the group's Fellowship and each member's Belief by 1.
+At the end of Downtime, your Nakama must put together a meal of ingredients each of you procure. When adding an ingredient, each Nakama may share a new memory, dream, Secret, Drive, or wish connected to the ingredient. Doing so restores the group's Fellowship and each member's Belief by 1.
 
 The party member with the highest Cooking skill (Chef) adds the spices and any finishing touches to put the meal together. If you are following a known recipe or all Nakama agree the food sounds like "Good Food", you may get a +1 bonus. This must be a new meal with new ingredients each Rest to gain the full benefits.
 
@@ -198,3 +198,10 @@ The Chef makes a [Smarts] + [Cooking] roll.
 - Weak Hit: You create a filling meal. It does not taste the best, but it is filling. Each member who partakes in the meal restores an amount of Health equal to their level. Their Stamina is also fully restored.
 - Hit: You create Good Food. In addition to the Weak Hit effects, each party member's Belief is restored by an amount equal to your Leadership score.
 - Strong Hit: You create Wonderful Food. In addition to the Hit effects, everyone's Health is fully restored. If the party's Health is full, each Nakama gains a +1 forward on one Skill of the chef's choice.
+
+Regardless of the result, all Nakama repair their shields and Armour at the end of a Rest.
+
+All Nakama with Armour or a shield make Field Repairs. Make a [Smarts] + [Warfare] roll. You may Assist one of your Nakama with this roll, but you will be unable to make your own Field Repairs if you do.
+- Weak Hit: Your Armour and shield are both repaired to half.
+- Hit: Your Armour or shield are repaired to full. The other is repaired to half.
+- Strong Hit: Your Armour and shield are both repaired to full.

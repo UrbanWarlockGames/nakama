@@ -1,6 +1,6 @@
 ## Power Creation
 
-Each character receives **10 Power Points (PP)** at character creation. These points are spent across all of the character's starting Abilities.
+Each character receives 15 Power Points (PP) at character creation. These points are spent on Powers and Aura.
 
 An Power is built from the following parts:
 
@@ -60,7 +60,7 @@ When creating a Power, you may choose which Attribute you use when you make a Po
 - Fitness: Overdrive — Once per Episode, when you roll a Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Belief damage (your choice).
 
 ### Mind
-- Knowledge: Elemental Affinity — When you create a Power using Knowledge, you may add one Elemental Trait for 1 PP. Any contact conditions are applied on a Hit and the Vulnerability Condition on a Strong Hit. If the Target has a Vulnerability to the damage type, it is applied on a Hit+ instead.
+- Smarts: Elemental Affinity — When you create a Power using Smarts, you may add one Elemental Trait for 1 PP. Any contact conditions are applied on a Hit and the Vulnerability Condition on a Strong Hit. If the Target has a Vulnerability to the damage type, it is applied on a Hit+ instead.
 - Perception: Free Alteration (Range) — +1 Range.
 - Willpower: Free Alteration (Duration) — +1 Duration.
 

@@ -1,12 +1,18 @@
 ## Damage Types
 Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing, Ballistic, Incapacitating) and **Elemental Damage** (all other damage types). **Special Damage** cannot be selected without permission from the GM first.
 
+Damage is dealt like so:
+Physical Damage: Armour > Stamina > Health
+Elemental Damage: Aura > Stamina > Health
+Psychic Damage: Belief > Stamina
+Aberrant Damage: Belief > Health
+
 ### Physical
 - Crushing (blunt force trauma)
 - Slashing (cutting, slicing)
 - Piercing (stabbing, impaling)
 - Ballistic (bullets, explosive force)
-- Incapacitating (non-lethal damage [NL]; less-lethal; deals Strain (Stamina damage) instead of Harm (Health damage) and Unconscious at 0 on a Strong Hit. Every hit after 0 Stamina deals 1 damage only, negative Stamina subtracts from your dice pool)
+- Incapacitating (non-lethal damage [NL]; less-lethal; deals Strain (Stamina damage) instead of Harm (Health damage) and Unconscious at 0 on a Strong Hit. Every hit after 0 Stamina deals 1 damage only, increasing your Weary value by 1.)
 
 ### Primordial
 - Fire (burns; can melt ice on hit, removing the Frozen critical effect, turn Cold to Wet, remove Wet; critical effect: Ignite 1 flames damage/turn)
@@ -19,20 +25,20 @@ Damage is typically split into **Physical Damage** (Crushing, Slashing, Piercing
 
 ### Magical
 - Arcane (raw magical energy; unresistible)
-- Psychic (mental or non-visible damage, cringe; always Targets Belief pool instead of Stamina pool before Health pool) [req: Brain]
+- Psychic (mental or non-visible damage, cringe; targets Belief before Stamina then becomes Incapacitating at 0) [req: Brain]
 
 ### Special
 These damage types are typically reserved for secondary effects or reserved for background characters. You must ask your GM before selecting one as an Elemental Damage type or Elemental Tag.
 - Life (vital energy, altruism and luck; heals Living, damages Unliving)	# may be called 'Holy' in some settings
 - Death (entropy, decay, time, ageing; heals Unliving, damages Living) [req: Biological]	# may be called 'Vile' in some settings
-- Aberrant (otherworldly, eldritch, changing; Targets Belief pool instead of Stamina pool before Health pool, instead of Stamina)
+- Aberrant (otherworldly, eldritch, changing; Targets Belief pool instead of Stamina pool before Health pool)
 - Spirit (damages the soul, true damage) [req: Living]
 - Bleed (bleeding, haemorrhaging; triggers Blood effects on first instance) [requires: Blood]
 - Pressure (compression) [req: Organs]
 - Suffocation (oxygen deprivation) [req: Breathing]
 
 ## Damage Conditions
-Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type, unless specified otherwise in the Condition. Conditions with a Value are Ampligied (increase their Value by 1) when applied again. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
+Most damage types have a Vulnerability condition which is triggered when a Strong Hit is struck on a Target, or a Hit+ on a Target with Vulnerability to that damage type, unless specified otherwise in the Condition. Conditions with a Value are Amplified (increase their Value by 1) when applied again. Reducing a Condition decreases its Value by 1. When a Condition with a Value of 1 is Reduced, it is removed unless stated otherwise. Nullifying a Condition removes all stages or ranks of it entirely, regardless of its value.
 
 Terrain with the Condition, such as Wet Terrain or Charged Terrain, apply the Vulnerability Condition to Entites with the corresponding Vulnerability that enter the Terrain and at the end of each of their turns they end inside the terrain thereafter. Persistent Damage is always applied at the end of one's turn giving opportunity to remove it before taking damage again.
 
@@ -135,7 +141,7 @@ Where X = Condition Value (CV).
 - Vulnerability Condition: Brain Drain X
 - Effect: Cannot use Smarts or Willpower Abilities for X rounds; -2X to Smarts and Willpower-based rolls; at Brain Drain 3, cannot take Smarts actions
 - Amplified by: Brain Drain
-- Reduced by: Aid (Leadership), end of Target's turn
+- Reduced by: Comfort (Leadership), end of Target's turn
 - Nullified by: Brainless
 
 ### Special Vulnerability Conditions
@@ -154,7 +160,7 @@ Where X = Condition Value (CV).
 - Vulnerability Condition: Frightened X
 - Effect: -X to all Combat Reactions and make a Belief check at the end of your turn
 - Amplified by: Frightened
-- Reduced by: Aid (Leadership)
+- Reduced by: Comfort (Leadership)
 
 #### Spirit
 - Vulnerability Condition: Siphoned X
