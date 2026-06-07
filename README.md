@@ -9,3 +9,5 @@
 </br>
  with valuable input from the Saviours of Cricklemoor
 </p>
+
+Character Sheet available: [here](https://docs.google.com/spreadsheets/d/1nra8_VjUi_84LuWGCtfyAPzgXrrlBf35XesGr6uCSHI/edit?usp=drivesdk) (make a copy)
