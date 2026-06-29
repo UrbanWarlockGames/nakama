@@ -9,11 +9,11 @@ An Power is built from the following parts:
 - **Target:** to whom
 - **Potency:** the Power's die size (if relevant) and Potency Value.
 - **Alterations:** general upgrades available to all Abilities: Range, Duration, Deadly, Area, Filters, and Target Size.
-- **Interactions:** unique upgrades for specific Abilities that add new interactions in Tactical mode.
+- **Techniques:** unique upgrades for specific Abilities that add new interactions in Tactical mode.
 
 ## Abilities
 
-The Ability defines what the Power fundamentally does and, when paired with a Target what it can affect. Each Ability has base values for Range, Duration, Distance, and Effects, as well as unique upgrades called Interactions. Abilities are limited in scope to only being able to do what they are described to be able to do, and only to their designated Target. When you use an Ability, you may choose how it manifests visually and what noise it makes. Anyone who can Sense you using an Ability knows you are using an Ability (typically through Sight and Hearing), but not necessarily what the Ability does if the effect is not obvious.
+The Ability defines what the Power fundamentally does and, when paired with a Target what it can affect. Each Ability has base values for Range, Duration, Distance, and Effects, as well as unique upgrades called Techniques. Abilities are limited in scope to only being able to do what they are described to be able to do, and only to their designated Target. When you use an Ability, you may choose how it manifests visually and what noise it makes. Anyone who can Sense you using an Ability knows you are using an Ability (typically through Sight and Hearing), but not necessarily what the Ability does if the effect is not obvious.
 
 ### Duration
 The basic Duration of an Ability is determined by the Hit Tier:
@@ -21,7 +21,7 @@ The basic Duration of an Ability is determined by the Hit Tier:
 - Hit: equal to the Potency Value (PV) of the Ability
 - Strong Hit: double the Potency Value (PV) of the Ability 
 
-Some Abilities or Interactions will have a specified Duration. This specified Duration is not affected by Alterations made to the Duration of the Ability. If no Duration is specified, the effect is Instant, which is also a specific Duration.
+Some Abilities or Techniques will have a specified Duration. This specified Duration is not affected by Alterations made to the Duration of the Ability. If no Duration is specified, the effect is Instant, which is also a specific Duration.
 
 ## Targets
 
@@ -56,7 +56,7 @@ When creating a Power, you may choose which Attribute you use when you make a Po
 
 ### Body
 - Might: Free Alteration (Size) — +1 Size of Target.
-- Agility: Finesse — Once per Episode, you may use an Agility Power as swift action. If that Power or Interaction is already a minor action, it becomes a free action instead. 
+- Agility: Finesse — Once per Episode, you may use an Agility Power as swift action. If that Power or Technique is already a minor action, it becomes a free action instead. 
 - Fitness: Overdrive — Once per Episode, when you roll a Power using Fitness, you may suffer Strain equal to your Level to increase the Hit Tier by one step. If you reach 0 Stamina, any leftover damage becomes Health or Belief damage (your choice).
 
 ### Mind
@@ -66,14 +66,14 @@ When creating a Power, you may choose which Attribute you use when you make a Po
 
 ### Social
 - Charm: Off Guard — You gain a +1 against unaware or friendly Targets the first time this Power is used in a Scene.
-- Rhetoric: Cost Reduction (Condition) — Reduce the cost of any Interaction that applies a Condition by 1 PP. You may also choose to create an Improv Interaction that applies a Condition on a Strong Hit with a cost determined by the base Condition cost.
+- Rhetoric: Cost Reduction (Condition) — Reduce the cost of any Technique that applies a Condition by 1 PP. You may also choose to create an Improv Technique that applies a Condition on a Strong Hit with a cost determined by the base Condition cost.
 - Leadership: Supportive — Add the number of 6s rolled to healing effects for Health, Stamina, Belief, and Armour while using this Power.
 
-## Alterations and Interactions
+## Alterations and Techniques
 
 ### Alterations
 
-**Alterations** are general upgrades available to all Abilities. They improve values a Power already has, but they do not create new functions. If a Power lacks a value, the relevant Alteration cannot be purchased unless an Interaction or Ability first grants that value.
+**Alterations** are general upgrades available to all Abilities. They improve values a Power already has, but they do not create new functions. If a Power lacks a value, the relevant Alteration cannot be purchased unless an Technique or Ability first grants that value.
 
 Altering the **Area** of your Ability costs 3 PP per additional +1 meter to its radius. Most Effects start with a 1x1 Area of Effect, affecting only a single Target.
 
@@ -81,7 +81,7 @@ Altering the **Range** of your Ability costs 1 PP per additional +1 meter to its
 
 Altering the **Duration** costs 4 PP per rank. Each rank increases the Ability's basic Duration by +1. Specific Durations are unaffected.
 
-Altering the **Reliability** of one of your Ability's Interactions costs 4 PP to trigger on a Hit or better, or 8 PP for a Weak Hit or better.
+Altering the **Reliability** of one of your Ability's Techniques costs 4 PP to trigger on a Hit or better, or 8 PP for a Weak Hit or better.
 
 Altering the **Distance** of your Ability costs 2 PP per additional +1 meter to the maximum distance you may move the Target.
 
@@ -95,11 +95,11 @@ For 3 PP, you may give your Power an **Elemental** trait. Any damage dealt by th
 
 For 2 PP, you may give your Power the **Versatile** trait. If your Power has multiple damage types, you may choose one each time you make an Attack. You may also choose to make your Power Incapacitating, dealing non-lethal damage.
 
-**Improv Alteration**: If you have an idea for an Alteration or Interaction not covered in the rules, ask your GM and they will work with you on balancing it.
+**Improv Alteration**: If you have an idea for an Alteration or Technique not covered in the rules, ask your GM and they will work with you on balancing it.
 
-### Interactions
+### Techniques
 
-**Interactions** are Ability-specific upgrades that add new Effects to the Power.
+**Techniques** are Ability-specific upgrades that add new Effects to the Power.
 
 ## Size
 
@@ -123,9 +123,9 @@ On a Hit, you may move the Target up to a number of meters equal to 4 + the Powe
 
 On a Strong Hit, you may move the Target up to a number of meters equal to 6 + the Power's Potency Value.
 
-#### Hurl Interactions
+#### Hurl Techniques
 
-The Interactions for Hurl are Explode, Mark, Ricochet, Launch, and Pin.
+The Techniques for Hurl are Explode, Mark, Ricochet, Launch, and Pin.
 
 Explode costs 2 PP and deals Potency damage in a Medium Area on Impact.
 
@@ -139,9 +139,9 @@ Pin costs 4 PP and knocks the Target or Obstacle Prone on a Strong Hit.
 
 ## Ability: Control
 
-The **Control** Ability allows you to Interact with a General Physical Target [choose: Small Creature, Object, or Terrain] at a Range of 1 + Potency Value meters. The Target may feel your touch. If your Ability is Elemental in nature, they may feel the Element, such as a light *heat* from Fire, *cold* from Frost, or a harmless *static shock* from Lightning. An Unwilling Target can only be under the effect of one Control Interaction at once.
+The **Control** Ability allows you to Interact with a General Physical Target [choose: Small Creature, Object, or Terrain] at a Range of 1 + Potency Value meters. The Target may feel your touch. If your Ability is Elemental in nature, they may feel the Element, such as a light *heat* from Fire, *cold* from Frost, or a harmless *static shock* from Lightning. An Unwilling Target can only be under the effect of one Control Technique at once.
 
-#### Control Interactions
+#### Control Techniques
 
 Communication [2 PP]: You may communicate with the Target. They hear your voice as a distant echo, and cannot directly place its source or point of origin unless they can Sense you using the Power.
 
@@ -153,7 +153,7 @@ Truth/Lies [4]: Choose either Truth or Lies. On a Weak Hit, you know if the Targ
 
 Confuse [4 PP]: On a Weak Hit, the Target will laugh off or ignore any non-harmful Abilities you take against it for a number of rounds in Tactical Mode, or seconds in Narrative Mode, equal to the Potency Value of this Power. On a Hit, the Target becomes Confused, unable to tell Allies from Enemies. It will act according to its nature in this disoriented state for the Duration. On a Strong Hit, it becomes Berserk, attacking the nearest Entity, prioritising Hostile Creatures, followed by Creatures within range of its basic attack. You may choose the effects of a lower Hit Tier if it is beneficial to you.
 
-Puppet [6 PP]: You take direct control of a Target during its turn in Tactical Mode for a number of rounds determined by your Hit Tier. Weak Hit: Potency Value (initial resist + end of each of the Target's turns) rounds, Hit: Potency Value (resist end of each of the Target's turns) rounds, Strong Hit: Potency Value rounds. In Narrative Mode, this Interaction's Duration lasts for a number of minutes equal to 10 x the remaining Duration. If a Target successfully resists this Power or the Effect ends, you gain a -2 ongoing penalty on future attempts to Puppet the Target.
+Puppet [6 PP]: You take direct control of a Target during its turn in Tactical Mode for a number of rounds determined by your Hit Tier. Weak Hit: Potency Value (initial resist + end of each of the Target's turns) rounds, Hit: Potency Value (resist end of each of the Target's turns) rounds, Strong Hit: Potency Value rounds. In Narrative Mode, this Technique's Duration lasts for a number of minutes equal to 10 x the remaining Duration. If a Target successfully resists this Power or the Effect ends, you gain a -2 ongoing penalty on future attempts to Puppet the Target.
 
 Mind Blank [6 PP]: In Tactical Mode, the Target forgets the past number of rounds equal to the Duration of the Power. In Narrative Mode, it forgets the past 10 x the remaining Duration minutes.
 
@@ -161,7 +161,7 @@ Mind Blank [6 PP]: In Tactical Mode, the Target forgets the past number of round
 
 The **Create** Ability creates a new instance of a **Target** within a range of 1 meter for a number of rounds equal to 2 + your Potency Value. The Entity (Creature, Object, or Terrain) created is a generic form of the specified Target. For example, < Create: Small Creature > is an invalid Power. < Create: Small Wolf > is valid, but cannot be used to replicate a specific wolf you know or have seen, and you have no control over its appearance or disposition. The Entity uses the Potency of this Power for all checks, Damage, Health and Move. Terrain and Objects have a Move of 0 meters. You may have no more Creations active at once than your Potency Value.
 
-#### Create Interactions
+#### Create Techniques
 
 Summon Ally [2 PP]: The Target is considered an Ally and will fight alongside you for the Duration. You and your Allies are still affected by any Effects the Entity creates, such as hazardous terrain. As a minor action, you may control the Entity on your Turn in Tactical Mode, otherwise it acts according to its nature.
 
@@ -173,7 +173,7 @@ Slowing [3 PP]: The Entity creates *slowing terrain* inside its Area, halving th
 
 Hazardous [4 PP]: The Entity creates *hazardous terrain* inside its Area, dealing PV Damage to all Creatures who end their turn within its Area.
 
-Persistent [4 PP]: The Duration is considered doubled at no extra cost, aside from the cost of this Interaction. In Narrative Mode, the Entity lasts for a number of minutes equal to ten times the remaining Duration.
+Persistent [4 PP]: The Duration is considered doubled at no extra cost, aside from the cost of this Technique. In Narrative Mode, the Entity lasts for a number of minutes equal to ten times the remaining Duration.
 
 Masterwork Weapon [4 PP]: While wielded by you, a created Object's Item bonus is equal to your Potency Value.
 
@@ -183,7 +183,7 @@ Replicate [6 PP]: You may replicate a specific Target's appearance, modify the a
 
 The **Know** Ability allows you to learn an amount of information about a Target within Range or following specific Triggers. When you use this Power, you learn any Conditions an Entity is affected by and whether it is Bloodied.
 
-#### Know Interactions
+#### Know Techniques
 
 Quick Thinking [1 PP]: In Tactical Mode, you may use this Power as a minor action instead of a standard action, if it is beneficial to you.
 
@@ -210,7 +210,7 @@ You can Transform your body in new ways. You gain a signature transformation. Yo
 - Terrifying Transformation: Your transformation radically changes your form that others may find disturbing or outright frightening. You gain +1 to all Frighten checks against Targets equal to or less than your Level.
 - Weaponised Transformation: You may add the Potency Value of this Power to your Strikes for the Duration.
 
-#### Transform Interactions
+#### Transform Techniques
 - Transmogrify [4]: You may target an Object with this ability. Choose one of your Transformation Types to give them and describe their new appearance. You may choose to give them a humanised appearance if you wish.
 - Polymorph [8]: You may target a Creature with this ability. Choose one of your Transformation Types to give them and describe their new appearance.
 
@@ -218,7 +218,7 @@ You can Transform your body in new ways. You gain a signature transformation. Yo
 
 You may add your Run or Dodge skill to your Move speed.
 
-#### Move Interactions.
+#### Move Techniques.
 - Boost (Land) [2 AP]: You can Boost a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Run].
 - Climb [2 AP]: You can Climb a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Climb].
 - Fly [4 AP]: You can Fly a number of meters equal to the highest of [Fitness], [Agility], or [Potency Value] + [Acrobatics].
@@ -229,7 +229,7 @@ You may add your Run or Dodge skill to your Move speed.
 
 Similar to the Move Ability, but instead of adding new modes of locomotion, this Ability adds new actions to Move a Target, such as oneself or an allied creature in new ways. You may select 'Ally' as the Target for this Ability allowing you to select either yourself or an Ally in free variation. Attempting to move an Unwilling Entity using this Ability succeeds on a Strong Hit only. Movement using this Ability is instant and cannot trigger Reactions unless specified.
 
-#### Interactions
+#### Techniques
 
 - **Recall** [3]: You may then Move a Target to a Marked point or adjacent to a Marked Entity.
 - **Swap** [3]: Two Targets within Range exchange Positions.
@@ -239,11 +239,11 @@ Similar to the Move Ability, but instead of adding new modes of locomotion, this
 
 ## Ability: Grant
 
-The Grant Ability is used to give additional action types to the Target, typically Self or a Creature. If an Object gains an action, it may use it if it has consciousness. If the Target for an Interaction with this Ability is Self, it is a passive effect and does not need to be applied as an Action. Otherwise, it lasts for a basic Duration.
+The Grant Ability is used to give additional action types to the Target, typically Self or a Creature. If an Object gains an action, it may use it if it has consciousness. If the Target for an Technique with this Ability is Self, it is a passive effect and does not need to be applied as an Action. Otherwise, it lasts for a basic Duration.
 
-#### Grant Interactions
+#### Grant Techniques
 
-- **Share Senses** [3]: Both you and a Target share one imprecise sense originating from either you or the Target (your choice). On a Strong Hit, you may share one precise sense. This only works only as an imprecise sense Strong Hit if the Target is Unwilling. The Target is aware someone if observing it unless this Ability has the Subtle trait. The maximum Distance an Entity under the effects of this Interaction can travel from you is a number of meters equal to your PV x 10 before the effect ends.
+- **Share Senses** [3]: Both you and a Target share one imprecise sense originating from either you or the Target (your choice). On a Strong Hit, you may share one precise sense. This only works only as an imprecise sense Strong Hit if the Target is Unwilling. The Target is aware someone if observing it unless this Ability has the Subtle trait. The maximum Distance an Entity under the effects of this Technique can travel from you is a number of meters equal to your PV x 10 before the effect ends.
 - **Combat Readiness** [3]: Gain an additional free combat reaction.
 - **Reactive Strike** [4]: You may add the Reactive Strike combat reaction to your list of available combat reactions. Reactive Strike — You may make a melee basic attack against a Target within Range when they make a Move or Interact action, or when they make a Ranged Attack.
 - **React** [5]: Gain an additional free reaction.
@@ -253,7 +253,7 @@ The Grant Ability is used to give additional action types to the Target, typical
 
 **Restore reverses damage, degradation, loss, or harmful states affecting the Target.**
 
-#### Restore Interactions
+#### Restore Techniques
 
 - **Heal/Repair** [2]: Restore Health, Stamina, or Belief to Creatures equal to PV, modified by Hit Tier. Restore Integrity, Hardness, or Armour of Objects, Items, Armour, or Terrain.
 - **Cleanse Condition** [3]: Remove one specific Condition, such as "Cleanse (Prone)"
@@ -265,13 +265,13 @@ The Grant Ability is used to give additional action types to the Target, typical
 
 The basic Duration is a number of rounds equal to half your PV on a Weak Hit, your PV on a Hit, or PV x2 rounds on a Strong Hit.
 
-#### Weaken Interactions
+#### Weaken Techniques
 - **Delay** [2]: Delay an effect applied to the Target until after a basic Duration. The effect is suspended for the Duration and continues as normal afterwards.
 - **Drain** [2]: Perform a basic attack. If you deal Health damage, you restore an amount of Health equal to half the damage dealt, up to your PV.
 - **Ground** [2]: Choose one movement type such as Burrow or Fly you know the Target has. They may not use that movement type for the Duration of this Ability.
 - **Slow** [3]: Reduce movement by W: half PV, H: PV, S: apply Slowed (1/2 Move)
 - **Expose** [3]: Apply Vulnerability to a specific Element to the Target.
-- **Hex** [4]: Extend the duration of one Condition that uses a basic Duration on the Target by one round. You may use this Interaction a number of times each Scene equal to half your PV.
+- **Hex** [4]: Extend the duration of one Condition that uses a basic Duration on the Target by one round. You may use this Technique a number of times each Scene equal to half your PV.
 - **Disrupt** [4]: Weak Hit: The Target drops all items they are holding, Hit: The Target cannot convert their standard action into two additional minor actions, Strong: The Target must choose between using their standard or minor action. You may choose a lower Hit Tier if it is beneficial to you.
 - **Stun** [4]: The Target cannot take Reactions.
 - **Silence** [5]: The Target is unable to speak on a Strong Hit.
@@ -282,17 +282,17 @@ The basic Duration is a number of rounds equal to half your PV on a Weak Hit, yo
 
 The **Nullify** Ability allows you to end, suppress, or prevent Powers and supernatural effects.
 
-#### Nullify Interactions
+#### Nullify Techniques
 
 - Dispel [3]: End one ongoing Power effect within Range. If the effect's PV is higher than this Ability's PV, Dispel only succeeds on a Strong Hit.
-- Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Interactions for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
+- Suppress [5]: Choose one active Ability. Reduce its PV by half this Ability's PV, minimum 1, or disable one of its Techniques for a basic Duration. If the Target Ability's PV is higher than this Ability's PV, Suppress only affects it on a Strong Hit.
 - Seal [6]: Choose one Ability you know the Target has. The Target cannot use that Ability for a basic Duration. If the Ability's PV is higher than this Ability's PV, Seal only succeeds on a Strong Hit. If the Target for Seal is Self, Seal one of your own Abilities ongoing. Choose another one of your Abilities. Add 1/2 the PV (min. 0) of the Sealed Ability to the chosen Ability's PV ongoing. You may Burn a seal you apply to yourself as a free reaction, dealing an amount of Fire or Spirit damage (your choice) to yourself equal to half the PV of the Ability being unsealed. You then lose the bonus to PV on your other Ability but can freely use the previously Sealed Ability again. Unsealing an Ability gives it +2 Potency until the end of your next turn. An Ability can only benefit from one Self Seal at a time.
 
 ## Ability: Protect
 
-The **Protect** Ability negates, reduces, or redirects oncoming damage or effects directed to the Target. This Ability lasts for a number of rounds equal to your PV. You may use each Interaction for this Ability once per Scene.
+The **Protect** Ability negates, reduces, or redirects oncoming damage or effects directed to the Target. This Ability lasts for a number of rounds equal to your PV. You may use each Technique for this Ability once per Scene.
 
-#### Protect Interactions
+#### Protect Techniques
 
 - **Shield** [2]: You count as wielding a magic shield for the duration of this Ability or until it is broken.
 - **Barrier** [5]: You count as if you have used the Raise a Shield action using a magic shield for the duration of this ability. This shield persists, reducing in damage reduction until it reaches 0, when it breaks. The amount of maximum damage reduced is equal to your PV.
@@ -305,7 +305,7 @@ The **Protect** Ability negates, reduces, or redirects oncoming damage or effect
 
 The **Absorb** Ability takes in an incoming or existing Elemental effect and stores, reduces, converts, or releases it. Absorb must choose an Elemental Target.
 
-#### Absorb Interactions
+#### Absorb Techniques
 
 - **Soak** [2]: Reduce incoming damage of the chosen Target type equal to your PV as a Combat Reaction.
 - **Store** [3]: Gain Charge equal to half the damage prevented by Soak, up to PV. Unused Charge expires at the end of the Scene.
@@ -315,9 +315,9 @@ The **Absorb** Ability takes in an incoming or existing Elemental effect and sto
 
 ## Ability: Duplicate
 
-You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Belief and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Interaction says otherwise.
+You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point and is under your control. Its strike value is equal to the Potency Value of this Ability and shares your Attributes and has no Skills or Abilities of its own. When the Duplicate takes damage, you take an equal amount. It is immune to Belief and Psychic damage. You may choose to kill your Duplicate instantly as a free reaction, but you still take 1 untyped physical damage. The Duplicate lasts for a basic Duration. It acts on your turn and shares your actions unless an Technique says otherwise.
 
-#### Duplicate Interactions
+#### Duplicate Techniques
 
 - **Clone** [4]: Your Duplicate no longer has only 1 HP. Instead, it shares your Health and Stamina pools. Damage to either of you is applied to the same pool only once.
 - **Skilled** [3]: The Duplicate shares your Skills and may make Skill rolls.
@@ -328,11 +328,11 @@ You create a nearly perfect Duplicate of yourself. The Duplicate has 1 hit point
 
 ### Mimic
 
-You replicate a feature specified by the Interaction belonging to a Target within Range. Unless an Interaction says otherwise, you must have observed the feature or successfully identified it. The copied feature uses the Attribute and PV of Mimic for damage, Power Rolls, Range, Duration, and other PV-based effects, but is otherwise identical. The Duration of Copy is equal to to your PV in rounds when in Tactical Mode, and in minutes in Narrative Mode, unless otherwise stated by the Interaction. After the Duration, you lose access to the feature.
+You replicate a feature specified by the Technique belonging to a Target within Range. Unless an Technique says otherwise, you must have observed the feature or successfully identified it. The copied feature uses the Attribute and PV of Mimic for damage, Power Rolls, Range, Duration, and other PV-based effects, but is otherwise identical. The Duration of Copy is equal to to your PV in rounds when in Tactical Mode, and in minutes in Narrative Mode, unless otherwise stated by the Technique. After the Duration, you lose access to the feature.
 
-#### Mimic Interactions
+#### Mimic Techniques
 
-- **Copy Power** [4]: Copy one observed Ability with lower PV. All Alterations and Interactions for the Ability are also copied.
+- **Copy Power** [4]: Copy one observed Ability with lower PV. All Alterations and Techniques for the Ability are also copied.
 - **Copy Skill** [2]: Copy a skill, combat reaction, voice, handwriting, or mannerism.
 - **Copy Trait** [3]: Copy one sense, movement mode, resistance, Elemental trait, or innate feature.
 - **Steal** [6]: You may steal one trait, Ability, or sense from the Target. The Target loses access to the stolen feature for a basic Duration or until you Steal another feature. You may only have one stolen feature at a time.
@@ -342,17 +342,17 @@ You replicate a feature specified by the Interaction belonging to a Target withi
 
 Project separates a Target's consciousness, spirit, or senses, from its body for the Duration.
 
-#### Project Interactions
+#### Project Techniques
 - **Tether** [2]: You always know the direction and distance to your body. You may return to it as a free reaction. If an effect would prevent you from returning, make a Power Roll; on a Hit, you return safely.
 - **Exorcise** [3]: Target one projected, possessing, or spiritually displaced Entity. On a Hit, force it back to its body, vessel, or origin. On a Strong Hit, it cannot Project again for a basic Duration.
 - **Astral Projection** [6]: You leave your body and become Intangible and gain Spirit sense for a basic Duration. Your body is unconscious while you are projecting. Your projected form can Move, Sense, and use non-Physical Powers, but cannot interact with the Physical world unless another effect allows it. Physical creatures cannot see or interact with you without an appropriate Sense or Spirit effect. You are immune to Physical damage and Vulnerable to Spirit damage. You are aware if something interacts with your body. If your body takes damage, you immediately return to it.
 
 ## Ability: Alter
 
-You may change the properties of a Target specified by the Interaction type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Interaction says otherwise. Creatures that would reasonably die or be lose function from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
+You may change the properties of a Target specified by the Technique type. Alter cannot create or destroy matter, directly deal damage, or make a Target non-functional unless an Technique says otherwise. Creatures that would reasonably die or be lose function from having their properties adjusted in this way merely adjust to life in the state they find themselves in, unharmed, until they revert back to their original form. By default, the duration is equal to your Potency Value in turns (Tactical Mode) or minutes (Narrative Mode).
 
-### Alter Interactions
-The Interactions of Alter are sorted by sub-category for easy of use.
+### Alter Techniques
+The Techniques of Alter are sorted by sub-category for easy of use.
 
 #### Appearance
 - **Glamour** [2]: Alter the appearance, voice, scent, or other identifying traits of the Target.
