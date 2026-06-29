@@ -3,7 +3,6 @@ title: Character Creation
 description: Creating your character.
 order: 1
 icon: person
-default: true
 ---
 
 Follow these steps in order of your personal preference:
