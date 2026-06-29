@@ -5,7 +5,9 @@ icon: scroll
 default: true
 ---
 
-Nakama: Battle Prowess is a tactical tabletop role-playing game with slice of life elements inspired by battle shounen anime.
+Nakama: Battle Prowess is a tactical tabletop role-playing game with slice of life elements inspired by battle shōnen anime.
+
+Please visit the Repository to see the Acknowledgements and Inspiration.
 
 ## Checks
 
