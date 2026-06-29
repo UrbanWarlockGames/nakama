@@ -1,0 +1,230 @@
+{
+    "defaultDoc": "character-creation",
+    "sections": [
+        {
+            "id": "core",
+            "label": "Core",
+            "kicker": "",
+            "order": 1,
+            "description": "",
+            "documents": [
+                "core-rules",
+                "complications",
+                "elemental-tags",
+                "story-structure",
+                "gm-moves"
+            ]
+        },
+        {
+            "id": "character",
+            "label": "Character",
+            "kicker": "",
+            "order": 2,
+            "description": "",
+            "documents": [
+                "character-creation",
+                "attributes",
+                "drives",
+                "ancestry",
+                "abilities",
+                "technique-index"
+            ]
+        },
+        {
+            "id": "combat",
+            "label": "Combat",
+            "kicker": "",
+            "order": 3,
+            "description": "",
+            "documents": [
+                "combat",
+                "reaction-rolls",
+                "damage",
+                "conditions"
+            ]
+        },
+        {
+            "id": "social",
+            "label": "Social",
+            "kicker": "",
+            "order": 999,
+            "description": "",
+            "documents": [
+                "downtime-mode",
+                "social-actions"
+            ]
+        }
+    ],
+    "documents": [
+        {
+            "id": "core-rules",
+            "title": "Core Rules",
+            "label": "Core Rules",
+            "section": "Core",
+            "sectionId": "core",
+            "order": 1,
+            "path": "content/core/core-rules.md",
+            "icon": "scroll"
+        },
+        {
+            "id": "complications",
+            "title": "Complications",
+            "label": "Complications",
+            "section": "Core",
+            "sectionId": "core",
+            "order": 3,
+            "path": "content/core/complications.md",
+            "icon": "warning"
+        },
+        {
+            "id": "elemental-tags",
+            "title": "Elemental Tags",
+            "label": "Elemental Tags",
+            "section": "Core",
+            "sectionId": "core",
+            "order": 4,
+            "path": "content/core/elemental-tags.md",
+            "icon": "element"
+        },
+        {
+            "id": "story-structure",
+            "title": "Story Structure",
+            "label": "Story Structure",
+            "section": "Core",
+            "sectionId": "core",
+            "order": 4,
+            "path": "content/core/story-structure.md",
+            "icon": "story"
+        },
+        {
+            "id": "gm-moves",
+            "title": "GM Moves",
+            "label": "GM Moves",
+            "section": "Core",
+            "sectionId": "core",
+            "order": 5,
+            "path": "content/core/gm-moves.md",
+            "icon": "gm"
+        },
+        {
+            "id": "character-creation",
+            "title": "Character Creation",
+            "label": "Character Creation",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 1,
+            "path": "content/character/character-creation.md",
+            "icon": "person"
+        },
+        {
+            "id": "attributes",
+            "title": "Attributes",
+            "label": "Attributes",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 2,
+            "path": "content/character/attributes.md",
+            "icon": "attributes"
+        },
+        {
+            "id": "drives",
+            "title": "Drives",
+            "label": "Drives",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 3,
+            "path": "content/character/drives.md",
+            "icon": "drives"
+        },
+        {
+            "id": "ancestry",
+            "title": "Innate Powers",
+            "label": "Innate Powers",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 3,
+            "path": "content/character/ancestry.md",
+            "icon": "element"
+        },
+        {
+            "id": "abilities",
+            "title": "Power Creation",
+            "label": "Power Creation",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 4,
+            "path": "content/character/abilities.md",
+            "icon": "ability"
+        },
+        {
+            "id": "technique-index",
+            "title": "Power Index",
+            "label": "Power Index",
+            "section": "Character",
+            "sectionId": "character",
+            "order": 5,
+            "path": "content/character/technique-index.md",
+            "icon": "bolt"
+        },
+        {
+            "id": "combat",
+            "title": "Tactical Mode",
+            "label": "Tactical Mode",
+            "section": "Combat",
+            "sectionId": "combat",
+            "order": 1,
+            "path": "content/combat/combat.md",
+            "icon": "swords"
+        },
+        {
+            "id": "reaction-rolls",
+            "title": "Reaction Rolls",
+            "label": "Reaction Rolls",
+            "section": "Combat",
+            "sectionId": "combat",
+            "order": 2,
+            "path": "content/combat/reaction-rolls.md",
+            "icon": "reaction"
+        },
+        {
+            "id": "damage",
+            "title": "Damage Types",
+            "label": "Damage Types",
+            "section": "Combat",
+            "sectionId": "combat",
+            "order": 3,
+            "path": "content/combat/damage.md",
+            "icon": "element"
+        },
+        {
+            "id": "conditions",
+            "title": "Conditions",
+            "label": "Conditions",
+            "section": "Combat",
+            "sectionId": "combat",
+            "order": 5,
+            "path": "content/combat/conditions.md",
+            "icon": "scroll"
+        },
+        {
+            "id": "downtime-mode",
+            "title": "Action Phases",
+            "label": "Action Phases",
+            "section": "Social",
+            "sectionId": "social",
+            "order": 1,
+            "path": "content/social/downtime-mode.md",
+            "icon": "phases"
+        },
+        {
+            "id": "social-actions",
+            "title": "Social Rules",
+            "label": "Social Rules",
+            "section": "Social",
+            "sectionId": "social",
+            "order": 2,
+            "path": "content/social/social-actions.md",
+            "icon": "social"
+        }
+    ]
+}

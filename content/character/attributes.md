@@ -1,0 +1,213 @@
+---
+title: Attributes
+order: 2
+icon: attributes
+---
+
+You have 35 XP points to spend on your Attributes and Skills. Each of your Attributes starts at 1, while your Skills start at 0. Increasing the Rank of an Attribute costs a number of XP equal to the Rank of the [Attribute x 3]. Likewise, the XP cost of increasing a Skill is equal to its Rank.
+
+## Body
+- Might: Flex your muscles. **Inventory**, **Health**
+- Agility: Outmanoeuvre your foes. **Dodge**, **Move**, **Initiative**
+- Fitness: Outlast your foes with endurance. Athletics, **Health**, **Stamina**
+
+## Mind
+- Smarts: Become a walking encyclopaedia. Analyse the situation. Recall key details. At Level 1, you gain a free number of Skills at Rank 1 equal to your Smarts skill, and gain one free skill at Level 1 each time you upgrade it.
+- Perception: Awareness. **Imprecise Senses Range**, **Ranged Basic Attack Bonus**, **Initiative**
+- Willpower: The resolve to keep on going. **Belief**
+
+## Heart
+- Charm: Be a cute cinnamon roll. Others will naturally let their guard down around you and give you the benefit of the doubt (**Reaction Roll**). Leave a good **First Impression**.
+- Rhetoric: Be convincing. Know what others desire.
+- Leadership: Rally your Allies (**Comfort**). Be a good shoulder to cry on (Heal their Stress and Belief). Know how to work-up a crowd.
+
+# Skills
+
+Skills have an associated Attribute, but can be used with other Attributes if justified. Smarts can be used with almost any Skill to understand more about its key concepts.
+
+## Might
+- Bash: break down objects
+- Frighten: intimidation
+- Labour: manual labour using hand tools, understand/empathise with the working man
+- Lift: lift and drag
+- Throw: throw long distances and accurately
+
+## Agility
+- Acrobatics: maintain your balance, land without hurting yourself, combat roll, somersault and twist, vault over ledges and duck into alleyways, fly gracefully
+- Dodge: avoid sudden threats; reaction time
+- Escape Artist: squeezing in and out of tight places
+- Sleight of Hand: hand-eye coordination, conceal small objects, pick locks, impress small children with coin tricks
+- Stealth: make your presence minimal; hide, move quietly, blend-in with a crowd, shadow others
+
+## Fitness
+- Climb: climb and maintain your grip
+- Endure: don't let the pain stop you
+- Jump: jump high and far. jump distance = jump. ignores diagonal penalty
+- Ride: ride 'em cowboy
+- Run / Chase: endurance running
+- Swim: don't sink
+- Wrestle: grappling
+
+## Smarts
+- Academics: anthropology, history, linguistics, culture, literature, high art
+- Appraise: understand value and economics
+- Cooking: cook healthy and nutritious food
+- Deduction: scene reconstruction, understand how something physically happened
+- Medicine: understand the human body and disease, practice medicine
+- Occult: understand the supernatural
+- Research: read books, find the right information
+- Rigging: using ropes, tying knots, setting up traps
+- Science: SCIENCE!; make gadgets, bombs, doodads, understand scientific concepts such as maths, biology, chemistry, physics, electronics; technobabble: fast talking; sound smart while saying nothing of substance
+- has a chance make a random fact about the world true on a Strong Hit
+- Warfare: tactics, strategy, famous battles, weaponry, armour, field repair
+
+## Perception
+- Awareness: know your surroundings
+- Inspect: check something specific for small details
+- Search: check general area for loot, check for traps
+- Track: follow someone/something
+
+## Willpower
+- Composure: keep a straight face, focus while distracted
+- Instinct: you can't explain it. you just KNOW; commune with the world itself, hear it breathe, hear its pain
+- Navigate: don't lose your way; read maps, don't get lost
+
+## Charm
+- Animal Friend: make small and big critters your friends, boop the snoot
+- Be Cool: do a sick kickflip; know/operate planes, trains, automobiles, and youth/delinquent culture
+- Carouse: build bonds, drink and be merry, get the latest gossip
+- Distract: distract, lure
+- Etiquette: fit in with rich snobs
+- Impress: brag, schmooze, show off
+- Perform: play music, dance, sing, do stand-up comedy, mimicry, disguises, makeup
+
+## Rhetoric
+- Authority: politics, propaganda, power structures, authority, appeal to ethics
+- Insight: understand motivations and leverage
+- Lie: manipulate others for your own gain or just for the fun of it, twist the truth, fabricate evidence
+- Persuade: argue using FACTS and LOGIC
+
+## Leadership
+- Coordinate: get people who are butting heads to work together
+- Empathy: appeal to people's feelings, talk through things, understand people's emotions or state of mind, express yourself through art
+- Logistics: stay fed and on schedule
+- Mentor: take others under your wing and teach/train them in your ways
+- Rally: heal an Ally's Belief damage, appeal to people's morals or convictions
+- Speeches: address a room of people or crowd
+
+# Gaining Experience
+
+When you gain XP or Power Points, mark 1 box on the respective tracker. When you mark all four boxes in the tracker, you gain the respective point.
+
+# Player Resources
+
+## Armour
+
+Before you take physical damage to your Health, you first take damage to your Armour. You may purchase 1 natural armour for 2 XP. Natural armour does not have any Move penalty and is cumulative with purchased Armour. It recovers automatically at the start of a new Episode. You may choose any Armour type except Power during character creation for free.
+
+The Armour types are:
+- Clothing: 0 Armour
+- Light: 2 Armour [-1 Move]
+- Medium: 4 Armour [-2 Move]
+- Heavy: 6 Armour [-3 Move]
+- Power: 8 Armour [-4 Move] [W4]
+
+## Stamina
+
+Before you take physical damage to your Health, you first take Stamina damage (Strain). Your Stamina is equal to your [Fitness + Willpower + Level x 2]. You may use the **Take a Breather** Narrative action to recover all Stamina once per Episode. When your Stamina is 0, you become Weary. Each further instance of Incapacitating damage deals 1 Stamina damage and increases your Weary value by 1. You get a penalty to all Body Attribute rolls equal to your Weary value. Restoring Stamina reduces your Weary value by 1 for each point of Stamina restored.
+
+## Aura
+
+Before you take elemental damage to your Stamina, you first take Aura damage (Shields). Your Aura is equal to 5 and you can buy 1 point of Aura for 1 PP. Your Aura replenishes at the start of a new Episode. Some GM Moves have a greater effect when your Aura is Depleted (at 0).
+
+## Health
+
+You have a number of Hit Points (Health) equal to your [Might + Fitness + Level x 2]. Each point of damage to your Health takes one week to recover naturally. When you are at half health or below, you are Bloodied. Some GM Moves have a greater effect when you are Bloodied.
+
+At 0 Health, you enter your **Last Stand** until your Health pool is restored above 0. Your Last Stand timer is equal to your Level. Once a number of rounds pass equal to your Last Stand timer, you become incapacitated and then die after your **Final Goodbye**. You may choose to say your **Final Goodbye** at any point after you enter your **Last Stand**, before the end of the next Narrative Scene. Doing so will give you a bonus to your next action's dice pool or damage equal to the number of Party Members you have. Once the action is resolved, you immediately die.
+
+If you receive damage while in Last Stand, your Last Stand timer decreases by 1 on a Hit or 2 on a Strong Hit. When you recover health after entering Last Stand, you gain an Injury. Mark Drain on a Body Attribute. If all Body Attributes are Drained, your maximum Last Stand timer decreases by your Injury value. You recover from an Injury each time you Rest.
+
+## Belief
+
+Your Belief is equal to your [Willpower + Level x 2]. If your Belief is reduced to 0, you enter a state of **Despair**. Some GM Moves have a greater effect when you are in Despair.
+
+## Belief Triggers
+- An adjacent Ally is killed or incapacitated.
+- Half of your side is killed or incapacitated.
+- Your Leader is killed or incapacitated.
+- You are surrounded on all sides by Hostile Entities or impassable Terrain
+- You are Bloodied (half Health)
+- An adjacent Ally fails a Belief check
+
+## Despair in Tactical Mode
+
+When you enter a state of **Despair**, you receive a -1 penalty to all Attacks and you must Move to the farthest position behind cover away from Hostile Entities and Take Cover. If you cannot or it is unsafe to do so, you must Attack the nearest Hostile creature until a path is clear. If you cannot, you must Take Cover or take another defensive Action.
+
+## Despair in Narrative Mode
+
+In Narrative and Negotiation mode, when your Belief reaches 0 or your Stress exceeds your current Belief pool, you enter a state of Despair and remove yourself from the Scene. What that looks for your character and how you choose to act on it is up to you. A common choice is to go engage in your Vice. If you are unable or unwilling to leave the scene physically, you may feel dejected, despondent, or frustrated at your situation, acting as a Hindrance to the Party and your goals until an Ally is able to restore your Belief.
+
+## Fellowship
+
+The Party shares a pool of **Fellowship** equal to the number of permanent Party members. Anyone may spend Fellowship to *re-roll* an important check (taking the highest number of successes) or upgrade the Hit Tier of a roll, such as turning a Weak Hit into a Hit. Even if your Party members are not present during the session, they are still with you in spirit until they permanently part ways with the group. When you spend Fellowship, the GM gains Malice, which is spent on GM Moves during Complications. When the GM spends Malice, you gain an equal amount of Fellowship.
+
+## Stress
+
+Your Stress starts at 0. When you gain Stress, mark Drain on one Attribute of your choice by -1. You may unmark Drain from an Attribute when you Rest after decreasing your Stress. When your Stress exceeds your current Belief pool, you enter Despair. Each time your Party fails a Negotiation, all members present gain 1 point of Stress and take 1 point of Belief damage. See the Downtime rules for how to recover Stress. When you recover Stress, mark 1 Power Point on the PP Tracker.
+
+## Wealth
+
+Your Wealth pool starts a 1. You may spend XP in character creation only to gain Wealth equal to the number of XP Spent up to a maximum of 8 Wealth. You may attempt to buy any Item with a Wealth Rank equal to or less than your Wealth pool. When you attempt to buy an Item of a Rank 0 to 2 below to your Wealth pool, make a Wealth roll with a dice pool equal to your Wealth Pool. On a Strong Hit, your Wealth does not decrease by 1.
+
+| Wealth Rank | Scale                | Example Purchases                                                                 |
+| ----------: | -------------------- | --------------------------------------------------------------------------------- |
+|           0 | Broke                | Cheap meal, bus fare, used clothing                                               |
+|           1 | Pocket Money         | Simple weapon, basic tools, poor lodging                                          |
+|           2 | Working Class        | Light armour, common tool kit, modest lodging, minor bribe                        |
+|           3 | Comfortable          | Medium armour, specialist tool, domestic animal, local safehouse                  |
+|           4 | Affluent             | Heavy armour, rare tool, vehicle rental, private room, meaningful bribe           |
+|           5 | Rich                 | Used vehicle, small property, expensive bribe                                     |
+|           6 | Very Rich            | New vehicle, small business, power armour, major equipment, large favour purchase |
+|           7 | Wealthy Elite        | House, large business, specialised vehicle, rare commissioned item                |
+|           8 | Major Capital        | Skyscraper, estate, private airship, major organisation funding                   |
+|           9 | Institutional Wealth | City district, private island, major infrastructure project, regional corporation |
+|          10 | Global Capital       | Fortune 500 company, a small country, private space programme                     |
+
+You may roll Wealth any time to open an unknown storage capsule, potentially containing a convenient item of your choice for the given situation. The item inside an unknown storage capsule cannot have a value greater than your Wealth pool.
+
+A known storage capsule can be opened without rolling, but it will only ever contain what you put inside it originally. Nakama can only open a storage capsule once per Scene.
+
+- Weak Hit: The storage capsule is empty. An empty storage capsule can store an item up to the size of a tank inside it.
+- Hit: The storage capsule contains a similar item to what you request. The storage capsule is destroyed upon opening it.
+- Strong Hit: The storage capsule contains the exact item you need for this situation, even if it is different than the item you requested. The storage capsule is destroyed upon opening it.
+
+Regardless of the result, decrease your Wealth by 1.
+
+# Other Derived Attributes
+
+## Move
+
+Move equals Agility × 2 - [worn Armour / 2] metres.
+
+## Range
+
+Your base Range is equal to [Perception x 2] metres.
+
+## Strike!
+
+In character creation, you may choose any Attribute to be your Basic Attack Attribute. You can pick any Attribute, as long as you can explain *how* you use it. For example, some characters may use *raw physical power* (Might), while others use *cunning* (Smarts). Others may *act unassuming* (Charm) so their opponents let their guard down. Once you choose your Basic Attack Attribute, you may not change it again.
+
+When you make a Basic Attack, you roll a number dice equal to your **Basic Attack Attribute** + **Strike Value**, which is equal to [1 + Item Bonus]. An Item Bonus comes from magic items or a physical weapon 3 or more sizes greater than your Target. A magic item for a *Might* character, such as a magic sword or greataxe, would look different than one for a *Willpower* character, such as a magic bracelet that focuses their power. Your basic attack can look like anything you desire, from your fists to a burst of physic energy, but they do not have an Elemental tag except from a magic item.
+
+# Tables
+
+## Attribute and Skill Cost
+
+| Rank | Skill Cost | Attribute Cost |
+|-----:|-----------:|---------------:|
+| 1    | 1 XP       | —              |
+| 2    | 2 XP       | 6 XP           |
+| 3    | 3 XP       | 9 XP           |
+| 4    | 4 XP       | 12 XP          |
+| 5    | 5 XP       | 15 XP          |

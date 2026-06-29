@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "manifest": "node scripts/build-manifest.mjs",
+        "dev": "node scripts/build-manifest.mjs && python -m http.server 8000",
+        "build": "node scripts/build-manifest.mjs"
+    }
+}
