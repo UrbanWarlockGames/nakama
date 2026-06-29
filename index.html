@@ -612,6 +612,17 @@
             min-width: 0;
         }
 
+		.doc a {
+			color: #2563eb;
+			text-decoration: underline;
+			text-underline-offset: 2px;
+		}
+
+		.doc a:hover,
+		.doc a:focus-visible {
+			color: #1d4ed8;
+		}
+
         .doc-header {
             margin: 0 0 var(--space-4);
             padding: 0 0 var(--space-3);
@@ -2608,12 +2619,24 @@
 			</svg>`;
 		}
 
-        function renderInline(value) {
-            return escapeHtml(value)
-                .replace(/`([^`]+)`/g, "<code>$1</code>")
-                .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-                .replace(/\*([^*]+)\*/g, "<em>$1</em>");
-        }
+		function renderInline(value) {
+			return escapeHtml(value)
+
+				// Markdown links
+				.replace(
+					/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+					'<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+				)
+
+				// Inline code
+				.replace(/`([^`]+)`/g, "<code>$1</code>")
+
+				// Bold
+				.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+
+				// Italics
+				.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+		}
 
         function renderLoadError(error, title) {
             document.title = `NAKAMA SRD — ${title}`;

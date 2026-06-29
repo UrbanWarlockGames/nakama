@@ -6,7 +6,7 @@ icon: person
 default: true
 ---
 
-# Character Creation
+Follow these steps in order of your personal preference:
 
 1. Attributes
 
@@ -17,3 +17,7 @@ default: true
 4. Innate Powers
 
 5. Powers
+
+# Character Sheet
+
+Character Sheet available: [here](https://docs.google.com/spreadsheets/d/1nra8_VjUi_84LuWGCtfyAPzgXrrlBf35XesGr6uCSHI/edit?usp=drivesdk) (make a copy)
